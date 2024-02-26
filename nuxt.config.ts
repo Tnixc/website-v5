@@ -14,8 +14,16 @@ export default defineNuxtConfig({
     "@nuxt/content",
   ],
   extends: ["nuxt-umami"],
-  alias: {
-    "@": ".",
+  app: {
+    head: {
+      link: [{
+        href: "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,400&display=swap",
+        rel: "stylesheet",
+      },
+      ],
+    },
   },
-  css: [],
+  colorMode: {
+    classSuffix: ''
+  }
 });

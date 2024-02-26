@@ -1,5 +1,5 @@
 import { defineNuxtConfig } from "nuxt/config";
-// https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "@nuxtjs/seo",
     "@nuxtjs/partytown",
-    "shadcn-nuxt"
   ],
   extends: [
     "nuxt-umami"

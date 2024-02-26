@@ -11,12 +11,11 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "@nuxtjs/seo",
     "@nuxtjs/partytown",
+    "@nuxt/content",
   ],
-  extends: [
-    "nuxt-umami"
-  ],
+  extends: ["nuxt-umami"],
   alias: {
-    '@': ".",
+    "@": ".",
   },
-  css: []
+  css: [],
 });

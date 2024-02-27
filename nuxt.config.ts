@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     head: {
       link: [
         {
-          href: "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,400&display=swap",
+          href: "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,400&f[]=epilogue@300&display=swap",
           rel: "stylesheet",
         },
       ],

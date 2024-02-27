@@ -1,3 +1,4 @@
 <template>
   <Nav />
+  <Marquee />
 </template>

@@ -1,0 +1,23 @@
+.slide-up{
+clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  animation-name: slide-up;
+  animation-timing-function: cubic-bezier(0, 0.56, 0, 0.93);
+  animation-fill-mode: forwards;
+}
+@keyframes slide-up {
+  to {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.slide-down{
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  animation-name: slide-down;
+  animation-timing-function: cubic-bezier(0, 0.56, 0, 0.93);
+  animation-fill-mode: forwards;
+}
+@keyframes slide-down {
+  to {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}

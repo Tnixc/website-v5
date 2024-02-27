@@ -22,7 +22,6 @@
     "@nuxtjs/seo": "latest",
     "@nuxtjs/sitemap": "latest",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@vueuse/nuxt": "latest",
     "nuxt-icon": "^0.6.8",
     "nuxt-umami": "latest",
     "prettier": "^3.2.5",

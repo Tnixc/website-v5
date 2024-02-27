@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
-    "@vueuse/nuxt",
     "nuxt-icon",
     "@nuxt/image",
     "@nuxtjs/color-mode",
@@ -13,6 +12,7 @@ export default defineNuxtConfig({
     "@nuxtjs/partytown",
     "@nuxt/content",
   ],
+  css: ["@/assets/css/animations.css"],
   extends: ["nuxt-umami"],
   app: {
     head: {

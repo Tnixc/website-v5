@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="bg-primary-background before:absolute before:top-full before:h-0.5 before:bg-border before:inset-16 -transform-x-1/2 max-w-8xl sticky left-1/2 top-0 flex w-screen gap-8 p-8 px-16 items-center">
+    class="bg-primary-background before:absolute before:top-full before:h-0.5 before:bg-border before:inset-16 -transform-x-1/2 max-w-8xl sticky left-1/2 top-0 flex w-screen gap-8 p-8 px-16 items-center slide-down delay-200 duration-1000">
      <NuxtLink
       class="text-2xl relative duration-1000 before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 hover:before:top-full before:transition-all"
       to="/">Tnixc</NuxtLink>

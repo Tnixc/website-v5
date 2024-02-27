@@ -2,12 +2,20 @@
   <nav
     class="bg-primary-background before:absolute before:top-full before:h-0.5 before:bg-border before:inset-16 -transform-x-1/2 max-w-8xl sticky left-1/2 top-0 flex w-screen items-center gap-8 p-8 px-16">
     <NuxtLink class="text-2xl group" to="/">Tnixc
-      <span class="opacity-0 group-hover:opacity-50 transition-all pl-4 h-0 overflow-hidden inline-block group-hover:h-[0.95em]">About</span>
+      <span
+        class="opacity-0 group-hover:opacity-50 transition-all pl-4 h-0 overflow-hidden inline-block group-hover:h-[0.95em]">About</span>
     </NuxtLink>
     <div class="flex-grow"></div>
-    <NuxtLink class="text-2xl" to="/Projects">Projects</NuxtLink>
-    <NuxtLink class="text-2xl" to="/Blog">Articles</NuxtLink>
-    <NuxtLink class="text-2xl" to="/Contact">Contact</NuxtLink>
+    <NuxtLink
+      class="text-2xl relative before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 duration-1000 hover:before:top-full before:transition-all"
+      to="/Projects">Projects</NuxtLink>
+    <NuxtLink
+      class="text-2xl relative before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 duration-1000 hover:before:top-full before:transition-all"
+      to="Articles">Articles</NuxtLink>
+     <NuxtLink
+      class="text-2xl relative duration-1000 before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 hover:before:top-full before:transition-all"
+      to="Contact">Contact</NuxtLink>
+    
     <button @click="toggleTheme()"
       class="relative z-10 before:transition-[scale] aspect-square rounded-full transition-all duration-200 ease-out before:absolute before:inset-[-8px] before:z-[-1] before:scale-0 before:rounded-full before:bg-secondary hover:scale-110 before:hover:scale-100">
       <Icon class="transition-all" id="sun" name="solar:sun-outline" width="28" height="28" />

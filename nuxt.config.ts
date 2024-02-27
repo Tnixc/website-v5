@@ -16,14 +16,15 @@ export default defineNuxtConfig({
   extends: ["nuxt-umami"],
   app: {
     head: {
-      link: [{
-        href: "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,400&display=swap",
-        rel: "stylesheet",
-      },
+      link: [
+        {
+          href: "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,400&display=swap",
+          rel: "stylesheet",
+        },
       ],
     },
   },
   colorMode: {
-    classSuffix: ''
-  }
+    classSuffix: "",
+  },
 });

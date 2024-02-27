@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     "@nuxtjs/partytown",
     "@nuxt/content",
   ],
-  css: ["@/assets/css/animations.css"],
+  css: ["@/assets/css/animations.css", "@/assets/css/global.css"],
   extends: ["nuxt-umami"],
   app: {
     head: {

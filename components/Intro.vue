@@ -1,13 +1,19 @@
 <template>
-  <div class="p-10 slide-down-delay-500ms">
-    <h1 class="text-5xl font-bold mb-3 slide-in-from-bottom slide-down">Hi, I'm Tnixc</h1>
-    <div class="text-2xl space-y-8 max-w-4xl">
-      <template v-for="paragraph in introParagraphs" :key="paragraph" class="text-3xl flex flex-col gap-8">
+  <div class="slide-down-delay-500ms p-10">
+    <h1 class="slide-down mb-3 text-5xl font-bold slide-in-from-bottom">
+      Hi, I'm Tnixc
+    </h1>
+    <div class="max-w-4xl space-y-8 text-2xl">
+      <template
+        v-for="paragraph in introParagraphs"
+        :key="paragraph"
+        class="flex flex-col gap-8 text-3xl"
+      >
         <p>{{ paragraph }}</p>
       </template>
     </div>
   </div>
 </template>
 <script setup>
-import { introParagraphs } from '@/data/index'
+import { introParagraphs } from "@/data/index";
 </script>

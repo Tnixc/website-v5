@@ -1,20 +1,27 @@
 <template>
   <div class="h-[200px]">
     <div
-      class="aurora-overlay z-10 absolute top-32 h-[200px] left-0 w-full mix-blend-lighten dark:mix-blend-darken bg-gradient-to-r from-violet-300 via-cyan-300 to-amber-300">
-    </div>
-    <Vue3Marquee duration="140" class="py-10 relative overflow-clip slide-up duration-1000 delay-500">
-      <template v-for="item in marqueeItems" :key="item" class="mix-blend-hard-light">
-        <span class="text-9xl px-3">{{ item }} ー </span>
+      class="aurora-overlay absolute left-0 top-32 z-10 h-[200px] w-full bg-gradient-to-r from-violet-300 via-cyan-300 to-amber-300 mix-blend-lighten dark:mix-blend-darken"
+    ></div>
+    <Vue3Marquee
+      duration="140"
+      class="slide-up relative overflow-clip py-10 delay-500 duration-1000"
+    >
+      <template
+        v-for="item in marqueeItems"
+        :key="item"
+        class="mix-blend-hard-light"
+      >
+        <span class="px-3 text-9xl">{{ item }} ー </span>
       </template>
     </Vue3Marquee>
   </div>
 </template>
 <script setup>
-import { marqueeItems } from '@/data/index'
+import { marqueeItems } from "@/data/index";
 </script>
 <style scoped>
 span {
-  font-family: "Satoshi"
+  font-family: "Satoshi";
 }
 </style>

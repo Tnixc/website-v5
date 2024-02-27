@@ -1,22 +1,22 @@
 <template>
   <nav
-    class="bg-primary-background before:absolute before:top-full before:h-0.5 before:bg-border before:inset-16 -transform-x-1/2 max-w-8xl sticky left-1/2 top-0 flex w-screen gap-8 p-8 px-16 items-center slide-down delay-200 duration-1000">
-     <NuxtLink
-      class="text-2xl relative duration-1000 before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 hover:before:top-full before:transition-all"
+    class="bg-primary-background -transform-x-1/2 max-w-8xl slide-down sticky left-1/2 top-0 flex w-screen items-center gap-8 p-8 px-16 delay-200 duration-1000">
+    <NuxtLink
+      class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full" exact-active-class="active"
       to="/">Tnixc</NuxtLink>
     <div class="flex-grow"></div>
     <NuxtLink
-      class="text-2xl relative before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 duration-1000 hover:before:top-full before:transition-all"
+      class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full" exact-active-class="active"
       to="/Projects">Projects</NuxtLink>
     <NuxtLink
-      class="text-2xl relative before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 duration-1000 hover:before:top-full before:transition-all"
+      class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full" exact-active-class="active"
       to="/Articles">Articles</NuxtLink>
-     <NuxtLink
-      class="text-2xl relative duration-1000 before:absolute before:inset-x-full before:h-0.5 before:top-full before:bg-primary before:origin-right hover:before:inset-x-0 hover:before:top-full before:transition-all"
+    <NuxtLink
+      class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full" exact-active-class="active"
       to="/Contact">Contact</NuxtLink>
-    
+
     <button @click="toggleTheme()"
-      class="relative z-10 before:transition-[scale] aspect-square rounded-full transition-all duration-200 ease-out before:absolute before:inset-[-8px] before:z-[-1] before:scale-0 before:rounded-full before:bg-secondary hover:scale-110 before:hover:scale-100">
+      class="relative z-10 aspect-square rounded-full transition-all duration-200 ease-out before:absolute before:inset-[-8px] before:z-[-1] before:scale-0 before:rounded-full before:bg-secondary before:transition-[scale] hover:scale-110 before:hover:scale-100">
       <Icon class="transition-all" id="sun" name="solar:sun-outline" width="28" height="28" />
       <Icon class="transition-all" id="moon" name="solar:moon-outline" width="28" height="28" style="display: none" />
     </button>

@@ -5,7 +5,7 @@
     ></div>
     <Vue3Marquee
       duration="140"
-      class="slide-up relative overflow-clip py-10 delay-500 duration-1000"
+      class="slide-up relative overflow-clip py-10 duration-1000"
     >
       <template
         v-for="item in marqueeItems"

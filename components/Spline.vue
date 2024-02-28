@@ -23,7 +23,7 @@ onMounted(async () => {
 
 <template>
   <section class="flex items-center justify-center flex-grow max-w-screen overflow-clip">
-    <div class="block max-w-screen w-fit">
+    <div class="block max-w-screen slide-up duration-1000 w-[500px] h-[600px]">
       <canvas ref="canvas" style="width: 100%; height: 100%;" /> 
     </div>
   </section>

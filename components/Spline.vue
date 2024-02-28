@@ -12,19 +12,24 @@ const state = reactive({
     isLoaded: false,
   },
 });
-
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 onMounted(async () => {
+  await sleep(2000);
   const app = new Application(canvas.value);
   await app.load(state.spline.scene);
   state.spline.app = app;
   state.spline.isLoaded = true;
+  await sleep(2000)
+  canvas.value.style.display = "block";
 });
 </script>
 
 <template>
   <section class="flex items-center justify-center flex-grow max-w-screen overflow-clip">
     <div class="block max-w-screen w-[500px] h-[600px]">
-      <canvas ref="canvas" style="width: 100%; height: 100%;" /> 
+      <canvas ref="canvas" style="width: 100%; height: 100%; display: none;" /> 
     </div>
   </section>
 </template>

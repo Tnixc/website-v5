@@ -4,8 +4,9 @@
       class="absolute left-0 top-32 z-10 h-[200px] w-full bg-gradient-to-r from-violet-100 via-cyan-100 to-amber-100 mix-blend-lighten dark:from-violet-300 dark:via-cyan-300 dark:to-amber-300 dark:opacity-50 dark:mix-blend-darken"
     ></div>
     <Vue3Marquee
-      duration="140"
-      class="slide-up relative overflow-clip py-10 duration-1000"
+      :duration=140
+      :delay=10
+      class="slide-up relative overflow-clip py-10 delay-500 duration-1000"
     >
       <template
         v-for="item in marqueeItems"
@@ -18,6 +19,7 @@
   </div>
 </template>
 <script setup>
+import { Vue3Marquee } from "vue3-marquee";
 import { marqueeItems } from "@/data/index";
 </script>
 <style scoped>

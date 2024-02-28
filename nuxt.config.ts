@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxtjs/sitemap",
     "@nuxtjs/seo",
-    "@nuxtjs/partytown",
     "@nuxt/content",
   ],
   css: ["@/assets/css/animations.css", "@/assets/css/global.css"],

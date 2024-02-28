@@ -22,7 +22,32 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section class="flex items-center justify-center flex-grow">
-    <canvas class="max-w-screen-sm" ref="canvas" height="600" width="500" style="max-width: 100vw !important; height: min(calc(100vw * 6/5), 600px)" />
+  <section class="flex items-center justify-center flex-grow max-w-screen overflow-clip">
+    <div class="block max-w-screen w-fit">
+      <canvas ref="canvas" style="width: 100%; height: 100%;" /> 
+    </div>
   </section>
 </template>
+<style scoped>
+
+@media only screen and (max-width: 300px){
+  canvas{
+    transform: scale(0.5);
+    transform-origin: center;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  canvas{
+    transform: scale(0.7);
+    transform-origin: center;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  canvas{
+    transform: scale(0.8);
+    transform-origin: center;
+  }
+}
+</style>

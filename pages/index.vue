@@ -1,5 +1,8 @@
 <template>
   <Nav />
   <Marquee />
-  <Intro />
+  <div class="flex flex-wrap">
+    <Intro />
+    <Spline />
+  </div>
 </template>

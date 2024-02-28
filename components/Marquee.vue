@@ -1,7 +1,7 @@
 <template>
   <div class="h-[200px]">
     <div
-      class="dark:opacity-50 absolute left-0 top-32 z-10 h-[200px] w-full bg-gradient-to-r from-violet-100 via-cyan-100 to-amber-100 dark:from-violet-300 dark:via-cyan-300 dark:to-amber-300 mix-blend-lighten dark:mix-blend-darken"
+      class="absolute left-0 top-32 z-10 h-[200px] w-full bg-gradient-to-r from-violet-100 via-cyan-100 to-amber-100 mix-blend-lighten dark:from-violet-300 dark:via-cyan-300 dark:to-amber-300 dark:opacity-50 dark:mix-blend-darken"
     ></div>
     <Vue3Marquee
       duration="140"
@@ -24,5 +24,4 @@ import { marqueeItems } from "@/data/index";
 span {
   font-family: "Satoshi";
 }
-
 </style>

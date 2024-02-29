@@ -4,7 +4,7 @@
   <div class="mx-auto max-w-screen-2xl">
     <div class="flex flex-wrap">
       <Intro />
-      <Spline />
+      <!-- <Spline /> -->
     </div>
   </div>
 </template>

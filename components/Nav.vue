@@ -1,11 +1,11 @@
 <template>
-  <nav
-    class="-transform-x-1/2  slide-down sticky left-1/2 top-0 flex w-screen items-center gap-8 md:p-8 md:px-16 p-5 delay-200 duration-1000">
+  <div
+    class="-transform-x-1/2  slide-down sticky left-1/2 top-0 flex w-screen items-center gap-8 md:p-8 md:px-16 p-5 delay-200 duration-1000 overflow-visible">
     <NuxtLink
       class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full"
       exact-active-class="active" to="/">Tnixc</NuxtLink>
-    <div class="flex-grow hidden"></div>
-    <div class="flex items-end md:items-center justify-end flex-col md:flex-row gap-5">
+    <div class="flex-grow"></div>
+    <div v-if="menu" class="flex gap-5 md:static z-20 left-2 p-5 md:p-0 bg-background border-4 fixed">
       <NuxtLink
         class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full"
         exact-active-class="active" to="/Projects">Projects</NuxtLink>
@@ -15,34 +15,51 @@
       <NuxtLink
         class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full"
         exact-active-class="active" to="/Contact">Contact</NuxtLink>
-      <button @click="toggleTheme()"
-        class="relative z-10 aspect-square rounded-full transition-all duration-200 ease-out before:absolute before:inset-[-8px] before:z-[-1] before:scale-0 before:rounded-full before:bg-secondary/50 before:transition-[scale] hover:scale-110 before:hover:scale-100">
-        <Icon class="transition-all" id="sun" name="solar:sun-outline" width="28" height="28" />
-        <Icon class="transition-all" id="moon" name="solar:moon-outline" width="28" height="28" style="display: none" />
-      </button>
       <span class="absolute bottom-0.5 left-8 right-8 block h-0.5 rounded-full bg-border"></span>
     </div>
-  </nav>
+    <button @click="toggleTheme()"
+      class="relative z-10 aspect-square rounded-full transition-all duration-200 ease-out before:absolute before:inset-[-8px] before:z-[-1] before:scale-0 before:rounded-full before:bg-secondary/50 before:transition-[scale] hover:scale-110 before:hover:scale-100">
+      <Icon class="transition-all" id="sun" name="solar:sun-outline" width="28" height="28" v-if="sun" />
+      <Icon class="transition-all" id="moon" name="solar:moon-outline" width="28" height="28" v-if="moon" />
+    </button>
+    <button
+      class="md:hidden block relative z-10 aspect-square rounded-full transition-all duration-200 ease-out before:absolute before:inset-[-8px] before:z-[-1] before:scale-0 before:rounded-full before:bg-secondary/50 before:transition-[scale] hover:scale-110 before:hover:scale-100"
+      @click="toggleMenu()">
+      <Icon class="-scale-x-100" name="solar:list-linear" width="28" height="28" />
+    </button>
+  </div>
 </template>
 
 <script setup>
+const menu = ref(false);
+
+function toggleMenu() {
+  menu.value = !menu.value;
+}
+
 const colorMode = useColorMode();
+const moon = ref(false);
+const sun = ref(true);
+
+onMounted(() => {
+  if (colorMode.value === "dark") {
+    moon.value = true;
+    sun.value = false;
+  }
+  if (screen.width > 768) {
+    menu.value = true;
+  }
+});
 
 async function toggleTheme() {
-  const moon = computed(() => {
-    return document.getElementById("moon");
-  });
-  const sun = computed(() => {
-    return document.getElementById("sun");
-  });
   if (colorMode.value === "dark") {
     colorMode.value = "light";
-    moon.value.style.display = "none";
-    sun.value.style.display = "block";
+    moon.value = false;
+    sun.value = true;
   } else {
     colorMode.value = "dark";
-    moon.value.style.display = "block";
-    sun.value.style.display = "none";
+    moon.value = true;
+    sun.value = false;
   }
 }
 </script>

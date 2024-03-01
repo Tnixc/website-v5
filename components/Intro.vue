@@ -1,5 +1,7 @@
 <template>
-  <div class="w-1/2 slide-down-delay-500ms mx-9 border-b-2 p-10 pt-80 pr-0 flex-grow">
+  <div
+    class="slide-down-delay-500ms mx-9 w-1/2 flex-grow border-b-2 p-10 pr-0 pt-80"
+  >
     <h1 class="slide-down mb-3 text-5xl font-bold slide-in-from-bottom">
       Hi, I'm Tnixc
     </h1>

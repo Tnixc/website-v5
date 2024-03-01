@@ -13,7 +13,7 @@ const state = reactive({
   },
 });
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 onMounted(async () => {
   await sleep(2000);
@@ -25,9 +25,11 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section class="flex items-center justify-center flex-grow max-w-screen overflow-clip">
-    <div class="block max-w-screen w-[500px] h-[600px]">
-      <canvas ref="canvas" style="width: 100%; height: 100%;" />
+  <section
+    class="max-w-screen flex flex-grow items-center justify-center overflow-clip"
+  >
+    <div class="max-w-screen block h-[600px] w-[500px]">
+      <canvas ref="canvas" style="width: 100%; height: 100%" />
     </div>
   </section>
 </template>
@@ -52,5 +54,4 @@ onMounted(async () => {
     transform-origin: center;
   }
 }
-
 </style>

@@ -6,10 +6,13 @@
   transition-property: scale, clip-path, transform;
 }
 @keyframes slide-up {
-  to {
+  99% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
 }
+ 100% {
+  clip-path: unset;
+} }
+
 
 .slide-down {
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -19,7 +22,10 @@
   transition-property: scale, clip-path, transform;
 }
 @keyframes slide-down {
-  to {
+  99% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+  100% {
+  clip-path: unset;
+}
 }

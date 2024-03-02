@@ -4,67 +4,67 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 45deg 100% 97%;
+    --foreground: 202deg 11% 40%;
 
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
+    --muted: 48deg 45% 91%;
+    --muted-foreground: 199deg 10% 49%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
+    --popover: 48deg 45% 91%;
+    --popover-foreground: 202deg 11% 40%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card: 48deg 37% 89%;
+    --card-foreground: 202deg 11% 40%;
 
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
+    --border: 98deg 9% 66%;
+    --input: 64deg 54% 89%;
 
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 116deg 7% 54%;
+    --primary-foreground: 202deg 11% 40%;
 
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
+    --secondary: 127deg 31% 94%;
+    --secondary-foreground: 202deg 11% 40%;
 
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
+    --accent: 98deg 9% 66%;
+    --accent-foreground: 202deg 11% 40%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0deg 72% 65%;
+    --destructive-foreground: 45deg 100% 97%;
 
-    --ring: 0 0% 3.9%;
+    --ring: 48deg 31% 87%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 202deg 12% 17%;
+    --foreground: 41deg 32% 75%;
 
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
+    --muted: 203deg 12% 13%;
+    --muted-foreground: 135deg 7% 64%;
 
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 197deg 13% 21%;
+    --popover-foreground: 41deg 32% 75%;
 
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 200deg 12% 25%;
+    --card-foreground: 41deg 32% 75%;
 
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
+    --border: 202deg 7% 31%;
+    --input: 165deg 7% 33%;
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
+    --primary: 135deg 7% 64%;
+    --primary-foreground: 203deg 12% 13%;
 
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 165deg 7% 33%;
+    --secondary-foreground: 41deg 32% 75%;
 
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 110deg 5% 49%;
+    --accent-foreground: 41deg 32% 75%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 358deg 68% 70%;
+    --destructive-foreground: 41deg 32% 75%):;
 
-    --ring: 0 0% 83.1%;
+    --ring: 110deg 5% 49%;
   }
 }
 
@@ -72,6 +72,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: "Cabinet Grotesk", sans-serif;

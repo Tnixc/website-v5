@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5 md:p-14 font-mono flex-grow select-none" id="panel">
+  <div class="p-5 md:p-14 font-mono flex-grow select-none " id="panel">
     <div class="bg-gradient-to-tr from-card to-secondary rounded-lg shadow-lg p-6 relative overflow-clip"
       id="panel-container">
       <div id="light" class="absolute inset-0 h-16 bg-amber-200/40 blur-2xl rotate-12"></div>
@@ -157,7 +157,7 @@ onMounted(() => {
 
   function handleMouseEnter() {
     setTimeout(() => {
-      subpanel.style.transition = "";
+      subpanel.style.transition = "all 0.1s";
     }, 100);
     subpanel.style.transition = "transform 0.4s";
   }

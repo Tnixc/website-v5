@@ -2,6 +2,10 @@ import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: true,
+  nitro: {
+    static: true
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
@@ -11,6 +15,9 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxt/content",
   ],
+  site: {
+    url: "https://tnixc.space",
+  },
   css: ["@/assets/css/animations.css", "@/assets/css/global.css"],
   extends: ["nuxt-umami"],
   app: {

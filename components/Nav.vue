@@ -6,7 +6,7 @@
       exact-active-class="active" to="/">Tnixc</NuxtLink>
     <div class="flex-grow"></div>
     <div
-      class="absolute top-12 left-0 z-50 flex gap-10 p-5 md:static md:flex-row md:gap-5 md:p-0 bg-background">
+      class="absolute top-12 left-0 z-50 flex gap-10 p-5 md:static md:flex-row md:gap-5 md:p-0 bg-gradient-to-r from-background">
       <NuxtLink
         class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full"
         exact-active-class="active" to="/Projects">Projects</NuxtLink>

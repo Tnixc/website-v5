@@ -1,6 +1,6 @@
 <template>
   <div class="p-5 md:p-14 font-mono flex-grow select-none " id="panel">
-    <div class="bg-gradient-to-tr from-card to-secondary rounded-lg shadow-lg p-6 relative overflow-clip"
+    <div class="border bg-gradient-to-tr from-card to-secondary rounded-lg shadow-lg p-6 relative overflow-clip"
       id="panel-container">
       <div id="light" class="absolute inset-0 h-16 bg-amber-200/40 blur-2xl rotate-12"></div>
       <div id="shadow" class="absolute w-full bottom-0 h-16 bg-blue-900/30 blur-2xl -rotate-12"></div>
@@ -21,7 +21,7 @@
           <p
             class="text-3xl text-transparent bg-clip-text bg-gradient-to-br from-violet-900/50 to-blue-900/80 dark:from-violet-200 dark:to-blue-300">
             15</p>
-          <div class="p-2 bg-secondary/50 rounded-md text-2xl shadow-md"><span
+          <div class="border p-2 bg-secondary/50 rounded-md text-2xl shadow-md"><span
               class="text-transparent bg-clip-text bg-gradient-to-br from-lime-900/50 to-cyan-900/80 dark:from-lime-200 dark:to-cyan-300">Student</span>
           </div>
         </div>

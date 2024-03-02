@@ -16,6 +16,6 @@
     </div>
   </div>
 </template>
-<script setup>
+<script setup lang="ts">
 import { introParagraphs } from "@/data/index";
 </script>

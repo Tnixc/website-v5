@@ -2,9 +2,9 @@
   <Nav />
   <Marquee />
   <div class="mx-auto max-w-screen-2xl">
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap items-end">
       <Intro />
-      <!-- <Spline /> -->
+      <Card />
     </div>
   </div>
 </template>

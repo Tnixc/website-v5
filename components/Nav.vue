@@ -1,11 +1,12 @@
 <template>
   <nav
-    class="-transform-x-1/2 slide-down sticky left-1/2 top-0 flex w-screen items-center gap-8 overflow-visible p-5 delay-200 duration-1000 md:p-8 md:px-16">
+    class=" slide-down flex w-screen items-center gap-8 overflow-visible p-5 delay-200 duration-1000 md:p-8 md:px-16 bg-background ">
     <NuxtLink
       class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full"
       exact-active-class="active" to="/">Tnixc</NuxtLink>
     <div class="flex-grow"></div>
-    <div v-if="menu" class="fixed top-20 left-2 z-50 flex gap-10 md:gap-5 bg-red-400 flex-col md:flex-row p-5 md:static md:p-0">
+    <div 
+      class="absolute top-20 right-0 z-50 flex flex-col gap-10 p-5 md:static md:flex-row md:gap-5 md:p-0 bg-background">
       <NuxtLink
         class="relative text-2xl duration-1000 before:absolute before:inset-x-full before:top-full before:h-0.5 before:origin-right before:bg-primary before:transition-all hover:before:inset-x-0 hover:before:top-full"
         exact-active-class="active" to="/Projects">Projects</NuxtLink>
@@ -22,34 +23,13 @@
       <Icon class="transition-all" id="sun" name="solar:sun-outline" width="28" height="28" v-if="sun" />
       <Icon class="transition-all" id="moon" name="solar:moon-outline" width="28" height="28" v-if="moon" />
     </button>
-    <button
-      class="relative z-10 block aspect-square rounded-full transition-all duration-200 ease-out before:absolute before:inset-[-8px] before:z-[-1] before:scale-0 before:rounded-full before:bg-secondary/50 before:transition-[scale] hover:scale-110 before:hover:scale-100 md:hidden"
-      @click="toggleMenu()">
-      <Icon class="-scale-x-100" name="solar:list-linear" width="28" height="28" />
-    </button>
+    
   </nav>
 </template>
-
 <script setup>
-const menu = ref(false);
-
-function toggleMenu() {
-  menu.value = !menu.value;
-}
-
 const colorMode = useColorMode();
 const moon = ref(false);
 const sun = ref(true);
-
-onMounted(() => {
-  if (colorMode.value === "dark") {
-    moon.value = true;
-    sun.value = false;
-  }
-  if (screen.width > 768) {
-    menu.value = true;
-  }
-});
 
 async function toggleTheme() {
   if (colorMode.value === "dark") {
@@ -62,6 +42,11 @@ async function toggleTheme() {
     sun.value = false;
   }
 }
+onMounted(() => {
+  if (colorMode.value === "dark") {
+    moon.value = true;
+    sun.value = false;
+  }
+});
+
 </script>
-
-

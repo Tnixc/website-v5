@@ -1,6 +1,6 @@
 <template>
   <div
-    class="slide-down-delay-500ms mx-9 w-1/2 flex-grow border-b-2 p-0 md:p-10 pr-0 md:pt-80 pt-32"
+    class="slide-down-delay-500ms mx-9 w-1/2 flex-grow border-b-2 p-0 md:p-10 max-w-5xl"
   >
     <h1 class="slide-down mb-3 text-5xl font-bold slide-in-from-bottom">
       Hi, I'm Tnixc

@@ -1,10 +1,11 @@
 <template>
   <Nav />
-  <Marquee />
+  <MarqueeTop />
+  <MarqueeBottom />
   <div class="mx-auto max-w-screen-2xl">
-    <div class="flex flex-wrap items-end">
+    <div class="flex flex-wrap items-end h-[70vh]">
       <Intro />
-      <Card />
+      <Spin />
     </div>
   </div>
 </template>

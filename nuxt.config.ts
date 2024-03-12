@@ -1,7 +1,13 @@
 import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true,
+    },
+  },
   ssr: true,
   nitro: {
     static: true
@@ -9,7 +15,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
-    "@nuxt/image",
+    // "@nuxt/image",
     "@nuxtjs/color-mode",
     "@nuxtjs/sitemap",
     "@nuxtjs/seo",

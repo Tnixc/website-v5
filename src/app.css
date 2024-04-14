@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+::selection{
+  background-color: #41DDCA;
+  color: black;
+}
 
 @font-face {
   font-family: 'Zodiak-LightItalic';
@@ -32,3 +36,20 @@
   font-style: normal;
 }
 
+.unblur-in {
+  filter: blur(8px);
+  opacity: 0;
+  animation-name: unblur;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes unblur {
+  0% {
+  filter: blur(8px);
+  opacity: 0;
+  }
+  100% {
+  filter: blur(0px);
+  opacity: 1;
+  }
+}

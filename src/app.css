@@ -13,20 +13,20 @@
 }
 
 @font-face {
-  font-family: 'zed-sans-bold';
-  src: url('../fonts/zed-sans-bold.woff2') format('woff2'),
-       url('../fonts/zed-sans-bold.woff') format('woff'),
-       url('../fonts/zed-sans-bold.ttf') format('truetype');
+  font-family: 'zed-sans-extendedbold';
+  src: url('../fonts/zed-sans-extendedbold.woff2') format('woff2'),
+       url('../fonts/zed-sans-extendedbold.woff') format('woff'),
+       url('../fonts/zed-sans-extendedbold.ttf') format('truetype');
   font-weight: 700;
   font-display: swap;
   font-style: bold;
 }
 
 @font-face {
-  font-family: 'zed-sans-regular';
-  src: url('../fonts/zed-sans-regular.woff2') format('woff2'),
-       url('../fonts/zed-sans-regular.woff') format('woff'),
-       url('../fonts/zed-sans-regular.ttf') format('truetype');
+  font-family: 'zed-sans-extended';
+  src: url('../fonts/zed-sans-extended.woff2') format('woff2'),
+       url('../fonts/zed-sans-extended.woff') format('woff'),
+       url('../fonts/zed-sans-extended.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;

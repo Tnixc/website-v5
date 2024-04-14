@@ -1,25 +1,26 @@
 <script lang="ts">
-  import { headerLinks } from '../data/header';
-  import { toast } from 'svelte-sonner';
-  import Thing from '../components/Thing.svelte';
-  function copy(link: string): void {
-    navigator.clipboard.writeText(link);
-    toast(Thing);
-  }
+import { headerLinks } from "../data/header";
+import { NavRoutes } from "../data/routes";
+import { toast } from "svelte-sonner";
+import ToasterToast from "../components/ToasterToast.svelte";
+function copy(link: string): void {
+	navigator.clipboard.writeText(link);
+	toast(ToasterToast);
+}
 </script>
 
 <header class="unblur-in flex flex-wrap justify-between">
   <div class="flex flex-wrap">
     {#each headerLinks as element}
       <div class="flex items-baseline">
-        <span class="px-2 opacity-50">/</span>
+        <span class="px-2 opacity-50 select-none">/</span>
         {#if element.action == 'open'}
           <a
             href="{element.value}"
             class="{element.class} group relative py-2 hover:underline"
             >{element.text}
             <span
-              class="invisible absolute left-1/2 top-full z-40 flex w-max -translate-x-1/2 translate-y-2 border border-black bg-white py-1 pl-2 pr-1 text-black opacity-0 shadow-xl blur-md transition-all delay-150 duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:blur-0"
+              class="invisible absolute left-1/2 top-full z-40 flex w-max -translate-x-1/2 translate-y-2 border bg-white py-1 pl-2 pr-1 text-black opacity-0 shadow-xl blur-sm transition-all delay-150 duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:blur-0"
             >
               Click to open
 
@@ -46,7 +47,7 @@
             class="{element.class} group relative py-2 hover:underline"
             >{element.text}
             <span
-              class="invisible absolute left-1/2 top-full z-40 flex w-max -translate-x-1/2 translate-y-2 gap-1 border border-black bg-white py-1 pl-2 pr-1 text-black opacity-0 shadow-xl blur-md transition-all delay-150 duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:blur-0"
+              class="invisible absolute left-1/2 top-full z-40 flex w-max -translate-x-1/2 translate-y-2 gap-1 border bg-white py-1 pl-2 pr-1 text-black opacity-0 shadow-xl blur-sm transition-all delay-150 duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:blur-0"
             >
               Click to copy
               <svg

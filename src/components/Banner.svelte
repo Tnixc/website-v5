@@ -3,12 +3,12 @@ let numbers = Array.from({ length: 32 }, (_, i) => i + 1);
 </script>
 
 <div class="p-2">
-  <div id="Banner" class="relative flex h-96">
+  <div id="Banner" class="relative flex h-40 md:h-96">
     {#each numbers as num}
       <div class="slot flex-grow bg-black/[0.01]"></div>
     {/each}
-    <div class="absolute top-0 left-0 flex gap-10 items-baseline flex-wrap">
-      <h1 class="font-display text-9xl text-white mix-blend-exclusion">
+    <div class="absolute top-0 left-0 flex gap-10 items-center md:items-baseline flex-wrap md:justify-start justify-between">
+      <h1 class="font-display text-6xl md:text-9xl text-white mix-blend-exclusion">
         Tnixc
       </h1>
       <svg

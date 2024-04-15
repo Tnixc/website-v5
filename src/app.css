@@ -1,41 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; @tailwind components; @tailwind utilities;
 ::selection{
   background-color: #41DDCA;
   color: black;
 }
-
-@font-face {
-  font-family: 'Zodiak-LightItalic';
-  src: url('../fonts/Zodiak-LightItalic.woff2') format('woff2'),
-       url('../fonts/Zodiak-LightItalic.woff') format('woff'),
-       url('../fonts/Zodiak-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-display: swap;
-  font-style: italic;
+body {
+  @apply font-zed bg-zinc-50 text-black;
 }
-
-@font-face {
-  font-family: 'zed-sans-extendedbold';
-  src: url('../fonts/zed-sans-extendedbold.woff2') format('woff2'),
-       url('../fonts/zed-sans-extendedbold.woff') format('woff'),
-       url('../fonts/zed-sans-extendedbold.ttf') format('truetype');
-  font-weight: 700;
-  font-display: swap;
-  font-style: bold;
-}
-
-@font-face {
-  font-family: 'zed-sans-extended';
-  src: url('../fonts/zed-sans-extended.woff2') format('woff2'),
-       url('../fonts/zed-sans-extended.woff') format('woff'),
-       url('../fonts/zed-sans-extended.ttf') format('truetype');
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-
 .unblur-in {
   filter: blur(8px);
   opacity: 0;

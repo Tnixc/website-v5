@@ -2,10 +2,10 @@
 let numbers = Array.from({ length: 32 }, (_, i) => i + 1);
 </script>
 
-<div class="p-2">
+<div class="overflow-hidden p-[9px] px-[10px] m-0 relative" id="reveal">
   <div id="Banner" class="relative flex h-40 md:h-96">
-    {#each numbers as num}
-      <div class="slot flex-grow bg-black/[0.01]"></div>
+    {#each numbers as _}
+      <div class="pane flex-grow bg-black/[0.01]"></div>
     {/each}
     <div class="absolute top-0 left-0 flex gap-10 items-center md:items-baseline flex-wrap md:justify-start justify-between">
       <h1 class="font-display text-6xl md:text-9xl text-white mix-blend-exclusion">
@@ -29,18 +29,38 @@ let numbers = Array.from({ length: 32 }, (_, i) => i + 1);
 </div>
 
 <style>
+
+  #reveal::after{
+    position: absolute;
+    content: '';
+    inset: 0;
+    animation: heightUp 1s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    background: white;
+  }
+  @keyframes heightUp{
+    from{
+      height: 100%;
+    }
+    to{
+      height: 0%;
+    }
+  }
+
   #Banner {
-    background-image: url('https://utfs.io/f/30454562-3742-4822-8756-81dbb52f34ee-1xap1f.JPG');
+    background-image: url('https://utfs.io/f/941ae405-cc46-4de1-85eb-d8b6dc3e6728-1xap1f.webp');
     background-size: cover;
     background-position: center;
   }
-  .slot {
-    @apply backdrop-blur-lg backdrop-brightness-50 backdrop-saturate-0;
+  .pane {
+    @apply  backdrop-brightness-50 backdrop-saturate-0 blur-sm;
     margin-inline: -0.1%;
     transition: backdrop-filter 1s;
   }
-  .slot:hover {
-    @apply backdrop-blur-sm backdrop-brightness-100 backdrop-saturate-150;
-    transition: backdrop-filter 0.1s;
+  .pane:hover {
+    @apply  backdrop-brightness-100 backdrop-saturate-150;
+    transition: backdrop-filter 0.05s;
   }
 </style>

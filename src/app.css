@@ -3,6 +3,7 @@
   background-color: #41DDCA;
   color: black;
 }
+
 body {
   @apply font-zed bg-zinc-50 text-black;
 }
@@ -20,6 +21,21 @@ body {
   }
   100% {
   filter: blur(0px);
+  opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+  opacity: 0;
+  }
+  100% {
   opacity: 1;
   }
 }

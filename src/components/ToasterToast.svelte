@@ -1,16 +1,8 @@
+<script>
+  import check from 'pixelarticons/svg/check.svg';
+</script>
+
 <div class="flex gap-2">
-  <svg
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
-      d="M18 6H20V8H18V6ZM16 10V8H18V10H16ZM14 12V10H16V12H14ZM12 14H14V12H12V14ZM10 16H12V14H10V16ZM8 16V18H10V16H8ZM6 14H8V16H6V14ZM6 14H4V12H6V14Z"
-      fill="black"></path>
-  </svg>
-  <p>Copied to clipboard</p>
+  <img src="{check}" height="24" width="24" alt="tick icon" />
+  <p class="font-zed">Copied to clipboard</p>
 </div>

@@ -1,6 +1,6 @@
 <script>
 import "../app.css";
-import "../fonts.css"
+import "../fonts.css";
 import { Toaster } from "svelte-sonner";
 </script>
 

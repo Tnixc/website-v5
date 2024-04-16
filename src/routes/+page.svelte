@@ -1,13 +1,13 @@
 <script lang="ts">
-  import Header from '../components/Header.svelte';
-  import Banner from '../components/Banner.svelte';
-  import InfoCard from '../components/InfoCard.svelte';
-  import {
-    aboutInfo,
-    skillsInfo,
-    stuffInfo,
-    personInfo,
-  } from '../data/InfoCards';
+import Header from "../components/Header.svelte";
+import Banner from "../components/Banner.svelte";
+import InfoCard from "../components/InfoCard.svelte";
+import {
+	aboutInfo,
+	skillsInfo,
+	stuffInfo,
+	personInfo,
+} from "../data/InfoCards";
 </script>
 
 <div class="sticky top-0 z-50 flex max-h-screen w-full flex-col bg-zinc-100">

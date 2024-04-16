@@ -1,13 +1,13 @@
 <script lang="ts">
-  type Info = {
-    key: string;
-    value: string;
-  };
-  type InfoCardProps = {
-    Title: string;
-    Info: Info[];
-  };
-  export let data: InfoCardProps;
+type Info = {
+	key: string;
+	value: string;
+};
+type InfoCardProps = {
+	Title: string;
+	Info: Info[];
+};
+export let data: InfoCardProps;
 </script>
 
 <div class="relative z-0 max-w-md pt-6">

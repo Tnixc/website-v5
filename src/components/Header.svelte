@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { headerLinks } from '../data/header';
-  import { toast } from 'svelte-sonner';
-  import copyicon from 'pixelarticons/svg/copy.svg';
-  import openicon from 'pixelarticons/svg/open.svg';
-  import ToasterToast from '../components/ToasterToast.svelte';
+import { headerLinks } from "../data/header";
+import { toast } from "svelte-sonner";
+import copyicon from "pixelarticons/svg/copy.svg";
+import openicon from "pixelarticons/svg/open.svg";
+import ToasterToast from "../components/ToasterToast.svelte";
 
-  function copy(link: string): void {
-    navigator.clipboard.writeText(link);
-    toast(ToasterToast);
-  }
+function copy(link: string): void {
+	navigator.clipboard.writeText(link);
+	toast(ToasterToast);
+}
 </script>
 <header class="unblur-in flex flex-wrap justify-between">
   <div class="flex flex-wrap">

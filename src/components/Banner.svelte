@@ -2,7 +2,7 @@
 let numbers = Array.from({ length: 32 }, (_, i) => i + 1);
 </script>
 
-<div class="overflow-hidden p-[9px] px-[10px] m-0 relative" id="reveal">
+<div class="overflow-hidden p-[9px] px-[10px] pb-0 m-0 relative" id="reveal">
   <div id="Banner" class="relative flex h-40 md:h-96">
     {#each numbers as _}
       <div class="pane flex-grow bg-black/[0.01]"></div>

@@ -7,7 +7,7 @@ let numbers = Array.from({ length: 32 }, (_, i) => i + 1);
     {#each numbers as _}
       <div class="pane flex-grow bg-black/[0.01]"></div>
     {/each}
-    <div class="absolute top-0 left-0 flex gap-10 items-center md:items-baseline flex-wrap md:justify-start justify-between">
+    <div class="absolute top-0 left-0 flex gap-10 items-center md:items-baseline flex-wrap md:justify-start justify-between pointer-events-none">
       <h1 class="font-display text-6xl md:text-9xl text-white mix-blend-exclusion">
         Tnixc
       </h1>

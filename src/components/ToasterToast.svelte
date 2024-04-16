@@ -1,5 +1,5 @@
 <script>
-  import check from 'pixelarticons/svg/check.svg';
+import check from "pixelarticons/svg/check.svg";
 </script>
 
 <div class="flex gap-2">

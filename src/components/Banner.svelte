@@ -8,7 +8,7 @@ let numbers = Array.from({ length: 32 }, (_, i) => i + 1);
       <div class="pane flex-grow bg-black/[0.01]"></div>
     {/each}
     <div class="absolute top-0 left-0 flex gap-10 items-center md:items-baseline flex-wrap md:justify-start justify-between pointer-events-none">
-      <h1 class="font-display text-6xl md:text-9xl text-white mix-blend-exclusion">
+      <h1 class="font-display text-6xl md:text-9xl text-white mix-blend-exclusion saturate-200 brightness-150">
         Tnixc
       </h1>
       <svg
@@ -57,7 +57,7 @@ let numbers = Array.from({ length: 32 }, (_, i) => i + 1);
   .pane {
     @apply  backdrop-brightness-50 backdrop-saturate-0 blur-sm;
     margin-inline: -0.1%;
-    transition: backdrop-filter 1s;
+    transition: backdrop-filter 3s ease-in;
   }
   .pane:hover {
     @apply  backdrop-brightness-100 backdrop-saturate-150;

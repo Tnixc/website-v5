@@ -12,12 +12,12 @@ import {
 } from "../data/InfoCards";
 </script>
 
-<main class="flex h-screen flex-col overflow-hidden">
+<main class="flex h-screen flex-col overflow-hidden relative">
   <div class="z-50 flex max-h-screen w-full flex-col bg-zinc-100">
     <Banner />
     <Header />
   </div>
-  <!-- <Projects /> -->
+  <Projects />
   <div class="flex flex-wrap overflow-scroll p-2 pb-20 md:gap-4">
     <div
       class="unblur-in flex flex-col"

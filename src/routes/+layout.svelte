@@ -1,8 +1,6 @@
 <script>
 import "../app.css";
 import { Toaster } from "svelte-sonner";
-import { setupViewTransition } from "sveltekit-view-transition";
-setupViewTransition();
 </script>
 
 <svelte:head>

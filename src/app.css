@@ -4,7 +4,7 @@
 }
 
 body {
-  @apply font-zed bg-zinc-50 text-black;
+  @apply font-zed bg-zinc-50 text-black transition-all duration-300;
 }
 
 .unblur-in {

@@ -1,23 +1,25 @@
 <script lang="ts">
-  import { headerLinks } from "../data/header";
-  import { toast } from "svelte-sonner";
-  import copyicon from "pixelarticons/svg/copy.svg";
-  import openicon from "pixelarticons/svg/open.svg";
-  import ToasterToast from "../components/ToasterToast.svelte";
+import { headerLinks } from "../data/header";
+import { toast } from "svelte-sonner";
+import copyicon from "pixelarticons/svg/copy.svg";
+import openicon from "pixelarticons/svg/open.svg";
+import ToasterToast from "../components/ToasterToast.svelte";
 
-  function copy(link: string): void {
-    navigator.clipboard.writeText(link);
-    toast(ToasterToast);
-  }
+function copy(link: string): void {
+	navigator.clipboard.writeText(link);
+	toast(ToasterToast);
+}
 </script>
 
 <header
-  class="unblur-in flex flex-wrap justify-between"
-  style="animation-duration: 500ms; animation-delay: 500ms;"
+  class="flex flex-col flex-wrap justify-end md:flex-row md:justify-between"
 >
-  <div class="flex flex-wrap">
-    {#each headerLinks as element}
-      <div class="flex items-baseline">
+  <div class="flex flex-col md:flex-row">
+    {#each headerLinks as element, i}
+      <div
+        class="unblur-in flex items-baseline"
+        style="animation-duration: 500ms; animation-delay: {i * 200}ms "
+      >
         <span class="select-none px-2 opacity-50">/</span>
         {#if element.action == "open"}
           <a
@@ -48,9 +50,14 @@
       </div>
     {/each}
   </div>
-  <div class="flex p-2">
+  <div
+    class="unblur-in flex py-2"
+    style="animation-duration: 500ms; animation-delay: 100ms;"
+  >
+    <span class="px-2 opacity-50">/</span>
     <a href="/" class="hover:underline">Home</a>
-    <span class="px-2">|</span>
+    <span class="px-2 opacity-50">/</span>
     <a href="/blog" class="hover:underline">Blog</a>
+    <span class="px-2 opacity-50">/</span>
   </div>
 </header>

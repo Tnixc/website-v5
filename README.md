@@ -1,7 +1,7 @@
 # TODO:
- - [ ] Have it deploy
- - [ ] Analytics with umami
- - [ ] Use uploadthing for image hosting
+ - [x] Have it deploy
+ - [x] Analytics with umami
+ - [x] Use uploadthing for image hosting
  - [ ] Working Blog & RSS feed
  - [ ] SEO stuff w/ og image gen
  - [ ] Indie webring

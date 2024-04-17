@@ -7,7 +7,7 @@ async function close() {
 	const button = document.getElementById("projects")!;
 	const windowContent = document.getElementById("window-content")!;
 	const windowLayer = document.getElementById("window-layer")!;
-	const window = document.getElementById("window")!;
+	const pane = document.getElementById("window")!;
 	const {
 		width: buttonW,
 		height: buttonH,
@@ -16,13 +16,15 @@ async function close() {
 	} = button.getBoundingClientRect();
 
 	windowLayer.style.background = "transparent";
-	window.style.transform = "";
-	window.style.height = `${buttonH}px`;
-	window.style.width = `${buttonW}px`;
-	window.style.left = `${buttonX}px`;
-	window.style.top = `${buttonY}px`;
-	window.style.zIndex = "0";
+	pane.style.transform = "";
+	pane.style.height = `${buttonH}px`;
+	pane.style.width = `${buttonW}px`;
+	pane.style.left = `${buttonX}px`;
+	pane.style.top = `${buttonY}px`;
+	pane.style.zIndex = "0";
 	document.body.style.scale = "1";
+	document.body.style.maxHeight = "unset";
+	document.body.style.overflow = "auto";
 	await sleep(300);
 	windowContent.style.visibility = "hidden";
 	await sleep(300);

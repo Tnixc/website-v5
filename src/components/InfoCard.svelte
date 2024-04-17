@@ -16,11 +16,11 @@ export let data: InfoCardProps;
   </p>
   <div class="border border-black p-2">
     {#each data.Info as info}
-      <div>
+      <p>
         <span class="font-zed-bold">{info.key}</span>
         <span>-></span>
         <span>{info.value}</span>
-      </div>
+      </p>
     {/each}
   </div>
 </div>

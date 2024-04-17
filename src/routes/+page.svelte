@@ -3,6 +3,7 @@ import Header from "../components/Header.svelte";
 import Banner from "../components/Banner.svelte";
 import InfoCard from "../components/InfoCard.svelte";
 import Footer from "../components/Footer.svelte";
+import Projects from "../components/Projects.svelte";
 import {
 	aboutInfo,
 	skillsInfo,
@@ -16,7 +17,8 @@ import {
     <Banner />
     <Header />
   </div>
-  <div class="flex flex-wrap p-2 pb-20 md:gap-4 overflow-scroll">
+  <!-- <Projects /> -->
+  <div class="flex flex-wrap overflow-scroll p-2 pb-20 md:gap-4">
     <div
       class="unblur-in flex flex-col"
       style="animation-duration: 1000ms; animation-delay: 200ms;"

@@ -28,6 +28,7 @@
 	"type": "module",
 	"dependencies": {
 		"pixelarticons": "^1.8.1",
-		"svelte-sonner": "^0.3.22"
+		"svelte-sonner": "^0.3.22",
+		"sveltekit-view-transition": "^0.5.3"
 	}
 }

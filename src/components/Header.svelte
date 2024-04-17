@@ -40,7 +40,7 @@ function copy(link: string): void {
             class="{element.class} group relative py-2 hover:underline"
             >{element.text}
             <span
-              class="invisible absolute left-1/2 top-full z-[99] flex w-max -translate-x-1/2 translate-y-2 gap-1 border bg-white py-1 pl-2 pr-1 text-black opacity-0 shadow-xl blur-sm transition-all delay-150 duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:blur-0"
+              class="invisible absolute left-1/2 top-full z-[99] flex w-max -translate-x-1/2 translate-y-2 gap-1 border bg-white py-1 pl-2 pr-1 text-black opacity-0 shadow-xl blur-sm transition-all delay-150 duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:blur-0 focus:ring-0"
             >
               Click to copy
               <img src={copyicon} height="24" width="24" alt="copy icon" />

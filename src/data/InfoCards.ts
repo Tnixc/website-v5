@@ -43,7 +43,7 @@ export const personInfo: InfoCardProps = {
 		{
 			key: "Likes(in no specific order)",
 			value:
-				"Hiking, traveling, reading books, programming, configuring, listening to music(jpop), graphic and ui design, urban design, typography, open source, art, IKEA, mechanical keyboards, Robots(FRC)",
+				"Hiking, traveling, reading books, programming, configuring, listening to music(jpop), graphic and ui design, urban design and transit, typography, open source, art, IKEA, mechanical keyboards, Robots(FRC)",
 		},
 	],
 };

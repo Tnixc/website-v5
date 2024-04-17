@@ -1,12 +1,12 @@
 @tailwind base; @tailwind components; @tailwind utilities;
 ::selection{
-  background-color: #41DDCA;
-  color: black;
+  @apply text-white bg-black;
 }
 
 body {
   @apply font-zed bg-zinc-50 text-black;
 }
+
 .unblur-in {
   filter: blur(8px);
   opacity: 0;
@@ -36,5 +36,14 @@ body {
   }
   100% {
   opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *{
+    animation-duration: 0 !important;
+    animation-delay: 0 !important;
+    transition-duration: 0 !important;
+    transition-delay: 0 !important;
   }
 }

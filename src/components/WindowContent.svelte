@@ -3,15 +3,15 @@ import { sleep } from "../utils";
 async function close() {
 	const button = document.getElementById("projects")!;
 	const windowContent = document.getElementById("window-content")!;
-	windowContent.style.visibility = "hidden";
+	const window = document.getElementById("window")!;
+	const windowLayer = document.getElementById("window-layer")!;
 	const {
 		width: buttonW,
 		height: buttonH,
 		x: buttonX,
 		y: buttonY,
 	} = button.getBoundingClientRect();
-	const window = document.getElementById("window")!;
-	const windowLayer = document.querySelector(".window-layer")!;
+	windowContent.style.visibility = "hidden";
 	window.style.transform = "";
 	window.style.height = `${buttonH}px`;
 	window.style.width = `${buttonW}px`;
@@ -19,8 +19,8 @@ async function close() {
 	window.style.top = `${buttonY}px`;
 	windowLayer.classList.add("opacity-0", "pointer-events-none");
 	await sleep(300);
-	window.remove();
 	button.style.visibility = "visible";
+	// window.remove();
 }
 </script>
 

@@ -1,54 +1,61 @@
 <script lang="ts">
 import openicon from "pixelarticons/svg/open.svg";
 import WindowContent from "./WindowContent.svelte";
-import { sleep } from "../utils";
-async function expand() {
+import { onMount } from "svelte";
+onMount(() => {
 	const button = document.getElementById("projects")!;
-	button.style.visibility = "hidden";
 	const buttonW = button.getBoundingClientRect().width;
 	const buttonH = button.getBoundingClientRect().height;
 	const buttonX = button.getBoundingClientRect().x;
 	const buttonY = button.getBoundingClientRect().y;
-	console.log(buttonW, buttonH, buttonX, buttonY);
-	// create window
-	const windowLayer = document.querySelector(".window-layer")!;
-	windowLayer.classList.remove("opacity-0", "pointer-events-none");
+	const windowLayer = document.getElementById("window-layer")!;
 	const window = windowLayer.appendChild(document.createElement("div"));
 	window.id = "window";
-	window.style.transitionTimingFunction = "cubic-bezier(0,.98,.58,.97)";
+	window.classList.add(
+		"bg-black",
+		"border",
+		"border-black",
+		"fixed",
+		"duration-[300ms]",
+		"max-h-[96vh]",
+		"shadow-2xl",
+	);
+	window.style.transitionTimingFunction = "cubic-bezier(.17,.88,.66,1)";
 	window.style.maxWidth = "96vw";
 	window.style.width = `${buttonW}px`;
 	window.style.height = `${buttonH}px`;
 	window.style.left = `${buttonX}px`;
 	window.style.top = `${buttonY}px`;
-	window.classList.add(
-		"window",
-		"bg-black",
-		"border",
-		"border-black",
-		"fixed",
-		"duration-300",
-		"max-h-[96vh]",
-		"shadow-2xl",
-	);
-	await sleep(300);
+	window.style.overflow = "hidden";
+
+	new WindowContent({
+		target: window,
+	});
+});
+async function expand() {
+	const windowLayer = document.getElementById("window-layer")!;
+	const windowContent = document.getElementById("window-content")!;
+	const window = document.getElementById("window")!;
+	const button = document.getElementById("projects")!;
+	windowContent.style.visibility = "visible";
+	button.style.visibility = "hidden";
+	windowLayer.classList.remove("opacity-0", "pointer-events-none");
 	window.style.width = "100vh";
 	window.style.height = "100vh";
 	window.style.left = "50%";
 	window.style.top = "50%";
 	window.style.transform = "translate(-50%, -50%)";
-	new WindowContent({
-		target: window,
-	});
+	window.style.overflow = "scroll";
 }
 </script>
 
 <div
-  class="window-layer pointer-events-none fixed inset-0 z-50 bg-white/80 opacity-0 duration-500"
+  id="window-layer"
+  class="pointer-events-none fixed inset-0 z-50 bg-white/80 opacity-0 duration-500"
 />
 <div class="flex justify-end p-2">
   <button
-    class="unblur-in flex gap-4 bg-black px-12 py-6 text-white transition-all duration-300 hover:scale-105"
+    class="unblur-in flex gap-4 bg-black px-12 py-6 text-white transition-[transform] duration-300 hover:scale-105"
     id="projects"
     on:click={() => {
       expand();

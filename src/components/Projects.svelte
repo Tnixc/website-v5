@@ -16,11 +16,11 @@ onMount(() => {
 		"border",
 		"border-black",
 		"fixed",
-		"duration-[300ms]",
+		"duration-[600ms]",
 		"max-h-[96vh]",
-		"shadow-2xl",
 	);
-	window.style.transitionTimingFunction = "cubic-bezier(.17,.88,.66,1)";
+  window.style.boxShadow = "-20px 125px 51px rgba(0, 0, 0, 0.01),-11px 70px 43px rgba(0, 0, 0, 0.05), -5px 31px 32px rgba(0, 0, 0, 0.09),-1px 8px 17px rgba(0, 0, 0, 0.1)";
+	window.style.transitionTimingFunction = "cubic-bezier(0.47, 0, 0.23, 1.18)";
 	window.style.maxWidth = "96vw";
 	window.style.width = `${buttonW}px`;
 	window.style.height = `${buttonH}px`;
@@ -46,12 +46,13 @@ async function expand() {
 	window.style.top = "50%";
 	window.style.transform = "translate(-50%, -50%)";
 	window.style.overflow = "scroll";
+  window.style.zIndex = "100";
 }
 </script>
 
 <div
   id="window-layer"
-  class="pointer-events-none fixed inset-0 z-50 bg-white/80 opacity-0 duration-500"
+  class="pointer-events-none fixed inset-0 z-50 opacity-0 duration-500"
 />
 <div class="flex justify-end p-2">
   <button

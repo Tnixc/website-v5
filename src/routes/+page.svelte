@@ -12,7 +12,7 @@ import {
 } from "../data/InfoCards";
 </script>
 
-<main class="flex h-screen flex-col overflow-hidden relative">
+<main class="flex md:h-screen flex-col md:overflow-hidden relative">
   <div class="z-50 flex max-h-screen w-full flex-col bg-zinc-100">
     <Banner />
     <Header />

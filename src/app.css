@@ -1,6 +1,6 @@
 @tailwind base; @tailwind components; @tailwind utilities;
 ::selection{
-  @apply text-white bg-black;
+  @apply text-white bg-blue-700;
 }
 
 body {

@@ -2,12 +2,15 @@
 import openicon from "pixelarticons/svg/open.svg";
 import WindowContent from "./WindowContent.svelte";
 import { onMount } from "svelte";
+
 onMount(() => {
 	const button = document.getElementById("projects")!;
-	const buttonW = button.getBoundingClientRect().width;
-	const buttonH = button.getBoundingClientRect().height;
-	const buttonX = button.getBoundingClientRect().x;
-	const buttonY = button.getBoundingClientRect().y;
+	const {
+		width: buttonW,
+		height: buttonH,
+		x: buttonX,
+		y: buttonY,
+	} = button.getBoundingClientRect();
 	const windowLayer = document.getElementById("window-layer")!;
 	const pane = windowLayer.appendChild(document.createElement("div"));
 	pane.id = "window";
@@ -20,7 +23,7 @@ onMount(() => {
 		"max-h-[96vh]",
 	);
 	pane.style.boxShadow =
-		"-20px 125px 51px rgba(0, 0, 0, 0.01),-11px 70px 43px rgba(0, 0, 0, 0.05), -5px 31px 32px rgba(0, 0, 0, 0.09),-1px 8px 17px rgba(0, 0, 0, 0.1)";
+		"-20px 125px 51px rgba(0, 0, 0, 0.01), -11px 70px 43px rgba(0, 0, 0, 0.05), -5px 31px 32px rgba(0, 0, 0, 0.09), -1px 8px 17px rgba(0, 0, 0, 0.1)";
 	pane.style.transitionTimingFunction = "cubic-bezier(0.47, 0, 0.23, 1.18)";
 	pane.style.maxWidth = "96vw";
 	pane.style.width = `${buttonW}px`;
@@ -28,11 +31,9 @@ onMount(() => {
 	pane.style.left = `${buttonX}px`;
 	pane.style.top = `${buttonY}px`;
 	pane.style.overflow = "hidden";
-
-	new WindowContent({
-		target: pane,
-	});
+	new WindowContent({ target: pane });
 });
+
 async function expand() {
 	window.scrollTo(0, 0);
 	document.body.style.scale = "0.95";

@@ -19,10 +19,10 @@ async function close() {
 	pane.style.transform = "";
 	pane.style.height = `${buttonH}px`;
 	pane.style.width = `${buttonW}px`;
-	pane.style.left = `${buttonX}px`;
-	pane.style.top = `${buttonY}px`;
+	pane.style.left = `calc(${buttonX}px + 3rem)`;
+	pane.style.top = `calc(${buttonY}px - 3rem)`;
 	pane.style.zIndex = "0";
-	document.body.style.scale = "1";
+  document.body.style.padding = "0rem";
 	document.body.style.maxHeight = "unset";
 	document.body.style.overflow = "auto";
 	await sleep(300);

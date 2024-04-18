@@ -36,8 +36,8 @@ onMount(() => {
 
 async function expand() {
 	window.scrollTo(0, 0);
-	document.body.style.scale = "0.95";
 	document.body.style.maxHeight = "100vh";
+  document.body.style.padding = "3rem";
 	document.body.style.overflow = "hidden";
 	const windowLayer = document.getElementById("window-layer")!;
 	const windowContent = document.getElementById("window-content")!;
@@ -46,7 +46,6 @@ async function expand() {
 	button.style.visibility = "hidden";
 	windowContent.style.visibility = "visible";
 	windowLayer.classList.remove("opacity-0", "pointer-events-none");
-	windowLayer.style.scale = "1.053";
 	windowLayer.style.background = "#ffffff99";
 	pane.style.width = "100vh";
 	pane.style.height = "100vh";

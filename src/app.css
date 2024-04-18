@@ -46,3 +46,14 @@ body {
     transition-delay: 0 !important;
   }
 }
+@keyframes slide-to-right {
+  from {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root){
+  animation-duration: 300ms;
+}

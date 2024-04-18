@@ -17,5 +17,5 @@ export default {
 		},
 		extend: {},
 	},
-	// plugins: [require("./breakpoints")],
+	plugins: [require("./breakpoints")],
 };

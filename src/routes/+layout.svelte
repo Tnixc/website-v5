@@ -1,15 +1,16 @@
 <script>
 import "../app.css";
 import { Toaster } from "svelte-sonner";
+
 import { onNavigate } from "$app/navigation";
 onNavigate((nav) => {
-	if (!document.startViewTrasition) {
+	if (!document.startViewTransition) {
 		return;
 	}
 	return new Promise((resolve) => {
-		document.startViewTrasition(async () => {
+		document.startViewTransition(async () => {
 			resolve();
-			await navigation.complete();
+			await nav.complete;
 		});
 	});
 });

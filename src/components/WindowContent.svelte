@@ -44,7 +44,7 @@ async function close() {
         height="24"
         width="24"
         alt="open icon"
-        class="-scale-y-100 invert"
+        class="-scale-y-100 invert hue-rotate-180"
       />
       Close</button
     >
@@ -58,7 +58,7 @@ async function close() {
         height="24"
         width="24"
         alt="open icon"
-        class="invert"
+        class="invert hue-rotate-180"
       />
       My Github</a
     >
@@ -74,7 +74,7 @@ async function close() {
             height="24"
             width="24"
             alt="open icon"
-            class="invert"
+            class="invert hue-rotate-180"
           />
           <a
             href={project.github}

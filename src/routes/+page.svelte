@@ -4,6 +4,7 @@ import Banner from "../components/Banner.svelte";
 import InfoCard from "../components/InfoCard.svelte";
 import Footer from "../components/Footer.svelte";
 import Projects from "../components/Projects.svelte";
+import Graphic from "../components/Graphic.svelte";
 import {
 	aboutInfo,
 	skillsInfo,
@@ -19,7 +20,7 @@ import {
   </div>
 
   <div
-    class="relative flex flex-wrap-reverse overflow-scroll p-2 pt-20 md:gap-4 md:pt-2"
+    class="relative flex flex-wrap-reverse overflow-scroll p-2 pt-28 md:gap-4 md:pt-2"
   >
     <div
       class="unblur-in flex flex-col"
@@ -38,6 +39,9 @@ import {
     <div class="absolute right-2 top-2">
       <Projects />
     </div>
+  </div>
+  <div class="pt-96 md:pt-0">
+    <Graphic />
   </div>
   <div class="flex flex-grow flex-col justify-end">
     <Footer />

@@ -28,8 +28,8 @@ onMount(() => {
 	pane.style.maxWidth = "96vw";
 	pane.style.width = `${buttonW}px`;
 	pane.style.height = `${buttonH}px`;
-	pane.style.left = `${buttonX}px`;
-	pane.style.top = `${buttonY}px`;
+	pane.style.left = `calc(${buttonX}px + 3rem)`;
+	pane.style.top = `calc(${buttonY}px)`;
 	pane.style.overflow = "hidden";
 	new WindowContent({ target: pane });
 });
@@ -37,7 +37,7 @@ onMount(() => {
 async function expand() {
 	window.scrollTo(0, 0);
 	document.body.style.maxHeight = "100vh";
-  document.body.style.padding = "3rem";
+	document.body.style.padding = "3rem";
 	document.body.style.overflow = "hidden";
 	const windowLayer = document.getElementById("window-layer")!;
 	const windowContent = document.getElementById("window-content")!;
@@ -59,7 +59,7 @@ async function expand() {
 
 <div
   id="window-layer"
-  class="pointer-events-none fixed inset-0 z-50 opacity-0 duration-500"
+  class="pointer-events-none fixed inset-0 z-50 opacity-0 duration-300"
 />
 <div class="flex justify-end p-2">
   <button

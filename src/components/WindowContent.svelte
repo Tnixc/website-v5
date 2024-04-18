@@ -22,7 +22,7 @@ async function close() {
 	pane.style.left = `calc(${buttonX}px + 3rem)`;
 	pane.style.top = `calc(${buttonY}px - 3rem)`;
 	pane.style.zIndex = "0";
-  document.body.style.padding = "0rem";
+	document.body.style.padding = "0rem";
 	document.body.style.maxHeight = "unset";
 	document.body.style.overflow = "auto";
 	await sleep(300);

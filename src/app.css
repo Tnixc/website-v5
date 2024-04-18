@@ -2,7 +2,6 @@
 ::selection{
   @apply text-white bg-blue-700;
 }
-
 body {
   @apply font-zed bg-zinc-50 text-black transition-all duration-300;
 }

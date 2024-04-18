@@ -17,10 +17,8 @@ import {
     <Banner />
     <Header />
   </div>
-  <div class="relative" id="top">
-    <Projects />
-  </div>
-  <div class="relative flex flex-wrap overflow-scroll p-2 py-20 md:gap-4">
+
+  <div class="relative flex flex-wrap-reverse overflow-scroll p-2 md:gap-4 md:pt-2 pt-20">
     <div
       class="unblur-in flex flex-col"
       style="animation-duration: 1000ms; animation-delay: 200ms;"
@@ -35,28 +33,13 @@ import {
       <InfoCard data={stuffInfo} />
       <InfoCard data={personInfo} />
     </div>
+    <div class="absolute right-2 top-2">
+      <Projects />
+    </div>
+
   </div>
-  <div class="relative flex-grow" id="bottom">
+
+  <div class="flex-grow">
     <Footer />
   </div>
 </main>
-
-<style>
-  #top::after,
-  #bottom::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 4rem;
-    z-index: 1;
-  }
-  #top::after {
-    top: 100%;
-    @apply bg-gradient-to-b from-zinc-100 to-transparent;
-  }
-  #bottom::after {
-    bottom: 100%;
-    @apply bg-gradient-to-t from-zinc-100 to-transparent;
-  }
-</style>

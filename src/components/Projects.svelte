@@ -28,7 +28,7 @@ onMount(() => {
 	pane.style.maxWidth = "96vw";
 	pane.style.width = `${buttonW}px`;
 	pane.style.height = `${buttonH}px`;
-	pane.style.left = `calc(${buttonX}px + 3rem)`;
+	pane.style.left = `calc(${buttonX}px)`;
 	pane.style.top = `calc(${buttonY}px)`;
 	pane.style.overflow = "hidden";
 	new WindowContent({ target: pane });
@@ -59,7 +59,7 @@ async function expand() {
 
 <div
   id="window-layer"
-  class="pointer-events-none fixed inset-0 z-50 opacity-0 duration-300"
+  class="pointer-events-none fixed inset-0 z-50 opacity-0 duration-300 ease-out"
 />
 <div class="flex justify-end p-2">
   <button

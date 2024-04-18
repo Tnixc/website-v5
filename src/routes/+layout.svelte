@@ -1,6 +1,18 @@
 <script>
 import "../app.css";
 import { Toaster } from "svelte-sonner";
+import { onNavigate } from "$app/navigation";
+onNavigate((nav) => {
+	if (!document.startViewTrasition) {
+		return;
+	}
+	return new Promise((resolve) => {
+		document.startViewTrasition(async () => {
+			resolve();
+			await navigation.complete();
+		});
+	});
+});
 </script>
 
 <svelte:head>

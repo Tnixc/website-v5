@@ -12,7 +12,7 @@ import {
 } from "../data/InfoCards";
 </script>
 
-<main class="relative flex flex-col md:h-screen md:overflow-hidden">
+<main class="relative flex flex-col md:min-h-screen md:overflow-hidden">
   <div class="z-50 flex max-h-screen w-full flex-col bg-zinc-100">
     <Banner />
     <Header />
@@ -38,8 +38,7 @@ import {
     </div>
 
   </div>
-
-  <div class="flex-grow">
+  <div class="flex-grow flex flex-col justify-end">
     <Footer />
   </div>
 </main>

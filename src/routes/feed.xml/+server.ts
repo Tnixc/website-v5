@@ -1,5 +1,4 @@
 import { fetchMarkdownPosts } from "../../utils";
-import fs from "fs";
 
 const siteURL = "https://tnixc.space";
 const siteTitle = "Tnixc's website";
@@ -31,7 +30,7 @@ const render = async (posts) => {
 		entries.push(`<entry>
       <guid isPermaLink="true">${siteURL}${post.path}</guid>
       <title>${post.meta.title}</title>
-      <link>${siteURL}${post.path}</link>
+      <link href="${siteURL}${post.path}"></link>
       <description>${post.meta.title}</description>
       <pubDate>${new Date(post.meta.date).toUTCString()}</pubDate>
       <content type="html">${content}</content>

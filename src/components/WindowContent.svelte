@@ -44,7 +44,7 @@ async function close() {
         height="24"
         width="24"
         alt="open icon"
-        class="-scale-y-100 invert hue-rotate-180"
+        class="-scale-y-100 hue-rotate-180 invert"
       />
       Close</button
     >
@@ -58,7 +58,7 @@ async function close() {
         height="24"
         width="24"
         alt="open icon"
-        class="invert hue-rotate-180"
+        class="hue-rotate-180 invert"
       />
       My Github</a
     >
@@ -74,7 +74,7 @@ async function close() {
             height="24"
             width="24"
             alt="open icon"
-            class="invert hue-rotate-180"
+            class="hue-rotate-180 invert"
           />
           <a
             href={project.github}
@@ -87,7 +87,8 @@ async function close() {
             {#each project.tags as z}
               <div class="flex gap-2">
                 <span class="p-1 text-{z.color}-400">
-                  #{z.name}
+                  <span class="select-none opacity-40">#</span>
+                  {z.name}
                 </span>
               </div>
             {/each}

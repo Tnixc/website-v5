@@ -76,7 +76,7 @@ export const projects: Project[] = [
 	{
 		name: "This website, and previous versions",
 		description:
-			"This website is edition 5. I use a somewhat new stack every time, so you can look at the old ones on my github",
+			"This website is edition 5. I use a somewhat new stack every time, so you can look at the old ones on my github you can visit them on v2, v3, v4.tnixc.space",
 		github: "https://github.com/Tnixc",
 		tags: [Astro, Svelte, Nxut, typescript, web],
 	},

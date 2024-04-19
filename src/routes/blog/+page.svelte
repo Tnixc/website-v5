@@ -5,8 +5,8 @@ export let data;
 
 <Header />
 <div class="px-2">
-  <div class="flex flex-wrap border border-black p-2">
-    <h1 class="flex-grow font-display text-8xl flex">
+  <div class="flex flex-wrap border border-black p-2 gap-4">
+    <h1 class="flex font-display text-8xl">
       <svg
         width="43"
         height="42"
@@ -21,11 +21,13 @@ export let data;
       </svg>
       Blog
     </h1>
-    <ul class="flex max-h-[calc(100vh_-_4rem)] flex-col gap-2 overflow-scroll">
+    <ul
+      class="flex max-h-[calc(100vh_-_4rem)] flex-grow flex-col gap-2 overflow-scroll items-center min-w-[min(90vw,70ch)]"
+    >
       {#each data.posts as post}
-        <li class="w-full border hover:shadow-md transition-all duration-200">
+        <li class="w-max border transition-all duration-200 hover:shadow-md min-w-[min(90vw,70ch)]">
           <a href={post.path} class="block p-8">
-            <h1 class="text-xl">
+            <h1 class="text-xl" style={`view-transition-name: ${post.meta.title.replace(/[\W_]+/g,"-")}`}>
               {post.meta.title}
             </h1>
             <p class="opacity-50">
@@ -37,3 +39,4 @@ export let data;
     </ul>
   </div>
 </div>
+

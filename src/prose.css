@@ -208,3 +208,22 @@ pre[class*="language-"] {
 .token.variable {
 	color: #f07178;
 }
+
+:where(h2, h3, h4, h5, h6) {
+	.icon-link {
+		position: relative;
+
+		&::before {
+			content: '§';
+			position: absolute;
+			left: -1.2ch;
+			top: 0;
+			line-height: 1;
+			opacity: 0;
+		}
+	}
+
+	&:hover .icon-link::before {
+		opacity: 0.5;
+	}
+}

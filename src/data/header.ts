@@ -29,6 +29,6 @@ export const headerLinks: HeaderLink[] = [
 		value: "https://dev.tnixc.space/rss",
 		text: "RSS Feed",
 		action: "open",
-		class: "text-orange-500 underline",
+		class: "text-orange-600",
 	},
 ];

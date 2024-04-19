@@ -17,6 +17,14 @@ onNavigate((nav) => {
 </script>
 
 <svelte:head>
+  <title>tnixc.space</title>
+  <meta name="description" content="tnixc's very own website" />
+  <meta property="og:title" content="tnixc.space" />
+  <meta
+    property="og:description"
+    content="tnixc's very own website"
+  />
+  <meta property="og:image" content="https://tnixc.space/og-image.jpeg" />
   <script
     defer
     src="https://analytics.us.umami.is/script.js"

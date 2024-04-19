@@ -63,7 +63,7 @@ export const projects: Project[] = [
 	{
 		name: "Dotfiles",
 		description:
-			"My dotfiles for macOS, always in the works and probably outdated",
+			"My dotfiles for macOS, maybe nixOS soon tm, always in the works and probably outdated",
 		github: "https://github.com/Tnixc/dots",
 	},
 	{

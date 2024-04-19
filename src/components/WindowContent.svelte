@@ -86,8 +86,8 @@ async function close() {
           {#if project.tags}
             {#each project.tags as z}
               <div class="flex gap-2">
-                <span class="p-1 bg-{z.color}-300/40">
-                  {z.name}
+                <span class="p-1 text-{z.color}-400">
+                  #{z.name}
                 </span>
               </div>
             {/each}
@@ -100,5 +100,5 @@ async function close() {
 </div>
 <!-- A hacky fix to get tailwind to work for now, no idea how i would fix this tbh -->
 <span
-  class="hidden bg-blue-300/40 bg-emerald-300/40 bg-gray-300/40 bg-green-300/40 bg-orange-300/40 bg-red-300/40 bg-violet-300/40"
+  class="hidden text-blue-400 text-emerald-400 text-gray-400 text-green-400 text-orange-400 text-red-400 text-violet-400"
 />

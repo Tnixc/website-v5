@@ -119,7 +119,7 @@ getLatest();
       stroke="black"
     />
   </svg>
-  <h1 class="absolute bottom-10 right-4 select-none text-8xl text-white">XC</h1>
+  <h1 class="absolute bottom-10 right-4 select-none font-display text-9xl text-white">V5</h1>
   <div class="absolute -left-full bottom-16 bg-black/10 p-2 text-sm opacity-40">
     <a href="https://github.com/tnixc/website-v5" class="hover:underline">
       {latest}

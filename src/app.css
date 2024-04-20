@@ -5,7 +5,10 @@
 body {
   @apply font-zed bg-zinc-50 text-black transition-all duration-300;
 }
-
+.font-display{
+  font-style: italic;
+  font-weight: 200;
+}
 .unblur-in {
   filter: blur(8px);
   opacity: 0;

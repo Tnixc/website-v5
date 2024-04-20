@@ -20,7 +20,7 @@ onMount(() => {
 		"border-black",
 		"fixed",
 		"duration-[600ms]",
-		"max-h-[96vh]",
+		"max-h-[90vh]",
 	);
 	pane.style.boxShadow =
 		"-20px 125px 51px rgba(0, 0, 0, 0.01), -11px 70px 43px rgba(0, 0, 0, 0.05), -5px 31px 32px rgba(0, 0, 0, 0.09), -1px 8px 17px rgba(0, 0, 0, 0.1)";

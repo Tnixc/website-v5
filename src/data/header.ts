@@ -25,10 +25,10 @@ export const headerLinks: HeaderLink[] = [
 		text: "Email: tnixxc@gmail.com",
 		action: "copy",
 	},
-	{
-		value: "https://tnixc.space/feed.xml",
-		text: "RSS Feed",
-		action: "open",
-		class: "text-orange-600",
-	},
+	// {
+	// 	value: "https://tnixc.space/feed.xml",
+	// 	text: "RSS Feed",
+	// 	action: "open",
+	// 	class: "text-orange-600",
+	// },
 ];

@@ -1,11 +1,12 @@
 <script>
 import Header from "../../components/Header.svelte";
+import dateicon from "pixelarticons/svg/calendar.svg";
 export let data;
 </script>
 
 <Header />
 <div class="px-2">
-  <div class="flex flex-wrap border border-black p-2 gap-4">
+  <div class="flex flex-wrap gap-4 border border-black p-2">
     <h1 class="flex font-display text-8xl">
       <svg
         width="43"
@@ -22,15 +23,24 @@ export let data;
       Blog
     </h1>
     <ul
-      class="flex max-h-[calc(100vh_-_4rem)] flex-grow flex-col gap-2 overflow-scroll items-center min-w-[min(90vw,70ch)]"
+      class="flex max-h-[calc(100vh_-_4rem)] min-w-[min(90vw,70ch)] flex-grow flex-col items-center gap-2 overflow-scroll"
     >
       {#each data.posts as post}
-        <li class="w-max border transition-all duration-200 hover:shadow-md min-w-[min(90vw,70ch)]">
+        <li
+          class="w-max min-w-[min(90vw,70ch)] border transition-all duration-200 hover:shadow-md"
+        >
           <a href={post.path} class="block p-8">
-            <h1 class="text-xl" style={`view-transition-name: ${post.meta.title.replace(/[\W_]+/g,"-")}`}>
+            <h1
+              class="text-xl"
+              style={`view-transition-name: ${post.meta.title.replace(
+                /[\W_]+/g,
+                "-"
+              )}`}
+            >
               {post.meta.title}
             </h1>
-            <p class="opacity-50">
+            <p class="opacity-50 flex gap-1">
+              <img src={dateicon} height="20" width="20" alt="date icon" />
               {post.meta.date}
             </p>
           </a>
@@ -39,4 +49,3 @@ export let data;
     </ul>
   </div>
 </div>
-

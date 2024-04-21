@@ -3,7 +3,7 @@
   @apply text-white bg-blue-700;
 }
 body {
-  @apply font-zed bg-zinc-50 text-black transition-all duration-300;
+  @apply font-zed text-black transition-all duration-300;
 }
 .font-display{
   font-style: italic;

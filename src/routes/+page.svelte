@@ -14,7 +14,7 @@ import {
 </script>
 
 <main class="relative flex flex-col md:min-h-screen md:overflow-hidden">
-  <div class="z-50 flex max-h-screen w-full flex-col bg-zinc-100">
+  <div class="z-50 flex max-h-screen w-full flex-col bg-black/5">
       <Banner />
     <Header />
   </div>

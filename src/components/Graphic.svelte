@@ -1,23 +1,23 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  var latest = "";
-  async function getLatest() {
-    const res = await fetch(
-      "https://api.github.com/repos/tnixc/website-v5/git/refs/heads/main"
-    );
-    const data = await res.json();
-    let thing = data.object.sha;
-    for (let char of thing) {
-      latest += char;
-      await new Promise((r) => setTimeout(r, 20));
-    }
-  }
-  onMount(() => {
-    getLatest();
-  });
+import { onMount } from "svelte";
+var latest = "";
+async function getLatest() {
+	const res = await fetch(
+		"https://api.github.com/repos/tnixc/website-v5/git/refs/heads/main",
+	);
+	const data = await res.json();
+	let thing = data.object.sha;
+	for (let char of thing) {
+		latest += char;
+		await new Promise((r) => setTimeout(r, 20));
+	}
+}
+onMount(() => {
+	getLatest();
+});
 </script>
 
-<div class="max-w-screen absolute bottom-10 right-0">
+<div class="max-w-screen absolute bottom-10 right-0 -z-10">
   <svg
     width="327"
     height="327"

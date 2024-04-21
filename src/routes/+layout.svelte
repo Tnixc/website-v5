@@ -1,19 +1,19 @@
 <script>
-  import "../app.css";
-  import { Toaster } from "svelte-sonner";
+import "../app.css";
+import { Toaster } from "svelte-sonner";
 
-  import { onNavigate } from "$app/navigation";
-  onNavigate((nav) => {
-    if (!document.startViewTransition) {
-      return;
-    }
-    return new Promise((resolve) => {
-      document.startViewTransition(async () => {
-        resolve();
-        await nav.complete;
-      });
-    });
-  });
+import { onNavigate } from "$app/navigation";
+onNavigate((nav) => {
+	if (!document.startViewTransition) {
+		return;
+	}
+	return new Promise((resolve) => {
+		document.startViewTransition(async () => {
+			resolve();
+			await nav.complete;
+		});
+	});
+});
 </script>
 
 <svelte:head>

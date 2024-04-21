@@ -14,13 +14,21 @@ function copy(link: string): void {
 <header
   class="flex flex-col flex-wrap justify-end md:flex-row md:justify-between"
 >
-  <div class="flex flex-col md:flex-row">
+  <nav
+    class="flex py-2"
+    style="animation-duration: 500ms; animation-delay: 100ms;"
+  >
+    <span class="px-2 opacity-50">/</span>
+    <a href="/" class="hover:underline">Home</a>
+    <span class="px-2 opacity-50">/</span>
+    <a href="/blog" class="hover:underline">Blog</a>
+  </nav>
+  <div class="flex flex-col md:flex-row pl-2">
     {#each headerLinks as element, i}
       <div
         class="flex items-baseline"
         style="animation-duration: 500ms; animation-delay: {i * 200}ms "
       >
-        <span class="select-none px-2 opacity-50">/</span>
         {#if element.action == "open"}
           <a
             href={element.value}
@@ -47,18 +55,9 @@ function copy(link: string): void {
             </span>
           </button>
         {/if}
+        <span class="select-none px-2 opacity-50">/</span>
       </div>
     {/each}
-  </div>
-  <div
-    class="flex py-2"
-    style="animation-duration: 500ms; animation-delay: 100ms;"
-  >
-    <span class="px-2 opacity-50">/</span>
-    <a href="/" class="hover:underline">Home</a>
-    <span class="px-2 opacity-50">/</span>
-    <a href="/blog" class="hover:underline">Blog</a>
-    <span class="px-2 opacity-50">/</span>
   </div>
 </header>
 

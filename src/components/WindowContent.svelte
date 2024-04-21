@@ -37,7 +37,7 @@ async function close() {
   <div class="flex items-center justify-between">
     <button
       on:click={() => close()}
-      class="flex gap-2 border border-zinc-700 p-2"
+      class="flex gap-2 border border-white/20 p-2"
     >
       <img
         src={openicon}
@@ -51,7 +51,7 @@ async function close() {
     <h1 class="">Projects</h1>
     <a
       href="https://github.com/Tnixc"
-      class="flex gap-2 border border-zinc-700 p-2"
+      class="flex gap-2 border border-white/20 p-2"
     >
       <img
         src={githubicon}
@@ -63,9 +63,9 @@ async function close() {
       My Github</a
     >
   </div>
-  <div class="flex flex-col gap-2 py-2">
+  <div class="relative flex flex-col gap-2 py-2">
     {#each projects as project}
-      <div class="flex flex-col gap-1 border border-zinc-600 p-2">
+      <div class="card flex flex-col gap-1 border border-white/20 p-2">
         <h1 class="text-xl">{project.name}</h1>
         <p class="opacity-70">{project.description}</p>
         <div class="flex flex-wrap items-center gap-2">
@@ -103,3 +103,4 @@ async function close() {
 <span
   class="hidden text-blue-400 text-emerald-400 text-gray-400 text-green-400 text-orange-400 text-red-400 text-violet-400"
 />
+

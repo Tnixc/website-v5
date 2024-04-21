@@ -74,7 +74,7 @@ async function expand() {
       height="24"
       width="24"
       alt="open icon"
-      class="-scale-x-100 invert hue-rotate-180"
+      class="-scale-x-100 hue-rotate-180 invert"
     />
     Projects</button
   >

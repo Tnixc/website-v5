@@ -21,16 +21,16 @@ export let data;
 
 <style>
   article {
-    @apply font-general;
+    @apply font-sans;
     & em {
-      @apply font-general-italic;
+      @apply font-sans-italic;
     }
     & strong {
-      @apply font-general-bold;
+      @apply font-sans-bold;
     }
     & strong em,
     & em strong {
-      @apply font-general-bold-italic;
+      @apply font-sans-bolditalic;
     }
   }
 </style>

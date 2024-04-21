@@ -47,3 +47,16 @@ import {
     <Footer />
   </div>
 </main>
+<style>
+  main::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 999;
+    pointer-events: none;
+    background: linear-gradient(-25deg, #00000044, transparent, #00000022, #ffffff44, #00000088, #ffffff00);
+    filter: blur(10px);
+    opacity: 0.5;
+  }
+</style>
+

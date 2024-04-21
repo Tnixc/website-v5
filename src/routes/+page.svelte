@@ -47,6 +47,8 @@ import {
     <Footer />
   </div>
 </main>
+
+
 <style>
   main::after{
     content: "";
@@ -59,4 +61,3 @@ import {
     opacity: 0.5;
   }
 </style>
-

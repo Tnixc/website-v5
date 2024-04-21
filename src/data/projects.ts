@@ -73,17 +73,19 @@ export const projects: Project[] = [
 		github: "https://github.com/catppuccin/catppuccin",
 		tags: [css],
 	},
-  {
-    name: "Replacer",
-    description: "A simple rust CLI to replace text in all files in a directory recursively",
-    github: "https://github.com/Tnixc/replacer",
-    tags: [rust, cli]
-  },
-  {
-    name: "Tokyo",
-    description: "A theme I made based off of tokyo-night, but with the same schema as catppuccin. I use replacer to make ports to it from catppuccin themes",
-    github: "https://github.com/tnixc/tokyo",
-  },
+	{
+		name: "Replacer",
+		description:
+			"A simple rust CLI to replace text in all files in a directory recursively",
+		github: "https://github.com/Tnixc/replacer",
+		tags: [rust, cli],
+	},
+	{
+		name: "Tokyo",
+		description:
+			"A theme I made based off of tokyo-night, but with the same schema as catppuccin. I use replacer to make ports to it from catppuccin themes",
+		github: "https://github.com/tnixc/tokyo",
+	},
 	{
 		name: "This website, and previous versions",
 		description:

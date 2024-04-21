@@ -54,7 +54,7 @@ import {
     inset: 0;
     z-index: 999;
     pointer-events: none;
-    background: linear-gradient(-25deg, #00000044, transparent, #00000022, #ffffff44, #00000088, #ffffff00);
+    background: linear-gradient(-25deg, #00000044, transparent, #00000022, #ffffff44, #00000077, #ffffff99, #00000099);
     filter: blur(10px);
     opacity: 0.5;
   }

@@ -17,7 +17,7 @@ onMount(() => {
 });
 </script>
 
-<div class="max-w-screen absolute bottom-10 right-0 -z-10">
+<div class="max-w-screen absolute bottom-10 right-0 -z-50">
   <svg
     width="327"
     height="327"

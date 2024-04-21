@@ -11,10 +11,10 @@ export let data: InfoCardProps;
 </script>
 
 <div class="relative z-0 max-w-md pt-6">
-  <p class="absolute left-2 top-2 z-0 border border-black bg-white px-2">
+  <p class="absolute left-2 top-2 z-20 border border-black bg-white px-2 backdrop-blur-sm">
     {data.Title}
   </p>
-  <div class="border border-black p-2">
+  <div class="border border-black p-2 backdrop-blur-sm z-10">
     {#each data.Info as info}
       <p>
         <span class="font-zed-bold">{info.key}</span>

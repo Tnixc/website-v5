@@ -19,8 +19,9 @@ async function close() {
 	pane.style.transform = "";
 	pane.style.height = `${buttonH}px`;
 	pane.style.width = `${buttonW}px`;
-	pane.style.left = `calc(${buttonX}px + 3rem)`;
-	pane.style.top = `calc(${buttonY}px - ${(buttonH * 2) / 3}px)`; // weird hacky fix
+	pane.style.left = `calc(${buttonX}px + 2rem)`;
+	// fucking magic number = 681;
+	pane.style.top = `calc(${buttonY}px - 2rem)`;
 	pane.style.zIndex = "0";
 	document.body.style.padding = "0rem";
 	document.body.style.maxHeight = "unset";

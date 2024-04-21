@@ -37,7 +37,7 @@ onMount(() => {
 async function expand() {
 	window.scrollTo(0, 0);
 	document.body.style.maxHeight = "100vh";
-	document.body.style.padding = "3rem";
+	document.body.style.padding = "2rem";
 	document.body.style.overflow = "hidden";
 	const windowLayer = document.getElementById("window-layer")!;
 	const windowContent = document.getElementById("window-content")!;

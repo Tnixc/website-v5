@@ -33,27 +33,6 @@ onNavigate((nav) => {
     src="https://analytics.us.umami.is/script.js"
     data-website-id="d41f775b-3a39-4ed9-b68a-5afe73974f01"
   ></script>
-  <link
-    rel="preload"
-    as="font"
-    type="font/woff2"
-    crossorigin="anonymous"
-    href="/fonts/Zed-sans-Regular.woff2"
-  />
-  <link
-    rel="preload"
-    as="font"
-    type="font/woff2"
-    crossorigin="anonymous"
-    href="/fonts/Zed-sans-Bold.woff2"
-  />
-  <link
-    rel="preload"
-    as="font"
-    type="font/woff2"
-    crossorigin="anonymous"
-    href="/fonts/Zodiak-LightItalic.woff2"
-  />
 </svelte:head>
 
 <Toaster

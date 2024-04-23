@@ -4,7 +4,19 @@ import dateicon from "pixelarticons/svg/calendar.svg";
 export let data;
 </script>
 
-<a href="/blog" class="block w-fit p-4 hover:underline md:sticky top-0"> &lt;- Back</a>
+<svelte:head>
+  <title>tnixc.space - {data.title}</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+</svelte:head>
+
+<a href="/blog" class="top-0 block w-fit p-4 hover:underline md:sticky">
+  &lt;- Back</a
+>
 <div class="flex max-w-[100vw] justify-center p-2">
   <div>
     <div class="min-w-[min(100vw,70ch)] px-2 py-8">

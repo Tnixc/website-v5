@@ -11,7 +11,7 @@ export async function fetchMarkdownPosts() {
 			const { metadata } = await resolver();
 			// This is because every path starts with  and end with .md
 			// const postPath = path.slice(10, -3);
-      const postPath = path.replace('/src/data','').replace('.md','');
+			const postPath = path.replace("/src/data", "").replace(".md", "");
 			return {
 				meta: metadata,
 				path: postPath,

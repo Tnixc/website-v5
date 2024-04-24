@@ -11,29 +11,44 @@ article {
     @apply font-sans-bolditalic;
   }
   & a {
-    @apply relative;
-    text-decoration: none !important;
-    &::before {
-      @apply absolute;
-      content: '';
-      width: 100%;
-      height: 2px;
-      bottom: -2px;
-      opacity: 0.5;
-      left: 0;
-      background-color: var(--tw-prose-links);
-      transition: opacity 0.3s;
+    @apply underline underline-offset-[3px] transition-all duration-150;
+    text-decoration-thickness: 2px !important;
+    text-decoration-color: #63959C88 !important;
+      &:hover{
+      text-decoration-color: #63959C !important;
+    }
     }
     &:hover::before {
       opacity: 1;
     }
+  & .hint.tip{
+    @apply bg-teal-800/10 text-teal-900 border-teal-900/40 border p-4 rounded-md;
+    &::before{
+      @apply font-sans-bold;
+      content: 'Tip: ';
+    }
   }
+  & .hint.error{
+    @apply bg-amber-300/10 text-amber-900 border-amber-900/40 border p-4 rounded-md;
+    &::before{
+      @apply font-sans-bold;
+      content: 'Important: ';
+    }
+  }
+& .hint.warn {
+  @apply bg-lime-300/10 text-lime-900 border-lime-900/40 border p-4 rounded-md;
 }
+& blockquote{
+  font-style: normal !important;
+}
+
+}
+
 .prose {
     --tw-prose-body: #374151;
     --tw-prose-headings: #111827;
     --tw-prose-lead: #4b5563;
-    --tw-prose-links: #2563eb;
+    --tw-prose-links: #63959C;
     --tw-prose-bold: #111827;
     --tw-prose-counters: #6b7280;
     --tw-prose-bullets: #d1d5db;

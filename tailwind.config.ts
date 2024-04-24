@@ -18,7 +18,7 @@ export default {
 		extend: {},
 	},
 	plugins: [
-		// require("./breakpoints"),
+		// require("./breakpoints")
 		require("@tailwindcss/typography"),
 	],
 };

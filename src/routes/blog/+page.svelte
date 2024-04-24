@@ -28,7 +28,7 @@ export let data;
       >
         {#each data.posts as post}
           <li
-            class="w-max min-w-[min(90vw,70ch)] border transition-all duration-200 hover:shadow-md"
+            class="w-full max-w-[min(90vw,70ch)] border transition-all duration-200 hover:shadow-md"
           >
             <a href={post.path} class="block p-8">
               <h1

@@ -1,28 +1,36 @@
-@tailwind base; @tailwind components; @tailwind utilities;
-::selection{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
   @apply text-white bg-blue-700;
 }
+
 body {
   @apply font-zed text-black transition-all duration-300;
 }
-.font-display{
+
+.font-display {
   font-style: italic;
   font-weight: 200;
 }
+
 .unblur-in {
   filter: blur(8px);
   opacity: 0;
   animation-name: unblur;
   animation-fill-mode: forwards;
 }
+
 @keyframes unblur {
   0% {
-  filter: blur(8px);
-  opacity: 0;
+    filter: blur(8px);
+    opacity: 0;
   }
+
   100% {
-  filter: blur(0px);
-  opacity: 1;
+    filter: blur(0px);
+    opacity: 1;
   }
 }
 
@@ -32,32 +40,34 @@ body {
   animation-duration: 300ms;
   animation-fill-mode: forwards;
 }
+
 @keyframes fadeIn {
   0% {
-  opacity: 0;
+    opacity: 0;
   }
+
   100% {
-  opacity: 1;
+    opacity: 1;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *{
+  * {
     animation-duration: 0 !important;
     animation-delay: 0 !important;
     transition-duration: 0 !important;
     transition-delay: 0 !important;
   }
 }
+
 @keyframes slide-to-right {
   from {
-  opacity: 1;
-  transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 
 ::view-transition-old(root),
-::view-transition-new(root){
+::view-transition-new(root) {
   animation-duration: 300ms;
 }
-

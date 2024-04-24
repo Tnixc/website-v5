@@ -29,7 +29,7 @@ article {
   }
 
   & .hint.tip {
-    @apply bg-teal-800/10 text-teal-900 border-teal-900/40 border p-2 rounded-sm;
+    @apply bg-teal-800/10 text-teal-900 border-teal-900/40 border p-2 px-3 rounded-sm;
 
     &::before {
       @apply font-sans-bold;
@@ -38,7 +38,7 @@ article {
   }
 
   & .hint.error {
-    @apply bg-amber-300/10 text-amber-900 border-amber-900/40 border p-2 rounded-sm;
+    @apply bg-amber-300/10 text-amber-900 border-amber-900/40 border p-2 px-3 rounded-sm;
 
     &::before {
       @apply font-sans-bold;
@@ -47,7 +47,7 @@ article {
   }
 
   & .hint.warn {
-    @apply bg-lime-300/10 text-lime-900 border-lime-900/40 border p-2 rounded-sm;
+    @apply bg-lime-300/10 text-lime-900 border-lime-900/40 border p-2 px-3 rounded-sm;
   }
 
   & blockquote {

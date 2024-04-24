@@ -22,21 +22,21 @@ article {
       opacity: 1;
     }
   & .hint.tip{
-    @apply bg-teal-800/10 text-teal-900 border-teal-900/40 border p-4 rounded-md;
+    @apply bg-teal-800/10 text-teal-900 border-teal-900/40 border p-2 rounded-sm;
     &::before{
       @apply font-sans-bold;
       content: 'Tip: ';
     }
   }
   & .hint.error{
-    @apply bg-amber-300/10 text-amber-900 border-amber-900/40 border p-4 rounded-md;
+    @apply bg-amber-300/10 text-amber-900 border-amber-900/40 border p-2 rounded-sm;
     &::before{
       @apply font-sans-bold;
       content: 'Important: ';
     }
   }
 & .hint.warn {
-  @apply bg-lime-300/10 text-lime-900 border-lime-900/40 border p-4 rounded-md;
+  @apply bg-lime-300/10 text-lime-900 border-lime-900/40 border p-2 rounded-sm;
 }
 & blockquote{
   font-style: normal !important;

@@ -2,6 +2,7 @@
 import adapter from "@sveltejs/adapter-static";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 import { mdsvex } from "mdsvex";
+import switchCase from 'svelte-switch-case';
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
 import remarkHint from "remark-hint";
@@ -14,6 +15,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		vitePreprocess(),
+		switchCase(),
 		mdsvex({
 			extensions: [".md"],
 			layout: {

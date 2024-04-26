@@ -75,7 +75,7 @@
 </p>
 <div class="flex rounded-sm border border-black/10 p-1">
   {#each z as sleep}
-    <div class="flex w-full flex-col bg-stone-100 pt-10">
+    <div class="flex w-full flex-col bg-stone-100 pt-10 hover:brightness-75">
       <div
         style={`height: ${sleep.offsetToBed / 10}px`}
         class="w-full bg-stone-100"

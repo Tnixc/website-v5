@@ -18,6 +18,7 @@ article {
     @apply underline underline-offset-[3px] transition-all duration-150;
     text-decoration-thickness: 2px !important;
     text-decoration-color: #406d7388 !important;
+    color: #406d73 !important;
 
     &:hover {
       text-decoration-color: #406d73 !important;

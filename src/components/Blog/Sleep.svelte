@@ -28,7 +28,7 @@
     ArrWeekend.length;
 </script>
 
-<p class="text-xl">
+<p class="text-lg">
   This is data from <code>{sleepData.length}</code> nights of sleep, tracked
   with my
   <a href="https://support.apple.com/en-us/111853">Apple watch SE 2</a>
@@ -46,7 +46,7 @@
   hours of sleep, on weekdays, I average
   <code>{Math.round((avgWeek * 100) / 3600) / 100} hours</code>.
 </p>
-<p class="text-xl">
+<p class="text-lg">
   I certaintly don't remember feeling that well rested, but ok. Also some of
   these are definitely wrong.
 </p>
@@ -94,5 +94,5 @@
 <p>
   The sudden jump in the middle is from me moving from Hong Kong to Canada.
   There's some pretty messed up times here, especially during the summer on the
-  left.
+  left. It's based on UTC time and I don't want to deal with time zones.
 </p>

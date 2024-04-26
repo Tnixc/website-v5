@@ -14,7 +14,7 @@ export let data;
   />
 </svelte:head>
 <main class="bg-[#F4F4F0]">
-  <a href="/blog" class="top-0 block w-fit p-4 hover:underline md:sticky">
+  <a href="/blog" class="top-0 block w-fit p-4 hover:underline md:sticky backdrop-blur-md bg-[#F4F4F099] rounded-br-lg">
     &lt;- Back</a
   >
   <div class="flex max-w-[100vw] justify-center p-2">

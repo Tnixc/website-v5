@@ -3,15 +3,7 @@
   let average =
     sleepData.reduce((acc, sleep) => acc + sleep.asleep, 0) / sleepData.length;
   let arrAsleep = sleepData.map((sleep) => sleep.asleep).sort((a, b) => a - b);
-  let p10 = arrAsleep[Math.floor(arrAsleep.length * 0.1)];
-  let p20 = arrAsleep[Math.floor(arrAsleep.length * 0.2)];
-  let p30 = arrAsleep[Math.floor(arrAsleep.length * 0.3)];
-  let p40 = arrAsleep[Math.floor(arrAsleep.length * 0.4)];
-  let p50 = arrAsleep[Math.floor(arrAsleep.length * 0.5)];
-  let p60 = arrAsleep[Math.floor(arrAsleep.length * 0.6)];
-  let p70 = arrAsleep[Math.floor(arrAsleep.length * 0.7)];
-  let p80 = arrAsleep[Math.floor(arrAsleep.length * 0.8)];
-  let p90 = arrAsleep[Math.floor(arrAsleep.length * 0.9)];
+  let p = arrAsleep[Math.floor(arrAsleep.length * 0.93)];
 </script>
 
 <p class="text-xl">
@@ -30,20 +22,21 @@
   these are definitely wrong.
 </p>
 <div
-  class="grid grid-flow-row-dense grid-cols-7 grid-rows-none gap-0.5 md:scale-125 md:grid-flow-col-dense md:grid-cols-none md:grid-rows-7"
+  class="grid grid-flow-row-dense grid-cols-7 grid-rows-none gap-0.5 py-20 md:grid-flow-col-dense md:grid-cols-none md:grid-rows-7 lg:scale-150"
 >
   {#each sleepData as sleep}<div
-      class="aspect-square rounded-sm bg-green-400 hover:bg-red-400"
-    />{/each}
+      class="group aspect-square rounded-sm border border-black/10"
+      style={`background-color: rgb(110, 163, 254, ${sleep.asleep / p})`}
+    >
+      <div
+        class="absolute z-50 hidden w-max -translate-y-full select-none rounded-sm border border-black/30 bg-stone-200 px-1 shadow-xl group-hover:block"
+      >
+        <span class="block"
+          >{Math.round((sleep.asleep / 3600) * 100) / 100} Hours</span
+        >
+        <span class="block text-sm"
+          >From {sleep.bedtime} to <br /> {sleep.waketime}</span
+        >
+      </div>
+    </div>{/each}
 </div>
-<p class="text-2xl hidden">
-  <br />1. <code>{p10}</code> seconds of sleep is in the 10th percentile.
-  <br />2. <code>{p20}</code> seconds of sleep is in the 20th percentile.
-  <br />3. <code>{p30}</code> seconds of sleep is in the 30th percentile.
-  <br />4. <code>{p40}</code> seconds of sleep is in the 40th percentile.
-  <br />5. <code>{p50}</code> seconds of sleep is in the 50th percentile.
-  <br />6. <code>{p60}</code> seconds of sleep is in the 60th percentile.
-  <br />7. <code>{p70}</code> seconds of sleep is in the 70th percentile.
-  <br />8. <code>{p80}</code> seconds of sleep is in the 80th percentile.
-  <br />9. <code>{p90}</code> seconds of sleep is in the 90th percentile.
-</p>

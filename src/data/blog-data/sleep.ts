@@ -1,25 +1,25 @@
 export const sleepData: {
-ISO: string;
-fromDate: string;
-toDate: string;
-bedtime: string;
-waketime: string;
-inBed: string;
-awake: string;
-sessions: number;
-asleep: string;
-asleepAvg7: string;
-efficiency: number;
-efficiencyAvg7: number;
-quality: string;
-qualityAvg7: string;
-deep: string;
-deepAvg7: string;
-sleepBPM: number;
-sleepBPMAvg: number;
-wakingBPM: number;
-wakingBPMAvg7: number
-  }[] = [
+  ISO: string;
+  fromDate: string;
+  toDate: string;
+  bedtime: string;
+  waketime: string;
+  inBed: string;
+  awake: string;
+  sessions: number;
+  asleep: string;
+  asleepAvg7: string;
+  efficiency: number;
+  efficiencyAvg7: number;
+  quality: string;
+  qualityAvg7: string;
+  deep: string;
+  deepAvg7: string;
+  sleepBPM: number;
+  sleepBPMAvg: number;
+  wakingBPM: number;
+  wakingBPMAvg7: number;
+}[] = [
   {
     ISO: "2023-04-20T17:59:59-04:00",
     fromDate: "Wednesday, 19 Apr 2023",
@@ -30,7 +30,7 @@ wakingBPMAvg7: number
     awake: "01:10:00",
     sessions: 1,
     asleep: "07:23:00",
-    asleepAvg7:"07:23:00",
+    asleepAvg7: "07:23:00",
     efficiency: 86.4,
     efficiencyAvg7: 86.4,
     quality: "06:35:16",
@@ -40,7 +40,7 @@ wakingBPMAvg7: number
     sleepBPM: 63,
     sleepBPMAvg: 63,
     wakingBPM: 68,
-    wakingBPMAvg7: 68
+    wakingBPMAvg7: 68,
   },
   {
     ISO: "2023-04-21T17:59:59-04:00",
@@ -52,7 +52,7 @@ wakingBPMAvg7: number
     awake: "00:29:30",
     sessions: 1,
     asleep: "10:04:30",
-    asleepAvg7:"08:43:45",
+    asleepAvg7: "08:43:45",
     efficiency: 95.3,
     efficiencyAvg7: 90.9,
     quality: "09:03:01",
@@ -62,7 +62,7 @@ wakingBPMAvg7: number
     sleepBPM: 67,
     sleepBPMAvg: 65,
     wakingBPM: 76,
-    wakingBPMAvg7: 72
+    wakingBPMAvg7: 72,
   },
   {
     ISO: "2023-04-22T17:59:59-04:00",
@@ -74,7 +74,7 @@ wakingBPMAvg7: number
     awake: "00:27:00",
     sessions: 1,
     asleep: "09:15:00",
-    asleepAvg7:"08:54:10",
+    asleepAvg7: "08:54:10",
     efficiency: 95.4,
     efficiencyAvg7: 92.4,
     quality: "08:30:05",
@@ -84,7 +84,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.7,
     sleepBPMAvg: 65.2,
     wakingBPM: 83,
-    wakingBPMAvg7: 75.7
+    wakingBPMAvg7: 75.7,
   },
   {
     ISO: "2023-04-23T17:59:59-04:00",
@@ -96,7 +96,7 @@ wakingBPMAvg7: number
     awake: "01:00:28",
     sessions: 1,
     asleep: "07:18:00",
-    asleepAvg7:"08:30:07",
+    asleepAvg7: "08:30:07",
     efficiency: 87.9,
     efficiencyAvg7: 91.2,
     quality: "05:52:50",
@@ -106,7 +106,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.8,
     sleepBPMAvg: 65.1,
     wakingBPM: 59,
-    wakingBPMAvg7: 71.5
+    wakingBPMAvg7: 71.5,
   },
   {
     ISO: "2023-04-24T17:59:59-04:00",
@@ -118,7 +118,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:19:00",
-    asleepAvg7:"08:15:54",
+    asleepAvg7: "08:15:54",
     efficiency: 100,
     efficiencyAvg7: 93,
     quality: "06:03:41",
@@ -128,7 +128,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 63.9,
     wakingBPM: 56,
-    wakingBPMAvg7: 68.4
+    wakingBPMAvg7: 68.4,
   },
   {
     ISO: "2023-04-25T17:59:59-04:00",
@@ -140,7 +140,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:28:00",
-    asleepAvg7:"07:57:55",
+    asleepAvg7: "07:57:55",
     efficiency: 100,
     efficiencyAvg7: 94.2,
     quality: "05:52:42",
@@ -150,7 +150,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.8,
     sleepBPMAvg: 63.4,
     wakingBPM: 58,
-    wakingBPMAvg7: 66.7
+    wakingBPMAvg7: 66.7,
   },
   {
     ISO: "2023-04-26T17:59:59-04:00",
@@ -162,7 +162,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:02:00",
-    asleepAvg7:"07:49:55",
+    asleepAvg7: "07:49:55",
     efficiency: 100,
     efficiencyAvg7: 95,
     quality: "06:18:02",
@@ -172,7 +172,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.2,
     sleepBPMAvg: 63.4,
     wakingBPM: 60,
-    wakingBPMAvg7: 65.7
+    wakingBPMAvg7: 65.7,
   },
   {
     ISO: "2023-04-27T17:59:59-04:00",
@@ -184,7 +184,7 @@ wakingBPMAvg7: number
     awake: "00:56:59",
     sessions: 2,
     asleep: "09:46:00",
-    asleepAvg7:"08:10:21",
+    asleepAvg7: "08:10:21",
     efficiency: 70.1,
     efficiencyAvg7: 92.7,
     quality: "07:44:52",
@@ -194,7 +194,7 @@ wakingBPMAvg7: number
     sleepBPM: 72.2,
     sleepBPMAvg: 64.7,
     wakingBPM: 66,
-    wakingBPMAvg7: 65.4
+    wakingBPMAvg7: 65.4,
   },
   {
     ISO: "2023-04-28T17:59:59-04:00",
@@ -206,7 +206,7 @@ wakingBPMAvg7: number
     awake: "00:06:15",
     sessions: 1,
     asleep: "09:04:00",
-    asleepAvg7:"08:01:42",
+    asleepAvg7: "08:01:42",
     efficiency: 98.9,
     efficiencyAvg7: 93.2,
     quality: "07:42:05",
@@ -216,7 +216,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.1,
     sleepBPMAvg: 64.2,
     wakingBPM: 73,
-    wakingBPMAvg7: 65
+    wakingBPMAvg7: 65,
   },
   {
     ISO: "2023-04-29T17:59:59-04:00",
@@ -228,7 +228,7 @@ wakingBPMAvg7: number
     awake: "00:06:25",
     sessions: 1,
     asleep: "09:36:00",
-    asleepAvg7:"08:04:42",
+    asleepAvg7: "08:04:42",
     efficiency: 98.9,
     efficiencyAvg7: 93.7,
     quality: "08:05:54",
@@ -238,7 +238,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.7,
     sleepBPMAvg: 64.1,
     wakingBPM: 68,
-    wakingBPMAvg7: 62.9
+    wakingBPMAvg7: 62.9,
   },
   {
     ISO: "2023-04-30T17:59:59-04:00",
@@ -250,7 +250,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "10:40:00",
-    asleepAvg7:"08:33:34",
+    asleepAvg7: "08:33:34",
     efficiency: 100,
     efficiencyAvg7: 95.4,
     quality: "08:15:59",
@@ -260,7 +260,7 @@ wakingBPMAvg7: number
     sleepBPM: 82.1,
     sleepBPMAvg: 66.6,
     wakingBPM: 81,
-    wakingBPMAvg7: 66
+    wakingBPMAvg7: 66,
   },
   {
     ISO: "2023-05-01T17:59:59-04:00",
@@ -272,7 +272,7 @@ wakingBPMAvg7: number
     awake: "00:20:57",
     sessions: 1,
     asleep: "06:58:00",
-    asleepAvg7:"08:30:34",
+    asleepAvg7: "08:30:34",
     efficiency: 95.2,
     efficiencyAvg7: 94.7,
     quality: "05:49:55",
@@ -282,7 +282,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.9,
     sleepBPMAvg: 67.3,
     wakingBPM: 66,
-    wakingBPMAvg7: 67.4
+    wakingBPMAvg7: 67.4,
   },
   {
     ISO: "2023-05-02T17:59:59-04:00",
@@ -294,7 +294,7 @@ wakingBPMAvg7: number
     awake: "00:31:49",
     sessions: 1,
     asleep: "07:15:00",
-    asleepAvg7:"08:37:17",
+    asleepAvg7: "08:37:17",
     efficiency: 93.2,
     efficiencyAvg7: 93.8,
     quality: "06:10:27",
@@ -304,7 +304,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.4,
     sleepBPMAvg: 67.2,
     wakingBPM: 55,
-    wakingBPMAvg7: 67
+    wakingBPMAvg7: 67,
   },
   {
     ISO: "2023-05-03T17:59:59-04:00",
@@ -316,7 +316,7 @@ wakingBPMAvg7: number
     awake: "01:14:20",
     sessions: 2,
     asleep: "09:48:00",
-    asleepAvg7:"09:01:00",
+    asleepAvg7: "09:01:00",
     efficiency: 56.9,
     efficiencyAvg7: 87.6,
     quality: "07:13:12",
@@ -326,7 +326,7 @@ wakingBPMAvg7: number
     sleepBPM: 79.6,
     sleepBPMAvg: 69.6,
     wakingBPM: 81,
-    wakingBPMAvg7: 70
+    wakingBPMAvg7: 70,
   },
   {
     ISO: "2023-05-04T17:59:59-04:00",
@@ -338,7 +338,7 @@ wakingBPMAvg7: number
     awake: "00:07:58",
     sessions: 1,
     asleep: "07:36:00",
-    asleepAvg7:"08:42:25",
+    asleepAvg7: "08:42:25",
     efficiency: 98.3,
     efficiencyAvg7: 91.6,
     quality: "06:44:21",
@@ -348,7 +348,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.7,
     sleepBPMAvg: 68.4,
     wakingBPM: 70,
-    wakingBPMAvg7: 70.6
+    wakingBPMAvg7: 70.6,
   },
   {
     ISO: "2023-05-05T17:59:59-04:00",
@@ -360,7 +360,7 @@ wakingBPMAvg7: number
     awake: "00:01:22",
     sessions: 1,
     asleep: "09:19:00",
-    asleepAvg7:"08:44:34",
+    asleepAvg7: "08:44:34",
     efficiency: 99.8,
     efficiencyAvg7: 91.8,
     quality: "07:20:29",
@@ -370,7 +370,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 68.4,
     wakingBPM: 66,
-    wakingBPMAvg7: 69.6
+    wakingBPMAvg7: 69.6,
   },
   {
     ISO: "2023-05-06T17:59:59-04:00",
@@ -382,7 +382,7 @@ wakingBPMAvg7: number
     awake: "00:00:48",
     sessions: 1,
     asleep: "09:45:00",
-    asleepAvg7:"08:45:51",
+    asleepAvg7: "08:45:51",
     efficiency: 99.9,
     efficiencyAvg7: 91.9,
     quality: "07:31:52",
@@ -392,7 +392,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.4,
     sleepBPMAvg: 68.2,
     wakingBPM: 69,
-    wakingBPMAvg7: 69.7
+    wakingBPMAvg7: 69.7,
   },
   {
     ISO: "2023-05-07T17:59:59-04:00",
@@ -404,7 +404,7 @@ wakingBPMAvg7: number
     awake: "01:34:35",
     sessions: 1,
     asleep: "05:29:00",
-    asleepAvg7:"08:01:25",
+    asleepAvg7: "08:01:25",
     efficiency: 77.7,
     efficiencyAvg7: 88.7,
     quality: "04:28:30",
@@ -414,7 +414,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.5,
     sleepBPMAvg: 65.4,
     wakingBPM: 64,
-    wakingBPMAvg7: 67.3
+    wakingBPMAvg7: 67.3,
   },
   {
     ISO: "2023-05-08T17:59:59-04:00",
@@ -426,7 +426,7 @@ wakingBPMAvg7: number
     awake: "01:10:37",
     sessions: 1,
     asleep: "07:24:00",
-    asleepAvg7:"08:05:08",
+    asleepAvg7: "08:05:08",
     efficiency: 86.3,
     efficiencyAvg7: 87.4,
     quality: "04:41:13",
@@ -436,7 +436,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.9,
     sleepBPMAvg: 65.7,
     wakingBPM: 59,
-    wakingBPMAvg7: 66.3
+    wakingBPMAvg7: 66.3,
   },
   {
     ISO: "2023-05-09T17:59:59-04:00",
@@ -448,7 +448,7 @@ wakingBPMAvg7: number
     awake: "00:13:29",
     sessions: 1,
     asleep: "07:29:00",
-    asleepAvg7:"08:07:08",
+    asleepAvg7: "08:07:08",
     efficiency: 97.1,
     efficiencyAvg7: 88,
     quality: "06:27:36",
@@ -458,7 +458,7 @@ wakingBPMAvg7: number
     sleepBPM: 63,
     sleepBPMAvg: 66.1,
     wakingBPM: 62,
-    wakingBPMAvg7: 67.3
+    wakingBPMAvg7: 67.3,
   },
   {
     ISO: "2023-05-10T17:59:59-04:00",
@@ -470,7 +470,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:30:00",
-    asleepAvg7:"07:47:25",
+    asleepAvg7: "07:47:25",
     efficiency: 100,
     efficiencyAvg7: 94.1,
     quality: "06:09:12",
@@ -480,7 +480,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.1,
     sleepBPMAvg: 63.6,
     wakingBPM: 61,
-    wakingBPMAvg7: 64.4
+    wakingBPMAvg7: 64.4,
   },
   {
     ISO: "2023-05-11T17:59:59-04:00",
@@ -492,7 +492,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:59:00",
-    asleepAvg7:"07:42:08",
+    asleepAvg7: "07:42:08",
     efficiency: 100,
     efficiencyAvg7: 94.4,
     quality: "06:10:56",
@@ -502,7 +502,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.7,
     sleepBPMAvg: 63.4,
     wakingBPM: 72,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2023-05-12T17:59:59-04:00",
@@ -514,7 +514,7 @@ wakingBPMAvg7: number
     awake: "00:00:14",
     sessions: 1,
     asleep: "09:11:00",
-    asleepAvg7:"07:41:00",
+    asleepAvg7: "07:41:00",
     efficiency: 100,
     efficiencyAvg7: 94.4,
     quality: "07:41:02",
@@ -524,7 +524,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.4,
     sleepBPMAvg: 63.3,
     wakingBPM: 63,
-    wakingBPMAvg7: 64.3
+    wakingBPMAvg7: 64.3,
   },
   {
     ISO: "2023-05-13T17:59:59-04:00",
@@ -536,7 +536,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:26:00",
-    asleepAvg7:"07:38:17",
+    asleepAvg7: "07:38:17",
     efficiency: 100,
     efficiencyAvg7: 94.4,
     quality: "07:50:06",
@@ -546,7 +546,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.8,
     sleepBPMAvg: 63.8,
     wakingBPM: 73,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2023-05-14T17:59:59-04:00",
@@ -558,7 +558,7 @@ wakingBPMAvg7: number
     awake: "00:01:23",
     sessions: 1,
     asleep: "06:45:00",
-    asleepAvg7:"07:49:08",
+    asleepAvg7: "07:49:08",
     efficiency: 99.7,
     efficiencyAvg7: 97.6,
     quality: "05:49:52",
@@ -568,7 +568,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.9,
     sleepBPMAvg: 64.3,
     wakingBPM: 64,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2023-05-15T17:59:59-04:00",
@@ -580,7 +580,7 @@ wakingBPMAvg7: number
     awake: "00:06:15",
     sessions: 2,
     asleep: "07:47:00",
-    asleepAvg7:"07:52:25",
+    asleepAvg7: "07:52:25",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "06:37:06",
@@ -590,7 +590,7 @@ wakingBPMAvg7: number
     sleepBPM: 83.3,
     sleepBPMAvg: 66.8,
     wakingBPM: 85,
-    wakingBPMAvg7: 68.6
+    wakingBPMAvg7: 68.6,
   },
   {
     ISO: "2023-05-16T17:59:59-04:00",
@@ -602,7 +602,7 @@ wakingBPMAvg7: number
     awake: "00:08:34",
     sessions: 1,
     asleep: "06:36:00",
-    asleepAvg7:"07:44:51",
+    asleepAvg7: "07:44:51",
     efficiency: 97.9,
     efficiencyAvg7: 99.6,
     quality: "05:15:53",
@@ -612,7 +612,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.4,
     sleepBPMAvg: 66.4,
     wakingBPM: 60,
-    wakingBPMAvg7: 68.3
+    wakingBPMAvg7: 68.3,
   },
   {
     ISO: "2023-05-17T17:59:59-04:00",
@@ -624,7 +624,7 @@ wakingBPMAvg7: number
     awake: "00:05:41",
     sessions: 1,
     asleep: "07:09:00",
-    asleepAvg7:"07:41:51",
+    asleepAvg7: "07:41:51",
     efficiency: 98.7,
     efficiencyAvg7: 99.5,
     quality: "06:12:31",
@@ -634,7 +634,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.4,
     sleepBPMAvg: 66.4,
     wakingBPM: 62,
-    wakingBPMAvg7: 68.4
+    wakingBPMAvg7: 68.4,
   },
   {
     ISO: "2023-05-18T17:59:59-04:00",
@@ -646,7 +646,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:00:00",
-    asleepAvg7:"07:42:00",
+    asleepAvg7: "07:42:00",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "05:49:26",
@@ -656,7 +656,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.6,
     sleepBPMAvg: 66.3,
     wakingBPM: 59,
-    wakingBPMAvg7: 66.6
+    wakingBPMAvg7: 66.6,
   },
   {
     ISO: "2023-05-19T17:59:59-04:00",
@@ -668,7 +668,7 @@ wakingBPMAvg7: number
     awake: "00:16:46",
     sessions: 1,
     asleep: "06:35:00",
-    asleepAvg7:"07:19:42",
+    asleepAvg7: "07:19:42",
     efficiency: 95.9,
     efficiencyAvg7: 98.9,
     quality: "05:42:31",
@@ -678,7 +678,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.2,
     sleepBPMAvg: 66.5,
     wakingBPM: 80,
-    wakingBPMAvg7: 69
+    wakingBPMAvg7: 69,
   },
   {
     ISO: "2023-05-20T17:59:59-04:00",
@@ -690,7 +690,7 @@ wakingBPMAvg7: number
     awake: "00:10:16",
     sessions: 1,
     asleep: "08:15:00",
-    asleepAvg7:"07:09:34",
+    asleepAvg7: "07:09:34",
     efficiency: 98,
     efficiencyAvg7: 98.6,
     quality: "06:54:46",
@@ -700,7 +700,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.9,
     sleepBPMAvg: 65.7,
     wakingBPM: 65,
-    wakingBPMAvg7: 67.9
+    wakingBPMAvg7: 67.9,
   },
   {
     ISO: "2023-05-21T17:59:59-04:00",
@@ -712,7 +712,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:19:00",
-    asleepAvg7:"07:40:08",
+    asleepAvg7: "07:40:08",
     efficiency: 100,
     efficiencyAvg7: 98.6,
     quality: "08:34:33",
@@ -722,7 +722,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.2,
     sleepBPMAvg: 65.3,
     wakingBPM: 66,
-    wakingBPMAvg7: 68.1
+    wakingBPMAvg7: 68.1,
   },
   {
     ISO: "2023-05-22T17:59:59-04:00",
@@ -734,7 +734,7 @@ wakingBPMAvg7: number
     awake: "00:07:11",
     sessions: 1,
     asleep: "07:31:00",
-    asleepAvg7:"07:37:51",
+    asleepAvg7: "07:37:51",
     efficiency: 98.4,
     efficiencyAvg7: 98.4,
     quality: "06:24:34",
@@ -744,7 +744,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.5,
     sleepBPMAvg: 62.7,
     wakingBPM: 59,
-    wakingBPMAvg7: 64.4
+    wakingBPMAvg7: 64.4,
   },
   {
     ISO: "2023-05-23T17:59:59-04:00",
@@ -756,7 +756,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:15:00",
-    asleepAvg7:"07:43:25",
+    asleepAvg7: "07:43:25",
     efficiency: 100,
     efficiencyAvg7: 98.7,
     quality: "06:03:12",
@@ -766,7 +766,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 63.2,
     wakingBPM: 61,
-    wakingBPMAvg7: 64.6
+    wakingBPMAvg7: 64.6,
   },
   {
     ISO: "2023-05-24T17:59:59-04:00",
@@ -778,7 +778,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:25:00",
-    asleepAvg7:"07:45:42",
+    asleepAvg7: "07:45:42",
     efficiency: 100,
     efficiencyAvg7: 98.9,
     quality: "05:56:21",
@@ -788,7 +788,7 @@ wakingBPMAvg7: number
     sleepBPM: 81.9,
     sleepBPMAvg: 66,
     wakingBPM: 54,
-    wakingBPMAvg7: 63.4
+    wakingBPMAvg7: 63.4,
   },
   {
     ISO: "2023-05-25T17:59:59-04:00",
@@ -800,7 +800,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "09:48:00",
-    asleepAvg7:"08:09:42",
+    asleepAvg7: "08:09:42",
     efficiency: 100,
     efficiencyAvg7: 98.9,
     quality: "07:48:25",
@@ -810,7 +810,7 @@ wakingBPMAvg7: number
     sleepBPM: 77,
     sleepBPMAvg: 68.2,
     wakingBPM: 75,
-    wakingBPMAvg7: 65.7
+    wakingBPMAvg7: 65.7,
   },
   {
     ISO: "2023-05-26T17:59:59-04:00",
@@ -822,7 +822,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:03:00",
-    asleepAvg7:"08:39:25",
+    asleepAvg7: "08:39:25",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "07:46:36",
@@ -832,7 +832,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.2,
     sleepBPMAvg: 68.3,
     wakingBPM: 83,
-    wakingBPMAvg7: 66.1
+    wakingBPMAvg7: 66.1,
   },
   {
     ISO: "2023-05-27T17:59:59-04:00",
@@ -844,7 +844,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:40:00",
-    asleepAvg7:"09:00:08",
+    asleepAvg7: "09:00:08",
     efficiency: 100,
     efficiencyAvg7: 99.8,
     quality: "08:27:10",
@@ -854,7 +854,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.3,
     sleepBPMAvg: 69.1,
     wakingBPM: 73,
-    wakingBPMAvg7: 67.3
+    wakingBPMAvg7: 67.3,
   },
   {
     ISO: "2023-05-28T17:59:59-04:00",
@@ -866,7 +866,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:29:00",
-    asleepAvg7:"08:35:51",
+    asleepAvg7: "08:35:51",
     efficiency: 100,
     efficiencyAvg7: 99.8,
     quality: "05:46:10",
@@ -876,7 +876,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.9,
     sleepBPMAvg: 69.6,
     wakingBPM: 80,
-    wakingBPMAvg7: 69.3
+    wakingBPMAvg7: 69.3,
   },
   {
     ISO: "2023-05-29T17:59:59-04:00",
@@ -888,7 +888,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:57:00",
-    asleepAvg7:"08:39:34",
+    asleepAvg7: "08:39:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:28:16",
@@ -898,7 +898,7 @@ wakingBPMAvg7: number
     sleepBPM: 85.3,
     sleepBPMAvg: 72.5,
     wakingBPM: 84,
-    wakingBPMAvg7: 72.9
+    wakingBPMAvg7: 72.9,
   },
   {
     ISO: "2023-05-30T17:59:59-04:00",
@@ -910,7 +910,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:00:00",
-    asleepAvg7:"09:03:08",
+    asleepAvg7: "09:03:08",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "08:07:17",
@@ -920,7 +920,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.1,
     sleepBPMAvg: 72.8,
     wakingBPM: 71,
-    wakingBPMAvg7: 74.3
+    wakingBPMAvg7: 74.3,
   },
   {
     ISO: "2023-05-31T17:59:59-04:00",
@@ -932,7 +932,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:27:00",
-    asleepAvg7:"09:03:25",
+    asleepAvg7: "09:03:25",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:10:33",
@@ -942,7 +942,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.2,
     sleepBPMAvg: 70.3,
     wakingBPM: 67,
-    wakingBPMAvg7: 76.1
+    wakingBPMAvg7: 76.1,
   },
   {
     ISO: "2023-06-01T17:59:59-04:00",
@@ -954,7 +954,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:33:00",
-    asleepAvg7:"08:44:08",
+    asleepAvg7: "08:44:08",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:54:05",
@@ -964,7 +964,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.1,
     sleepBPMAvg: 68.6,
     wakingBPM: 78,
-    wakingBPMAvg7: 76.6
+    wakingBPMAvg7: 76.6,
   },
   {
     ISO: "2023-06-02T17:59:59-04:00",
@@ -976,7 +976,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:48:00",
-    asleepAvg7:"08:33:25",
+    asleepAvg7: "08:33:25",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:55:35",
@@ -986,7 +986,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.1,
     sleepBPMAvg: 68.4,
     wakingBPM: 65,
-    wakingBPMAvg7: 74
+    wakingBPMAvg7: 74,
   },
   {
     ISO: "2023-06-03T17:59:59-04:00",
@@ -998,7 +998,7 @@ wakingBPMAvg7: number
     awake: "00:56:00",
     sessions: 1,
     asleep: "08:40:00",
-    asleepAvg7:"08:16:17",
+    asleepAvg7: "08:16:17",
     efficiency: 90.3,
     efficiencyAvg7: 98.6,
     quality: "06:37:40",
@@ -1008,7 +1008,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.6,
     sleepBPMAvg: 68.3,
     wakingBPM: 79,
-    wakingBPMAvg7: 74.9
+    wakingBPMAvg7: 74.9,
   },
   {
     ISO: "2023-06-04T17:59:59-04:00",
@@ -1020,7 +1020,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:00:00",
-    asleepAvg7:"08:12:08",
+    asleepAvg7: "08:12:08",
     efficiency: 100,
     efficiencyAvg7: 98.6,
     quality: "05:50:55",
@@ -1030,7 +1030,7 @@ wakingBPMAvg7: number
     sleepBPM: 64,
     sleepBPMAvg: 67.9,
     wakingBPM: 56,
-    wakingBPMAvg7: 71.4
+    wakingBPMAvg7: 71.4,
   },
   {
     ISO: "2023-06-05T17:59:59-04:00",
@@ -1042,7 +1042,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:23:00",
-    asleepAvg7:"08:07:17",
+    asleepAvg7: "08:07:17",
     efficiency: 100,
     efficiencyAvg7: 98.6,
     quality: "06:30:08",
@@ -1052,7 +1052,7 @@ wakingBPMAvg7: number
     sleepBPM: 79.5,
     sleepBPMAvg: 67.1,
     wakingBPM: 57,
-    wakingBPMAvg7: 67.6
+    wakingBPMAvg7: 67.6,
   },
   {
     ISO: "2023-06-07T17:59:59-04:00",
@@ -1064,7 +1064,7 @@ wakingBPMAvg7: number
     awake: "04:08:23",
     sessions: 2,
     asleep: "16:47:00",
-    asleepAvg7:"09:05:25",
+    asleepAvg7: "09:05:25",
     efficiency: 71,
     efficiencyAvg7: 94.5,
     quality: "13:26:06",
@@ -1074,7 +1074,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.6,
     sleepBPMAvg: 67,
     wakingBPM: 78,
-    wakingBPMAvg7: 68.6
+    wakingBPMAvg7: 68.6,
   },
   {
     ISO: "2023-06-08T17:59:59-04:00",
@@ -1086,7 +1086,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:03:00",
-    asleepAvg7:"09:10:34",
+    asleepAvg7: "09:10:34",
     efficiency: 100,
     efficiencyAvg7: 94.5,
     quality: "06:52:07",
@@ -1096,7 +1096,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.4,
     sleepBPMAvg: 67,
     wakingBPM: 67,
-    wakingBPMAvg7: 68.6
+    wakingBPMAvg7: 68.6,
   },
   {
     ISO: "2023-06-09T17:59:59-04:00",
@@ -1108,7 +1108,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:14:00",
-    asleepAvg7:"09:16:25",
+    asleepAvg7: "09:16:25",
     efficiency: 100,
     efficiencyAvg7: 94.5,
     quality: "06:41:08",
@@ -1118,7 +1118,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.4,
     sleepBPMAvg: 66.6,
     wakingBPM: 67,
-    wakingBPMAvg7: 67
+    wakingBPMAvg7: 67,
   },
   {
     ISO: "2023-06-10T17:59:59-04:00",
@@ -1130,7 +1130,7 @@ wakingBPMAvg7: number
     awake: "00:22:00",
     sessions: 1,
     asleep: "10:34:00",
-    asleepAvg7:"09:31:34",
+    asleepAvg7: "09:31:34",
     efficiency: 96.6,
     efficiencyAvg7: 94,
     quality: "08:24:23",
@@ -1140,7 +1140,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.4,
     sleepBPMAvg: 66.7,
     wakingBPM: 72,
-    wakingBPMAvg7: 68
+    wakingBPMAvg7: 68,
   },
   {
     ISO: "2023-06-11T17:59:59-04:00",
@@ -1152,7 +1152,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:22:00",
-    asleepAvg7:"09:11:51",
+    asleepAvg7: "09:11:51",
     efficiency: 100,
     efficiencyAvg7: 95.4,
     quality: "05:26:38",
@@ -1162,7 +1162,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.6,
     sleepBPMAvg: 65.7,
     wakingBPM: 61,
-    wakingBPMAvg7: 65.4
+    wakingBPMAvg7: 65.4,
   },
   {
     ISO: "2023-06-12T17:59:59-04:00",
@@ -1174,7 +1174,7 @@ wakingBPMAvg7: number
     awake: "00:07:00",
     sessions: 1,
     asleep: "07:53:00",
-    asleepAvg7:"09:19:25",
+    asleepAvg7: "09:19:25",
     efficiency: 98.5,
     efficiencyAvg7: 95.2,
     quality: "06:43:23",
@@ -1184,7 +1184,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.7,
     sleepBPMAvg: 65.8,
     wakingBPM: 65,
-    wakingBPMAvg7: 66.7
+    wakingBPMAvg7: 66.7,
   },
   {
     ISO: "2023-06-13T17:59:59-04:00",
@@ -1196,7 +1196,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:11:00",
-    asleepAvg7:"09:17:42",
+    asleepAvg7: "09:17:42",
     efficiency: 100,
     efficiencyAvg7: 95.2,
     quality: "06:03:07",
@@ -1206,7 +1206,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.3,
     sleepBPMAvg: 63.5,
     wakingBPM: 64,
-    wakingBPMAvg7: 67.7
+    wakingBPMAvg7: 67.7,
   },
   {
     ISO: "2023-06-14T17:59:59-04:00",
@@ -1218,7 +1218,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:07:00",
-    asleepAvg7:"08:20:34",
+    asleepAvg7: "08:20:34",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "08:23:22",
@@ -1228,7 +1228,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.7,
     sleepBPMAvg: 63.1,
     wakingBPM: 71,
-    wakingBPMAvg7: 66.7
+    wakingBPMAvg7: 66.7,
   },
   {
     ISO: "2023-06-15T17:59:59-04:00",
@@ -1240,7 +1240,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:56:00",
-    asleepAvg7:"08:02:25",
+    asleepAvg7: "08:02:25",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "05:09:44",
@@ -1250,7 +1250,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.4,
     sleepBPMAvg: 63.4,
     wakingBPM: 71,
-    wakingBPMAvg7: 67.3
+    wakingBPMAvg7: 67.3,
   },
   {
     ISO: "2023-06-16T17:59:59-04:00",
@@ -1262,7 +1262,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:25:00",
-    asleepAvg7:"08:21:08",
+    asleepAvg7: "08:21:08",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "08:35:16",
@@ -1272,7 +1272,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.9,
     sleepBPMAvg: 63.3,
     wakingBPM: 66,
-    wakingBPMAvg7: 67.1
+    wakingBPMAvg7: 67.1,
   },
   {
     ISO: "2023-06-17T17:59:59-04:00",
@@ -1284,7 +1284,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:17:00",
-    asleepAvg7:"08:01:34",
+    asleepAvg7: "08:01:34",
     efficiency: 100,
     efficiencyAvg7: 99.8,
     quality: "06:54:23",
@@ -1294,7 +1294,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.2,
     sleepBPMAvg: 62.8,
     wakingBPM: 58,
-    wakingBPMAvg7: 65.1
+    wakingBPMAvg7: 65.1,
   },
   {
     ISO: "2023-06-18T17:59:59-04:00",
@@ -1306,7 +1306,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:59:00",
-    asleepAvg7:"08:15:25",
+    asleepAvg7: "08:15:25",
     efficiency: 100,
     efficiencyAvg7: 99.8,
     quality: "07:01:32",
@@ -1316,7 +1316,7 @@ wakingBPMAvg7: number
     sleepBPM: 61,
     sleepBPMAvg: 63,
     wakingBPM: 78,
-    wakingBPMAvg7: 67.6
+    wakingBPMAvg7: 67.6,
   },
   {
     ISO: "2023-06-19T17:59:59-04:00",
@@ -1328,7 +1328,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:26:00",
-    asleepAvg7:"08:11:34",
+    asleepAvg7: "08:11:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:25:29",
@@ -1338,7 +1338,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.6,
     sleepBPMAvg: 62.4,
     wakingBPM: 65,
-    wakingBPMAvg7: 67.6
+    wakingBPMAvg7: 67.6,
   },
   {
     ISO: "2023-06-20T17:59:59-04:00",
@@ -1350,7 +1350,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:48:00",
-    asleepAvg7:"08:16:51",
+    asleepAvg7: "08:16:51",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:53:34",
@@ -1360,7 +1360,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 62.5,
     wakingBPM: 58,
-    wakingBPMAvg7: 66.7
+    wakingBPMAvg7: 66.7,
   },
   {
     ISO: "2023-06-22T17:59:59-04:00",
@@ -1372,7 +1372,7 @@ wakingBPMAvg7: number
     awake: "01:31:00",
     sessions: 2,
     asleep: "19:41:00",
-    asleepAvg7:"09:38:51",
+    asleepAvg7: "09:38:51",
     efficiency: 88.5,
     efficiencyAvg7: 98.4,
     quality: "15:50:26",
@@ -1382,7 +1382,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.1,
     sleepBPMAvg: 62.2,
     wakingBPM: 66,
-    wakingBPMAvg7: 66
+    wakingBPMAvg7: 66,
   },
   {
     ISO: "2023-06-23T17:59:59-04:00",
@@ -1394,7 +1394,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:00:00",
-    asleepAvg7:"10:05:08",
+    asleepAvg7: "10:05:08",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "07:32:15",
@@ -1404,7 +1404,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.2,
     sleepBPMAvg: 62.2,
     wakingBPM: 77,
-    wakingBPMAvg7: 66.9
+    wakingBPMAvg7: 66.9,
   },
   {
     ISO: "2023-06-24T17:59:59-04:00",
@@ -1416,7 +1416,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:50:00",
-    asleepAvg7:"10:00:08",
+    asleepAvg7: "10:00:08",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "08:21:35",
@@ -1426,7 +1426,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.6,
     sleepBPMAvg: 62,
     wakingBPM: 60,
-    wakingBPMAvg7: 66
+    wakingBPMAvg7: 66,
   },
   {
     ISO: "2023-06-25T17:59:59-04:00",
@@ -1438,7 +1438,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:08:00",
-    asleepAvg7:"09:50:17",
+    asleepAvg7: "09:50:17",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "05:45:33",
@@ -1448,7 +1448,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.8,
     sleepBPMAvg: 62.4,
     wakingBPM: 69,
-    wakingBPMAvg7: 67.6
+    wakingBPMAvg7: 67.6,
   },
   {
     ISO: "2023-06-26T17:59:59-04:00",
@@ -1460,7 +1460,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:10:00",
-    asleepAvg7:"09:34:42",
+    asleepAvg7: "09:34:42",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "04:52:24",
@@ -1470,7 +1470,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.3,
     sleepBPMAvg: 63,
     wakingBPM: 59,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2023-06-27T17:59:59-04:00",
@@ -1482,7 +1482,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:07:00",
-    asleepAvg7:"09:32:00",
+    asleepAvg7: "09:32:00",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "06:22:07",
@@ -1492,7 +1492,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.8,
     sleepBPMAvg: 62.9,
     wakingBPM: 56,
-    wakingBPMAvg7: 63.6
+    wakingBPMAvg7: 63.6,
   },
   {
     ISO: "2023-06-28T17:59:59-04:00",
@@ -1504,7 +1504,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:26:00",
-    asleepAvg7:"09:20:17",
+    asleepAvg7: "09:20:17",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "05:59:02",
@@ -1514,7 +1514,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.5,
     sleepBPMAvg: 62.6,
     wakingBPM: 60,
-    wakingBPMAvg7: 63.9
+    wakingBPMAvg7: 63.9,
   },
   {
     ISO: "2023-06-29T17:59:59-04:00",
@@ -1526,7 +1526,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:57:00",
-    asleepAvg7:"07:31:08",
+    asleepAvg7: "07:31:08",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:29:48",
@@ -1536,7 +1536,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.9,
     sleepBPMAvg: 63,
     wakingBPM: 62,
-    wakingBPMAvg7: 63.3
+    wakingBPMAvg7: 63.3,
   },
   {
     ISO: "2023-06-30T17:59:59-04:00",
@@ -1548,7 +1548,7 @@ wakingBPMAvg7: number
     awake: "00:17:00",
     sessions: 1,
     asleep: "11:17:00",
-    asleepAvg7:"07:50:42",
+    asleepAvg7: "07:50:42",
     efficiency: 97.6,
     efficiencyAvg7: 99.7,
     quality: "09:18:11",
@@ -1558,7 +1558,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.4,
     sleepBPMAvg: 63.2,
     wakingBPM: 80,
-    wakingBPMAvg7: 63.7
+    wakingBPMAvg7: 63.7,
   },
   {
     ISO: "2023-07-01T17:59:59-04:00",
@@ -1570,7 +1570,7 @@ wakingBPMAvg7: number
     awake: "01:30:00",
     sessions: 1,
     asleep: "07:23:00",
-    asleepAvg7:"07:29:42",
+    asleepAvg7: "07:29:42",
     efficiency: 83.1,
     efficiencyAvg7: 97.2,
     quality: "05:55:49",
@@ -1580,7 +1580,7 @@ wakingBPMAvg7: number
     sleepBPM: 63,
     sleepBPMAvg: 63.5,
     wakingBPM: 80,
-    wakingBPMAvg7: 66.6
+    wakingBPMAvg7: 66.6,
   },
   {
     ISO: "2023-07-02T17:59:59-04:00",
@@ -1592,7 +1592,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:32:00",
-    asleepAvg7:"07:33:08",
+    asleepAvg7: "07:33:08",
     efficiency: 100,
     efficiencyAvg7: 97.2,
     quality: "06:15:15",
@@ -1602,7 +1602,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.2,
     sleepBPMAvg: 63.3,
     wakingBPM: 56,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2023-07-03T17:59:59-04:00",
@@ -1614,7 +1614,7 @@ wakingBPMAvg7: number
     awake: "00:30:00",
     sessions: 1,
     asleep: "06:45:00",
-    asleepAvg7:"07:38:08",
+    asleepAvg7: "07:38:08",
     efficiency: 93.1,
     efficiencyAvg7: 96.3,
     quality: "06:02:09",
@@ -1624,7 +1624,7 @@ wakingBPMAvg7: number
     sleepBPM: 68.6,
     sleepBPMAvg: 63.8,
     wakingBPM: 71,
-    wakingBPMAvg7: 66.4
+    wakingBPMAvg7: 66.4,
   },
   {
     ISO: "2023-07-04T17:59:59-04:00",
@@ -1636,7 +1636,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:41:00",
-    asleepAvg7:"07:43:00",
+    asleepAvg7: "07:43:00",
     efficiency: 100,
     efficiencyAvg7: 96.3,
     quality: "06:36:40",
@@ -1646,7 +1646,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.3,
     sleepBPMAvg: 64.3,
     wakingBPM: 82,
-    wakingBPMAvg7: 70.1
+    wakingBPMAvg7: 70.1,
   },
   {
     ISO: "2023-07-05T17:59:59-04:00",
@@ -1658,7 +1658,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:46:00",
-    asleepAvg7:"08:11:34",
+    asleepAvg7: "08:11:34",
     efficiency: 100,
     efficiencyAvg7: 96.3,
     quality: "08:17:11",
@@ -1668,7 +1668,7 @@ wakingBPMAvg7: number
     sleepBPM: 65,
     sleepBPMAvg: 64.8,
     wakingBPM: 74,
-    wakingBPMAvg7: 72.1
+    wakingBPMAvg7: 72.1,
   },
   {
     ISO: "2023-07-06T17:59:59-04:00",
@@ -1680,7 +1680,7 @@ wakingBPMAvg7: number
     awake: "00:42:00",
     sessions: 1,
     asleep: "06:50:00",
-    asleepAvg7:"08:10:34",
+    asleepAvg7: "08:10:34",
     efficiency: 90.7,
     efficiencyAvg7: 94.9,
     quality: "05:21:10",
@@ -1690,7 +1690,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.9,
     sleepBPMAvg: 65.2,
     wakingBPM: 80,
-    wakingBPMAvg7: 74.7
+    wakingBPMAvg7: 74.7,
   },
   {
     ISO: "2023-07-08T17:59:59-04:00",
@@ -1702,7 +1702,7 @@ wakingBPMAvg7: number
     awake: "05:36:00",
     sessions: 1,
     asleep: "06:56:00",
-    asleepAvg7:"07:33:17",
+    asleepAvg7: "07:33:17",
     efficiency: 55.3,
     efficiencyAvg7: 88.9,
     quality: "05:15:56",
@@ -1712,7 +1712,7 @@ wakingBPMAvg7: number
     sleepBPM: 69.1,
     sleepBPMAvg: 65.4,
     wakingBPM: 96,
-    wakingBPMAvg7: 77
+    wakingBPMAvg7: 77,
   },
   {
     ISO: "2023-07-09T17:59:59-04:00",
@@ -1724,7 +1724,7 @@ wakingBPMAvg7: number
     awake: "10:52:30",
     sessions: 1,
     asleep: "06:34:30",
-    asleepAvg7:"07:26:21",
+    asleepAvg7: "07:26:21",
     efficiency: 37.7,
     efficiencyAvg7: 82.4,
     quality: "05:14:06",
@@ -1734,7 +1734,7 @@ wakingBPMAvg7: number
     sleepBPM: 70.6,
     sleepBPMAvg: 66.5,
     wakingBPM: 72,
-    wakingBPMAvg7: 75.9
+    wakingBPMAvg7: 75.9,
   },
   {
     ISO: "2023-07-10T17:59:59-04:00",
@@ -1746,7 +1746,7 @@ wakingBPMAvg7: number
     awake: "01:49:00",
     sessions: 2,
     asleep: "17:53:00",
-    asleepAvg7:"08:55:04",
+    asleepAvg7: "08:55:04",
     efficiency: 84.1,
     efficiencyAvg7: 80.1,
     quality: "14:04:56",
@@ -1756,7 +1756,7 @@ wakingBPMAvg7: number
     sleepBPM: 70.3,
     sleepBPMAvg: 67.7,
     wakingBPM: 81,
-    wakingBPMAvg7: 79.4
+    wakingBPMAvg7: 79.4,
   },
   {
     ISO: "2023-07-11T17:59:59-04:00",
@@ -1768,7 +1768,7 @@ wakingBPMAvg7: number
     awake: "02:34:00",
     sessions: 2,
     asleep: "11:29:00",
-    asleepAvg7:"09:35:38",
+    asleepAvg7: "09:35:38",
     efficiency: 73.7,
     efficiencyAvg7: 77.4,
     quality: "09:08:44",
@@ -1778,7 +1778,7 @@ wakingBPMAvg7: number
     sleepBPM: 75.4,
     sleepBPMAvg: 68.6,
     wakingBPM: 81,
-    wakingBPMAvg7: 80.9
+    wakingBPMAvg7: 80.9,
   },
   {
     ISO: "2023-07-12T17:59:59-04:00",
@@ -1790,7 +1790,7 @@ wakingBPMAvg7: number
     awake: "00:44:00",
     sessions: 2,
     asleep: "10:54:00",
-    asleepAvg7:"10:03:12",
+    asleepAvg7: "10:03:12",
     efficiency: 100,
     efficiencyAvg7: 77.4,
     quality: "08:57:47",
@@ -1800,7 +1800,7 @@ wakingBPMAvg7: number
     sleepBPM: 70.4,
     sleepBPMAvg: 69.7,
     wakingBPM: 66,
-    wakingBPMAvg7: 78.6
+    wakingBPMAvg7: 78.6,
   },
   {
     ISO: "2023-07-13T17:59:59-04:00",
@@ -1812,7 +1812,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:50:00",
-    asleepAvg7:"09:55:12",
+    asleepAvg7: "09:55:12",
     efficiency: 100,
     efficiencyAvg7: 77.4,
     quality: "06:49:35",
@@ -1822,7 +1822,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.5,
     sleepBPMAvg: 69.6,
     wakingBPM: 76,
-    wakingBPMAvg7: 78.9
+    wakingBPMAvg7: 78.9,
   },
   {
     ISO: "2023-07-14T17:59:59-04:00",
@@ -1834,7 +1834,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:49:00",
-    asleepAvg7:"10:20:47",
+    asleepAvg7: "10:20:47",
     efficiency: 100,
     efficiencyAvg7: 78.7,
     quality: "08:23:11",
@@ -1844,7 +1844,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.1,
     sleepBPMAvg: 69.5,
     wakingBPM: 69,
-    wakingBPMAvg7: 77.3
+    wakingBPMAvg7: 77.3,
   },
   {
     ISO: "2023-07-15T17:59:59-04:00",
@@ -1856,7 +1856,7 @@ wakingBPMAvg7: number
     awake: "01:11:00",
     sessions: 1,
     asleep: "09:58:00",
-    asleepAvg7:"10:46:47",
+    asleepAvg7: "10:46:47",
     efficiency: 89.4,
     efficiencyAvg7: 83.6,
     quality: "07:40:07",
@@ -1866,7 +1866,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.1,
     sleepBPMAvg: 68.6,
     wakingBPM: 71,
-    wakingBPMAvg7: 73.7
+    wakingBPMAvg7: 73.7,
   },
   {
     ISO: "2023-07-16T17:59:59-04:00",
@@ -1878,7 +1878,7 @@ wakingBPMAvg7: number
     awake: "00:01:00",
     sessions: 1,
     asleep: "08:44:00",
-    asleepAvg7:"11:05:17",
+    asleepAvg7: "11:05:17",
     efficiency: 99.8,
     efficiencyAvg7: 92.4,
     quality: "07:07:40",
@@ -1888,7 +1888,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.8,
     sleepBPMAvg: 67.5,
     wakingBPM: 62,
-    wakingBPMAvg7: 72.3
+    wakingBPMAvg7: 72.3,
   },
   {
     ISO: "2023-07-17T17:59:59-04:00",
@@ -1900,7 +1900,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:57:00",
-    asleepAvg7:"09:40:08",
+    asleepAvg7: "09:40:08",
     efficiency: 100,
     efficiencyAvg7: 94.7,
     quality: "06:55:09",
@@ -1910,7 +1910,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.9,
     sleepBPMAvg: 66.6,
     wakingBPM: 72,
-    wakingBPMAvg7: 71
+    wakingBPMAvg7: 71,
   },
   {
     ISO: "2023-07-18T17:59:59-04:00",
@@ -1922,7 +1922,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:06:00",
-    asleepAvg7:"09:02:34",
+    asleepAvg7: "09:02:34",
     efficiency: 100,
     efficiencyAvg7: 98.5,
     quality: "05:49:20",
@@ -1932,7 +1932,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.3,
     sleepBPMAvg: 64.7,
     wakingBPM: 66,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2023-07-19T17:59:59-04:00",
@@ -1944,7 +1944,7 @@ wakingBPMAvg7: number
     awake: "00:10:00",
     sessions: 1,
     asleep: "09:10:00",
-    asleepAvg7:"08:47:42",
+    asleepAvg7: "08:47:42",
     efficiency: 98.2,
     efficiencyAvg7: 98.2,
     quality: "07:37:29",
@@ -1954,7 +1954,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.9,
     sleepBPMAvg: 63.6,
     wakingBPM: 70,
-    wakingBPMAvg7: 69.4
+    wakingBPMAvg7: 69.4,
   },
   {
     ISO: "2023-07-20T17:59:59-04:00",
@@ -1966,7 +1966,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "00:47:00",
-    asleepAvg7:"07:38:42",
+    asleepAvg7: "07:38:42",
     efficiency: 100,
     efficiencyAvg7: 98.2,
     quality: "00:11:13",
@@ -1976,7 +1976,7 @@ wakingBPMAvg7: number
     sleepBPM: 76.8,
     sleepBPMAvg: 65.4,
     wakingBPM: 73,
-    wakingBPMAvg7: 69
+    wakingBPMAvg7: 69,
   },
   {
     ISO: "2023-07-21T17:59:59-04:00",
@@ -1988,7 +1988,7 @@ wakingBPMAvg7: number
     awake: "01:02:00",
     sessions: 2,
     asleep: "16:45:00",
-    asleepAvg7:"08:38:08",
+    asleepAvg7: "08:38:08",
     efficiency: 90.6,
     efficiencyAvg7: 96.9,
     quality: "14:17:54",
@@ -1998,7 +1998,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.5,
     sleepBPMAvg: 65.5,
     wakingBPM: 71,
-    wakingBPMAvg7: 69.3
+    wakingBPMAvg7: 69.3,
   },
   {
     ISO: "2023-07-22T17:59:59-04:00",
@@ -2010,7 +2010,7 @@ wakingBPMAvg7: number
     awake: "03:37:00",
     sessions: 1,
     asleep: "06:35:00",
-    asleepAvg7:"08:09:08",
+    asleepAvg7: "08:09:08",
     efficiency: 64.5,
     efficiencyAvg7: 93.3,
     quality: "05:09:53",
@@ -2020,7 +2020,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.2,
     sleepBPMAvg: 65.8,
     wakingBPM: 77,
-    wakingBPMAvg7: 70.1
+    wakingBPMAvg7: 70.1,
   },
   {
     ISO: "2023-07-23T17:59:59-04:00",
@@ -2032,7 +2032,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:42:00",
-    asleepAvg7:"08:17:25",
+    asleepAvg7: "08:17:25",
     efficiency: 100,
     efficiencyAvg7: 93.3,
     quality: "08:32:55",
@@ -2042,7 +2042,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.8,
     sleepBPMAvg: 65.8,
     wakingBPM: 72,
-    wakingBPMAvg7: 71.6
+    wakingBPMAvg7: 71.6,
   },
   {
     ISO: "2023-07-25T17:59:59-04:00",
@@ -2054,7 +2054,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:44:00",
-    asleepAvg7:"08:24:08",
+    asleepAvg7: "08:24:08",
     efficiency: 100,
     efficiencyAvg7: 93.3,
     quality: "06:47:48",
@@ -2064,7 +2064,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.8,
     sleepBPMAvg: 66.3,
     wakingBPM: 70,
-    wakingBPMAvg7: 71.3
+    wakingBPMAvg7: 71.3,
   },
   {
     ISO: "2023-07-26T17:59:59-04:00",
@@ -2076,7 +2076,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:31:00",
-    asleepAvg7:"08:44:51",
+    asleepAvg7: "08:44:51",
     efficiency: 100,
     efficiencyAvg7: 93.3,
     quality: "07:42:00",
@@ -2086,7 +2086,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.9,
     sleepBPMAvg: 66.8,
     wakingBPM: 66,
-    wakingBPMAvg7: 71.3
+    wakingBPMAvg7: 71.3,
   },
   {
     ISO: "2023-07-28T17:59:59-04:00",
@@ -2098,7 +2098,7 @@ wakingBPMAvg7: number
     awake: "03:44:00",
     sessions: 2,
     asleep: "16:23:00",
-    asleepAvg7:"09:46:42",
+    asleepAvg7: "09:46:42",
     efficiency: 68.8,
     efficiencyAvg7: 89.1,
     quality: "13:35:19",
@@ -2108,7 +2108,7 @@ wakingBPMAvg7: number
     sleepBPM: 64,
     sleepBPMAvg: 67,
     wakingBPM: 76,
-    wakingBPMAvg7: 72.1
+    wakingBPMAvg7: 72.1,
   },
   {
     ISO: "2023-07-29T17:59:59-04:00",
@@ -2120,7 +2120,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:34:00",
-    asleepAvg7:"10:27:42",
+    asleepAvg7: "10:27:42",
     efficiency: 100,
     efficiencyAvg7: 89.1,
     quality: "04:35:19",
@@ -2130,7 +2130,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.7,
     sleepBPMAvg: 64.8,
     wakingBPM: 55,
-    wakingBPMAvg7: 69.6
+    wakingBPMAvg7: 69.6,
   },
   {
     ISO: "2023-07-30T17:59:59-04:00",
@@ -2142,7 +2142,7 @@ wakingBPMAvg7: number
     awake: "00:29:00",
     sessions: 1,
     asleep: "07:07:00",
-    asleepAvg7:"09:05:08",
+    asleepAvg7: "09:05:08",
     efficiency: 93.6,
     efficiencyAvg7: 89.6,
     quality: "05:54:46",
@@ -2152,7 +2152,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.2,
     sleepBPMAvg: 63.8,
     wakingBPM: 66,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2023-07-31T17:59:59-04:00",
@@ -2164,7 +2164,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "09:36:00",
-    asleepAvg7:"09:31:00",
+    asleepAvg7: "09:31:00",
     efficiency: 100,
     efficiencyAvg7: 94.6,
     quality: "08:25:32",
@@ -2174,7 +2174,7 @@ wakingBPMAvg7: number
     sleepBPM: 81.2,
     sleepBPMAvg: 66.1,
     wakingBPM: 78,
-    wakingBPMAvg7: 69
+    wakingBPMAvg7: 69,
   },
   {
     ISO: "2023-08-01T17:59:59-04:00",
@@ -2186,7 +2186,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "00:32:00",
-    asleepAvg7:"08:12:25",
+    asleepAvg7: "08:12:25",
     efficiency: 100,
     efficiencyAvg7: 94.6,
     quality: "00:06:00",
@@ -2196,7 +2196,7 @@ wakingBPMAvg7: number
     sleepBPM: 80.8,
     sleepBPMAvg: 68.7,
     wakingBPM: 71,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2023-08-02T17:59:59-04:00",
@@ -2208,7 +2208,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "17:50:00",
-    asleepAvg7:"09:30:25",
+    asleepAvg7: "09:30:25",
     efficiency: 100,
     efficiencyAvg7: 94.6,
     quality: "15:04:01",
@@ -2218,7 +2218,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.8,
     sleepBPMAvg: 68.1,
     wakingBPM: 72,
-    wakingBPMAvg7: 69.1
+    wakingBPMAvg7: 69.1,
   },
   {
     ISO: "2023-08-03T17:59:59-04:00",
@@ -2230,7 +2230,7 @@ wakingBPMAvg7: number
     awake: "00:19:00",
     sessions: 1,
     asleep: "07:53:00",
-    asleepAvg7:"09:16:25",
+    asleepAvg7: "09:16:25",
     efficiency: 96.1,
     efficiencyAvg7: 94.1,
     quality: "06:42:57",
@@ -2240,7 +2240,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.3,
     sleepBPMAvg: 67,
     wakingBPM: 58,
-    wakingBPMAvg7: 68
+    wakingBPMAvg7: 68,
   },
   {
     ISO: "2023-08-04T17:59:59-04:00",
@@ -2252,7 +2252,7 @@ wakingBPMAvg7: number
     awake: "01:16:00",
     sessions: 1,
     asleep: "05:16:00",
-    asleepAvg7:"07:41:08",
+    asleepAvg7: "07:41:08",
     efficiency: 80.6,
     efficiencyAvg7: 95.8,
     quality: "04:40:27",
@@ -2262,7 +2262,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.2,
     sleepBPMAvg: 66.8,
     wakingBPM: 64,
-    wakingBPMAvg7: 66.3
+    wakingBPMAvg7: 66.3,
   },
   {
     ISO: "2023-08-07T17:59:59-04:00",
@@ -2274,7 +2274,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:03:00",
-    asleepAvg7:"07:53:51",
+    asleepAvg7: "07:53:51",
     efficiency: 100,
     efficiencyAvg7: 95.8,
     quality: "06:18:37",
@@ -2284,7 +2284,7 @@ wakingBPMAvg7: number
     sleepBPM: 62,
     sleepBPMAvg: 66.8,
     wakingBPM: 65,
-    wakingBPMAvg7: 67.7
+    wakingBPMAvg7: 67.7,
   },
   {
     ISO: "2023-08-08T17:59:59-04:00",
@@ -2296,7 +2296,7 @@ wakingBPMAvg7: number
     awake: "03:45:00",
     sessions: 1,
     asleep: "13:06:00",
-    asleepAvg7:"08:45:08",
+    asleepAvg7: "08:45:08",
     efficiency: 77.7,
     efficiencyAvg7: 93.5,
     quality: "11:34:42",
@@ -2306,7 +2306,7 @@ wakingBPMAvg7: number
     sleepBPM: 72.5,
     sleepBPMAvg: 68.7,
     wakingBPM: 83,
-    wakingBPMAvg7: 70.1
+    wakingBPMAvg7: 70.1,
   },
   {
     ISO: "2023-08-09T17:59:59-04:00",
@@ -2318,7 +2318,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:35:00",
-    asleepAvg7:"08:19:17",
+    asleepAvg7: "08:19:17",
     efficiency: 100,
     efficiencyAvg7: 93.5,
     quality: "05:00:51",
@@ -2328,7 +2328,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.9,
     sleepBPMAvg: 66.5,
     wakingBPM: 76,
-    wakingBPMAvg7: 69.9
+    wakingBPMAvg7: 69.9,
   },
   {
     ISO: "2023-08-10T17:59:59-04:00",
@@ -2340,7 +2340,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "11:48:00",
-    asleepAvg7:"09:55:51",
+    asleepAvg7: "09:55:51",
     efficiency: 100,
     efficiencyAvg7: 93.5,
     quality: "10:14:15",
@@ -2350,7 +2350,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.8,
     sleepBPMAvg: 64.4,
     wakingBPM: 76,
-    wakingBPMAvg7: 70.6
+    wakingBPMAvg7: 70.6,
   },
   {
     ISO: "2023-08-11T17:59:59-04:00",
@@ -2362,7 +2362,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "13:35:00",
-    asleepAvg7:"09:19:25",
+    asleepAvg7: "09:19:25",
     efficiency: 100,
     efficiencyAvg7: 93.5,
     quality: "11:22:59",
@@ -2372,7 +2372,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.2,
     sleepBPMAvg: 64.3,
     wakingBPM: 60,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2023-08-12T17:59:59-04:00",
@@ -2384,7 +2384,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "00:19:00",
-    asleepAvg7:"08:14:34",
+    asleepAvg7: "08:14:34",
     efficiency: 100,
     efficiencyAvg7: 94.1,
     quality: "00:03:59",
@@ -2394,7 +2394,7 @@ wakingBPMAvg7: number
     sleepBPM: 78.3,
     sleepBPMAvg: 67.2,
     wakingBPM: 73,
-    wakingBPMAvg7: 71
+    wakingBPMAvg7: 71,
   },
   {
     ISO: "2023-08-13T17:59:59-04:00",
@@ -2406,7 +2406,7 @@ wakingBPMAvg7: number
     awake: "03:36:00",
     sessions: 2,
     asleep: "18:31:00",
-    asleepAvg7:"10:08:08",
+    asleepAvg7: "10:08:08",
     efficiency: 95.8,
     efficiencyAvg7: 96.2,
     quality: "15:29:13",
@@ -2416,7 +2416,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.4,
     sleepBPMAvg: 67.3,
     wakingBPM: 77,
-    wakingBPMAvg7: 72.9
+    wakingBPMAvg7: 72.9,
   },
   {
     ISO: "2023-08-15T17:59:59-04:00",
@@ -2428,7 +2428,7 @@ wakingBPMAvg7: number
     awake: "02:49:00",
     sessions: 3,
     asleep: "13:51:00",
-    asleepAvg7:"11:06:25",
+    asleepAvg7: "11:06:25",
     efficiency: 89.6,
     efficiencyAvg7: 94.7,
     quality: "11:10:30",
@@ -2438,7 +2438,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.5,
     sleepBPMAvg: 67.3,
     wakingBPM: 72,
-    wakingBPMAvg7: 73.9
+    wakingBPMAvg7: 73.9,
   },
   {
     ISO: "2023-08-16T17:59:59-04:00",
@@ -2450,7 +2450,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "00:24:00",
-    asleepAvg7:"09:17:34",
+    asleepAvg7: "09:17:34",
     efficiency: 100,
     efficiencyAvg7: 97.9,
     quality: "00:16:53",
@@ -2460,7 +2460,7 @@ wakingBPMAvg7: number
     sleepBPM: 108.4,
     sleepBPMAvg: 72.4,
     wakingBPM: 67,
-    wakingBPMAvg7: 71.6
+    wakingBPMAvg7: 71.6,
   },
   {
     ISO: "2023-08-17T17:59:59-04:00",
@@ -2472,7 +2472,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:00:00",
-    asleepAvg7:"09:38:17",
+    asleepAvg7: "09:38:17",
     efficiency: 100,
     efficiencyAvg7: 97.9,
     quality: "08:00:08",
@@ -2482,7 +2482,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.6,
     sleepBPMAvg: 72.3,
     wakingBPM: 68,
-    wakingBPMAvg7: 70.4
+    wakingBPMAvg7: 70.4,
   },
   {
     ISO: "2023-08-18T17:59:59-04:00",
@@ -2494,7 +2494,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:45:00",
-    asleepAvg7:"09:20:42",
+    asleepAvg7: "09:20:42",
     efficiency: 100,
     efficiencyAvg7: 97.9,
     quality: "08:13:29",
@@ -2504,7 +2504,7 @@ wakingBPMAvg7: number
     sleepBPM: 73.4,
     sleepBPMAvg: 73.4,
     wakingBPM: 79,
-    wakingBPMAvg7: 70.9
+    wakingBPMAvg7: 70.9,
   },
   {
     ISO: "2023-08-19T17:59:59-04:00",
@@ -2516,7 +2516,7 @@ wakingBPMAvg7: number
     awake: "00:14:00",
     sessions: 1,
     asleep: "09:50:00",
-    asleepAvg7:"08:48:34",
+    asleepAvg7: "08:48:34",
     efficiency: 97.7,
     efficiencyAvg7: 97.6,
     quality: "08:18:11",
@@ -2526,7 +2526,7 @@ wakingBPMAvg7: number
     sleepBPM: 70.3,
     sleepBPMAvg: 74.4,
     wakingBPM: 68,
-    wakingBPMAvg7: 72
+    wakingBPMAvg7: 72,
   },
   {
     ISO: "2023-08-21T17:59:59-04:00",
@@ -2538,7 +2538,7 @@ wakingBPMAvg7: number
     awake: "00:12:00",
     sessions: 2,
     asleep: "10:38:59",
-    asleepAvg7:"10:17:08",
+    asleepAvg7: "10:17:08",
     efficiency: 98,
     efficiencyAvg7: 97.3,
     quality: "08:55:52",
@@ -2548,7 +2548,7 @@ wakingBPMAvg7: number
     sleepBPM: 68.9,
     sleepBPMAvg: 73.1,
     wakingBPM: 71,
-    wakingBPMAvg7: 71.7
+    wakingBPMAvg7: 71.7,
   },
   {
     ISO: "2023-08-22T17:59:59-04:00",
@@ -2560,7 +2560,7 @@ wakingBPMAvg7: number
     awake: "00:41:00",
     sessions: 1,
     asleep: "08:59:00",
-    asleepAvg7:"08:55:25",
+    asleepAvg7: "08:55:25",
     efficiency: 92.9,
     efficiencyAvg7: 96.9,
     quality: "07:10:10",
@@ -2570,7 +2570,7 @@ wakingBPMAvg7: number
     sleepBPM: 88.8,
     sleepBPMAvg: 76.7,
     wakingBPM: 104,
-    wakingBPMAvg7: 75.6
+    wakingBPMAvg7: 75.6,
   },
   {
     ISO: "2023-08-23T17:59:59-04:00",
@@ -2582,7 +2582,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:48:00",
-    asleepAvg7:"08:12:08",
+    asleepAvg7: "08:12:08",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "06:35:45",
@@ -2592,7 +2592,7 @@ wakingBPMAvg7: number
     sleepBPM: 76.4,
     sleepBPMAvg: 78.8,
     wakingBPM: 100,
-    wakingBPMAvg7: 79.6
+    wakingBPMAvg7: 79.6,
   },
   {
     ISO: "2023-08-24T17:59:59-04:00",
@@ -2604,7 +2604,7 @@ wakingBPMAvg7: number
     awake: "00:12:00",
     sessions: 2,
     asleep: "08:21:00",
-    asleepAvg7:"09:20:17",
+    asleepAvg7: "09:20:17",
     efficiency: 97.5,
     efficiencyAvg7: 98,
     quality: "06:04:27",
@@ -2614,7 +2614,7 @@ wakingBPMAvg7: number
     sleepBPM: 88.7,
     sleepBPMAvg: 76,
     wakingBPM: 93,
-    wakingBPMAvg7: 83.3
+    wakingBPMAvg7: 83.3,
   },
   {
     ISO: "2023-08-25T17:59:59-04:00",
@@ -2626,7 +2626,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:15:00",
-    asleepAvg7:"09:13:51",
+    asleepAvg7: "09:13:51",
     efficiency: 100,
     efficiencyAvg7: 98,
     quality: "07:21:10",
@@ -2636,7 +2636,7 @@ wakingBPMAvg7: number
     sleepBPM: 84.5,
     sleepBPMAvg: 78.7,
     wakingBPM: 96,
-    wakingBPMAvg7: 87.3
+    wakingBPMAvg7: 87.3,
   },
   {
     ISO: "2023-08-26T17:59:59-04:00",
@@ -2648,7 +2648,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:07:00",
-    asleepAvg7:"08:59:51",
+    asleepAvg7: "08:59:51",
     efficiency: 100,
     efficiencyAvg7: 98,
     quality: "07:05:28",
@@ -2658,7 +2658,7 @@ wakingBPMAvg7: number
     sleepBPM: 70,
     sleepBPMAvg: 78.2,
     wakingBPM: 88,
-    wakingBPMAvg7: 88.6
+    wakingBPMAvg7: 88.6,
   },
   {
     ISO: "2023-08-27T17:59:59-04:00",
@@ -2670,7 +2670,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:35:00",
-    asleepAvg7:"08:40:34",
+    asleepAvg7: "08:40:34",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "06:39:10",
@@ -2680,7 +2680,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.2,
     sleepBPMAvg: 77.1,
     wakingBPM: 59,
-    wakingBPMAvg7: 87.3
+    wakingBPMAvg7: 87.3,
   },
   {
     ISO: "2023-08-28T17:59:59-04:00",
@@ -2692,7 +2692,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "11:44:00",
-    asleepAvg7:"08:49:51",
+    asleepAvg7: "08:49:51",
     efficiency: 100,
     efficiencyAvg7: 98.6,
     quality: "10:15:12",
@@ -2702,7 +2702,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.7,
     sleepBPMAvg: 75.8,
     wakingBPM: 59,
-    wakingBPMAvg7: 85.6
+    wakingBPMAvg7: 85.6,
   },
   {
     ISO: "2023-08-29T17:59:59-04:00",
@@ -2714,7 +2714,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:40:00",
-    asleepAvg7:"08:38:34",
+    asleepAvg7: "08:38:34",
     efficiency: 100,
     efficiencyAvg7: 99.6,
     quality: "06:37:12",
@@ -2724,7 +2724,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.8,
     sleepBPMAvg: 72.3,
     wakingBPM: 60,
-    wakingBPMAvg7: 79.3
+    wakingBPMAvg7: 79.3,
   },
   {
     ISO: "2023-08-30T17:59:59-04:00",
@@ -2736,7 +2736,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:04:00",
-    asleepAvg7:"08:40:51",
+    asleepAvg7: "08:40:51",
     efficiency: 100,
     efficiencyAvg7: 99.6,
     quality: "07:47:31",
@@ -2746,7 +2746,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.6,
     sleepBPMAvg: 70.5,
     wakingBPM: 75,
-    wakingBPMAvg7: 75.7
+    wakingBPMAvg7: 75.7,
   },
   {
     ISO: "2023-08-31T17:59:59-04:00",
@@ -2758,7 +2758,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:51:00",
-    asleepAvg7:"08:36:34",
+    asleepAvg7: "08:36:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:43:14",
@@ -2768,7 +2768,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.1,
     sleepBPMAvg: 66.4,
     wakingBPM: 69,
-    wakingBPMAvg7: 72.3
+    wakingBPMAvg7: 72.3,
   },
   {
     ISO: "2023-09-01T17:59:59-04:00",
@@ -2780,7 +2780,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:18:00",
-    asleepAvg7:"08:45:34",
+    asleepAvg7: "08:45:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:34:59",
@@ -2790,7 +2790,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.4,
     sleepBPMAvg: 63.1,
     wakingBPM: 65,
-    wakingBPMAvg7: 67.9
+    wakingBPMAvg7: 67.9,
   },
   {
     ISO: "2023-09-02T17:59:59-04:00",
@@ -2802,7 +2802,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:09:00",
-    asleepAvg7:"08:45:51",
+    asleepAvg7: "08:45:51",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:37:40",
@@ -2812,7 +2812,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.2,
     sleepBPMAvg: 62.6,
     wakingBPM: 74,
-    wakingBPMAvg7: 65.9
+    wakingBPMAvg7: 65.9,
   },
   {
     ISO: "2023-09-03T17:59:59-04:00",
@@ -2824,7 +2824,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:08:00",
-    asleepAvg7:"08:42:00",
+    asleepAvg7: "08:42:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:55:55",
@@ -2834,7 +2834,7 @@ wakingBPMAvg7: number
     sleepBPM: 65,
     sleepBPMAvg: 63,
     wakingBPM: 60,
-    wakingBPMAvg7: 66
+    wakingBPMAvg7: 66,
   },
   {
     ISO: "2023-09-04T17:59:59-04:00",
@@ -2846,7 +2846,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:51:00",
-    asleepAvg7:"08:08:42",
+    asleepAvg7: "08:08:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:44:24",
@@ -2856,7 +2856,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.7,
     sleepBPMAvg: 63.5,
     wakingBPM: 65,
-    wakingBPMAvg7: 66.9
+    wakingBPMAvg7: 66.9,
   },
   {
     ISO: "2023-09-05T17:59:59-04:00",
@@ -2868,7 +2868,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:13:00",
-    asleepAvg7:"08:04:51",
+    asleepAvg7: "08:04:51",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:52:19",
@@ -2878,7 +2878,7 @@ wakingBPMAvg7: number
     sleepBPM: 63,
     sleepBPMAvg: 63.3,
     wakingBPM: 58,
-    wakingBPMAvg7: 66.6
+    wakingBPMAvg7: 66.6,
   },
   {
     ISO: "2023-09-06T17:59:59-04:00",
@@ -2890,7 +2890,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:54:00",
-    asleepAvg7:"07:46:17",
+    asleepAvg7: "07:46:17",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:40:10",
@@ -2900,7 +2900,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 63.3,
     wakingBPM: 69,
-    wakingBPMAvg7: 65.7
+    wakingBPMAvg7: 65.7,
   },
   {
     ISO: "2023-09-07T17:59:59-04:00",
@@ -2912,7 +2912,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:45:00",
-    asleepAvg7:"07:45:25",
+    asleepAvg7: "07:45:25",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:38:24",
@@ -2922,7 +2922,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.7,
     sleepBPMAvg: 63.8,
     wakingBPM: 68,
-    wakingBPMAvg7: 65.6
+    wakingBPMAvg7: 65.6,
   },
   {
     ISO: "2023-09-08T17:59:59-04:00",
@@ -2934,7 +2934,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:45:00",
-    asleepAvg7:"07:32:08",
+    asleepAvg7: "07:32:08",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:54:08",
@@ -2944,7 +2944,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.5,
     sleepBPMAvg: 63.9,
     wakingBPM: 55,
-    wakingBPMAvg7: 64.1
+    wakingBPMAvg7: 64.1,
   },
   {
     ISO: "2023-09-09T17:59:59-04:00",
@@ -2956,7 +2956,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:40:00",
-    asleepAvg7:"07:28:00",
+    asleepAvg7: "07:28:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:25:17",
@@ -2966,7 +2966,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.7,
     sleepBPMAvg: 63.3,
     wakingBPM: 70,
-    wakingBPMAvg7: 63.6
+    wakingBPMAvg7: 63.6,
   },
   {
     ISO: "2023-09-10T17:59:59-04:00",
@@ -2978,7 +2978,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:54:00",
-    asleepAvg7:"07:34:34",
+    asleepAvg7: "07:34:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:56:32",
@@ -2988,7 +2988,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.8,
     sleepBPMAvg: 62.3,
     wakingBPM: 60,
-    wakingBPMAvg7: 63.6
+    wakingBPMAvg7: 63.6,
   },
   {
     ISO: "2023-09-11T17:59:59-04:00",
@@ -3000,7 +3000,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:43:00",
-    asleepAvg7:"07:24:51",
+    asleepAvg7: "07:24:51",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:47:34",
@@ -3010,7 +3010,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.4,
     sleepBPMAvg: 61.7,
     wakingBPM: 59,
-    wakingBPMAvg7: 62.7
+    wakingBPMAvg7: 62.7,
   },
   {
     ISO: "2023-09-12T17:59:59-04:00",
@@ -3022,7 +3022,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:54:00",
-    asleepAvg7:"07:22:08",
+    asleepAvg7: "07:22:08",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:48:02",
@@ -3032,7 +3032,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.5,
     sleepBPMAvg: 61.6,
     wakingBPM: 59,
-    wakingBPMAvg7: 62.9
+    wakingBPMAvg7: 62.9,
   },
   {
     ISO: "2023-09-13T17:59:59-04:00",
@@ -3044,7 +3044,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:58:00",
-    asleepAvg7:"07:14:08",
+    asleepAvg7: "07:14:08",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:15:10",
@@ -3054,7 +3054,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 61,
     wakingBPM: 56,
-    wakingBPMAvg7: 61
+    wakingBPMAvg7: 61,
   },
   {
     ISO: "2023-09-14T17:59:59-04:00",
@@ -3066,7 +3066,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:53:00",
-    asleepAvg7:"07:15:17",
+    asleepAvg7: "07:15:17",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:11:28",
@@ -3076,7 +3076,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.1,
     sleepBPMAvg: 60.3,
     wakingBPM: 60,
-    wakingBPMAvg7: 59.9
+    wakingBPMAvg7: 59.9,
   },
   {
     ISO: "2023-09-15T17:59:59-04:00",
@@ -3088,7 +3088,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:08:00",
-    asleepAvg7:"07:18:34",
+    asleepAvg7: "07:18:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:13:12",
@@ -3098,7 +3098,7 @@ wakingBPMAvg7: number
     sleepBPM: 58,
     sleepBPMAvg: 59.7,
     wakingBPM: 52,
-    wakingBPMAvg7: 59.4
+    wakingBPMAvg7: 59.4,
   },
   {
     ISO: "2023-09-16T17:59:59-04:00",
@@ -3110,7 +3110,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:33:00",
-    asleepAvg7:"07:17:34",
+    asleepAvg7: "07:17:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:41:19",
@@ -3120,7 +3120,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.5,
     sleepBPMAvg: 59.2,
     wakingBPM: 59,
-    wakingBPMAvg7: 57.9
+    wakingBPMAvg7: 57.9,
   },
   {
     ISO: "2023-09-17T17:59:59-04:00",
@@ -3132,7 +3132,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:00:00",
-    asleepAvg7:"07:35:34",
+    asleepAvg7: "07:35:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "08:30:25",
@@ -3142,7 +3142,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.5,
     sleepBPMAvg: 59.6,
     wakingBPM: 74,
-    wakingBPMAvg7: 59.9
+    wakingBPMAvg7: 59.9,
   },
   {
     ISO: "2023-09-18T17:59:59-04:00",
@@ -3154,7 +3154,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:53:00",
-    asleepAvg7:"07:45:34",
+    asleepAvg7: "07:45:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:46:53",
@@ -3164,7 +3164,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.9,
     sleepBPMAvg: 59.8,
     wakingBPM: 63,
-    wakingBPMAvg7: 60.4
+    wakingBPMAvg7: 60.4,
   },
   {
     ISO: "2023-09-19T17:59:59-04:00",
@@ -3176,7 +3176,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:23:00",
-    asleepAvg7:"07:49:42",
+    asleepAvg7: "07:49:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:20:03",
@@ -3186,7 +3186,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.7,
     sleepBPMAvg: 59.4,
     wakingBPM: 55,
-    wakingBPMAvg7: 59.9
+    wakingBPMAvg7: 59.9,
   },
   {
     ISO: "2023-09-20T17:59:59-04:00",
@@ -3198,7 +3198,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:19:00",
-    asleepAvg7:"07:52:42",
+    asleepAvg7: "07:52:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:18:31",
@@ -3208,7 +3208,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.2,
     sleepBPMAvg: 59.6,
     wakingBPM: 61,
-    wakingBPMAvg7: 60.6
+    wakingBPMAvg7: 60.6,
   },
   {
     ISO: "2023-09-21T17:59:59-04:00",
@@ -3220,7 +3220,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "08:05:00",
-    asleepAvg7:"07:54:25",
+    asleepAvg7: "07:54:25",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:04:27",
@@ -3230,7 +3230,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.6,
     sleepBPMAvg: 59.9,
     wakingBPM: 70,
-    wakingBPMAvg7: 62
+    wakingBPMAvg7: 62,
   },
   {
     ISO: "2023-09-22T17:59:59-04:00",
@@ -3242,7 +3242,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:02:00",
-    asleepAvg7:"07:45:00",
+    asleepAvg7: "07:45:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:06:57",
@@ -3252,7 +3252,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.3,
     sleepBPMAvg: 60.7,
     wakingBPM: 62,
-    wakingBPMAvg7: 63.4
+    wakingBPMAvg7: 63.4,
   },
   {
     ISO: "2023-09-23T17:59:59-04:00",
@@ -3264,7 +3264,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:07:00",
-    asleepAvg7:"08:07:00",
+    asleepAvg7: "08:07:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "08:43:55",
@@ -3274,7 +3274,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.9,
     sleepBPMAvg: 61.3,
     wakingBPM: 64,
-    wakingBPMAvg7: 64.1
+    wakingBPMAvg7: 64.1,
   },
   {
     ISO: "2023-09-24T17:59:59-04:00",
@@ -3286,7 +3286,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:30:00",
-    asleepAvg7:"08:02:42",
+    asleepAvg7: "08:02:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "08:09:10",
@@ -3296,7 +3296,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.3,
     sleepBPMAvg: 61.4,
     wakingBPM: 63,
-    wakingBPMAvg7: 62.6
+    wakingBPMAvg7: 62.6,
   },
   {
     ISO: "2023-09-25T17:59:59-04:00",
@@ -3308,7 +3308,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:58:00",
-    asleepAvg7:"08:03:25",
+    asleepAvg7: "08:03:25",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:36:43",
@@ -3318,7 +3318,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.3,
     sleepBPMAvg: 61.3,
     wakingBPM: 72,
-    wakingBPMAvg7: 63.9
+    wakingBPMAvg7: 63.9,
   },
   {
     ISO: "2023-09-26T17:59:59-04:00",
@@ -3330,7 +3330,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:09:00",
-    asleepAvg7:"08:01:25",
+    asleepAvg7: "08:01:25",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:17:54",
@@ -3340,7 +3340,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.7,
     sleepBPMAvg: 61.3,
     wakingBPM: 59,
-    wakingBPMAvg7: 64.4
+    wakingBPMAvg7: 64.4,
   },
   {
     ISO: "2023-09-27T17:59:59-04:00",
@@ -3352,7 +3352,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:11:00",
-    asleepAvg7:"08:08:51",
+    asleepAvg7: "08:08:51",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:19:06",
@@ -3362,7 +3362,7 @@ wakingBPMAvg7: number
     sleepBPM: 56.6,
     sleepBPMAvg: 60.8,
     wakingBPM: 63,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2023-09-28T17:59:59-04:00",
@@ -3374,7 +3374,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:39:00",
-    asleepAvg7:"07:56:34",
+    asleepAvg7: "07:56:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:47:39",
@@ -3384,7 +3384,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.4,
     sleepBPMAvg: 60.2,
     wakingBPM: 53,
-    wakingBPMAvg7: 62.3
+    wakingBPMAvg7: 62.3,
   },
   {
     ISO: "2023-09-29T17:59:59-04:00",
@@ -3396,7 +3396,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:17:00",
-    asleepAvg7:"07:58:42",
+    asleepAvg7: "07:58:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:19:03",
@@ -3406,7 +3406,7 @@ wakingBPMAvg7: number
     sleepBPM: 60,
     sleepBPMAvg: 59.7,
     wakingBPM: 61,
-    wakingBPMAvg7: 62.1
+    wakingBPMAvg7: 62.1,
   },
   {
     ISO: "2023-09-30T17:59:59-04:00",
@@ -3418,7 +3418,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:52:00",
-    asleepAvg7:"07:48:00",
+    asleepAvg7: "07:48:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:46:13",
@@ -3428,7 +3428,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.9,
     sleepBPMAvg: 59,
     wakingBPM: 59,
-    wakingBPMAvg7: 61.4
+    wakingBPMAvg7: 61.4,
   },
   {
     ISO: "2023-10-01T17:59:59-04:00",
@@ -3440,7 +3440,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:11:00",
-    asleepAvg7:"07:19:34",
+    asleepAvg7: "07:19:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:19:43",
@@ -3450,7 +3450,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.6,
     sleepBPMAvg: 58.5,
     wakingBPM: 55,
-    wakingBPMAvg7: 60.3
+    wakingBPMAvg7: 60.3,
   },
   {
     ISO: "2023-10-02T17:59:59-04:00",
@@ -3462,7 +3462,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:33:00",
-    asleepAvg7:"07:07:25",
+    asleepAvg7: "07:07:25",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:29:02",
@@ -3472,7 +3472,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.2,
     sleepBPMAvg: 58.3,
     wakingBPM: 58,
-    wakingBPMAvg7: 58.3
+    wakingBPMAvg7: 58.3,
   },
   {
     ISO: "2023-10-03T17:59:59-04:00",
@@ -3484,7 +3484,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:22:00",
-    asleepAvg7:"07:09:17",
+    asleepAvg7: "07:09:17",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:32:18",
@@ -3494,7 +3494,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.9,
     sleepBPMAvg: 58.4,
     wakingBPM: 57,
-    wakingBPMAvg7: 58
+    wakingBPMAvg7: 58,
   },
   {
     ISO: "2023-10-04T17:59:59-04:00",
@@ -3506,7 +3506,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:27:00",
-    asleepAvg7:"07:03:00",
+    asleepAvg7: "07:03:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:22:42",
@@ -3516,7 +3516,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 58.7,
     wakingBPM: 61,
-    wakingBPMAvg7: 57.7
+    wakingBPMAvg7: 57.7,
   },
   {
     ISO: "2023-10-05T17:59:59-04:00",
@@ -3528,7 +3528,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:02:00",
-    asleepAvg7:"07:14:51",
+    asleepAvg7: "07:14:51",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:09:18",
@@ -3538,7 +3538,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 59,
     wakingBPM: 52,
-    wakingBPMAvg7: 57.6
+    wakingBPMAvg7: 57.6,
   },
   {
     ISO: "2023-10-06T17:59:59-04:00",
@@ -3550,7 +3550,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:11:00",
-    asleepAvg7:"07:39:42",
+    asleepAvg7: "07:39:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "08:40:27",
@@ -3560,7 +3560,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.4,
     sleepBPMAvg: 59.2,
     wakingBPM: 77,
-    wakingBPMAvg7: 59.9
+    wakingBPMAvg7: 59.9,
   },
   {
     ISO: "2023-10-07T17:59:59-04:00",
@@ -3572,7 +3572,7 @@ wakingBPMAvg7: number
     awake: "00:44:00",
     sessions: 1,
     asleep: "08:01:00",
-    asleepAvg7:"07:32:25",
+    asleepAvg7: "07:32:25",
     efficiency: 91.6,
     efficiencyAvg7: 98.8,
     quality: "06:59:42",
@@ -3582,7 +3582,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.8,
     sleepBPMAvg: 59.5,
     wakingBPM: 70,
-    wakingBPMAvg7: 61.4
+    wakingBPMAvg7: 61.4,
   },
   {
     ISO: "2023-10-08T17:59:59-04:00",
@@ -3594,7 +3594,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:17:00",
-    asleepAvg7:"07:59:00",
+    asleepAvg7: "07:59:00",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "08:06:37",
@@ -3604,7 +3604,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.5,
     sleepBPMAvg: 59.8,
     wakingBPM: 60,
-    wakingBPMAvg7: 62.1
+    wakingBPMAvg7: 62.1,
   },
   {
     ISO: "2023-10-09T17:59:59-04:00",
@@ -3616,7 +3616,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:22:00",
-    asleepAvg7:"08:14:34",
+    asleepAvg7: "08:14:34",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "06:21:50",
@@ -3626,7 +3626,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.3,
     sleepBPMAvg: 60.2,
     wakingBPM: 64,
-    wakingBPMAvg7: 63
+    wakingBPMAvg7: 63,
   },
   {
     ISO: "2023-10-10T17:59:59-04:00",
@@ -3638,7 +3638,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:49:00",
-    asleepAvg7:"08:18:25",
+    asleepAvg7: "08:18:25",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "06:28:36",
@@ -3648,7 +3648,7 @@ wakingBPMAvg7: number
     sleepBPM: 60,
     sleepBPMAvg: 60.2,
     wakingBPM: 73,
-    wakingBPMAvg7: 65.3
+    wakingBPMAvg7: 65.3,
   },
   {
     ISO: "2023-10-11T17:59:59-04:00",
@@ -3660,7 +3660,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:36:00",
-    asleepAvg7:"08:19:42",
+    asleepAvg7: "08:19:42",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "05:42:51",
@@ -3670,7 +3670,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.5,
     sleepBPMAvg: 60.5,
     wakingBPM: 72,
-    wakingBPMAvg7: 66.9
+    wakingBPMAvg7: 66.9,
   },
   {
     ISO: "2023-10-12T17:59:59-04:00",
@@ -3682,7 +3682,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:20:00",
-    asleepAvg7:"08:13:42",
+    asleepAvg7: "08:13:42",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "06:12:00",
@@ -3692,7 +3692,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.8,
     sleepBPMAvg: 61.1,
     wakingBPM: 76,
-    wakingBPMAvg7: 70.3
+    wakingBPMAvg7: 70.3,
   },
   {
     ISO: "2023-10-13T17:59:59-04:00",
@@ -3704,7 +3704,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:03:00",
-    asleepAvg7:"07:38:17",
+    asleepAvg7: "07:38:17",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "05:08:29",
@@ -3714,7 +3714,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.1,
     sleepBPMAvg: 60.9,
     wakingBPM: 58,
-    wakingBPMAvg7: 67.6
+    wakingBPMAvg7: 67.6,
   },
   {
     ISO: "2023-10-14T17:59:59-04:00",
@@ -3726,7 +3726,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "11:03:00",
-    asleepAvg7:"08:04:17",
+    asleepAvg7: "08:04:17",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "10:02:38",
@@ -3736,7 +3736,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.4,
     sleepBPMAvg: 60.9,
     wakingBPM: 58,
-    wakingBPMAvg7: 65.9
+    wakingBPMAvg7: 65.9,
   },
   {
     ISO: "2023-10-15T17:59:59-04:00",
@@ -3748,7 +3748,7 @@ wakingBPMAvg7: number
     awake: "00:11:00",
     sessions: 1,
     asleep: "08:37:00",
-    asleepAvg7:"07:58:34",
+    asleepAvg7: "07:58:34",
     efficiency: 97.9,
     efficiencyAvg7: 99.7,
     quality: "07:16:36",
@@ -3758,7 +3758,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.9,
     sleepBPMAvg: 61.4,
     wakingBPM: 73,
-    wakingBPMAvg7: 67.7
+    wakingBPMAvg7: 67.7,
   },
   {
     ISO: "2023-10-16T17:59:59-04:00",
@@ -3770,7 +3770,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:30:00",
-    asleepAvg7:"07:42:34",
+    asleepAvg7: "07:42:34",
     efficiency: 100,
     efficiencyAvg7: 99.7,
     quality: "05:49:00",
@@ -3780,7 +3780,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.5,
     sleepBPMAvg: 61.5,
     wakingBPM: 61,
-    wakingBPMAvg7: 67.3
+    wakingBPMAvg7: 67.3,
   },
   {
     ISO: "2023-10-17T17:59:59-04:00",
@@ -3792,7 +3792,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:37:00",
-    asleepAvg7:"07:32:17",
+    asleepAvg7: "07:32:17",
     efficiency: 100,
     efficiencyAvg7: 99.7,
     quality: "06:09:50",
@@ -3802,7 +3802,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.3,
     sleepBPMAvg: 61.9,
     wakingBPM: 57,
-    wakingBPMAvg7: 65
+    wakingBPMAvg7: 65,
   },
   {
     ISO: "2023-10-18T17:59:59-04:00",
@@ -3814,7 +3814,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:00:00",
-    asleepAvg7:"07:35:42",
+    asleepAvg7: "07:35:42",
     efficiency: 100,
     efficiencyAvg7: 99.7,
     quality: "06:23:54",
@@ -3824,7 +3824,7 @@ wakingBPMAvg7: number
     sleepBPM: 62,
     sleepBPMAvg: 62,
     wakingBPM: 62,
-    wakingBPMAvg7: 63.6
+    wakingBPMAvg7: 63.6,
   },
   {
     ISO: "2023-10-19T17:59:59-04:00",
@@ -3836,7 +3836,7 @@ wakingBPMAvg7: number
     awake: "01:00:00",
     sessions: 1,
     asleep: "06:30:00",
-    asleepAvg7:"07:28:34",
+    asleepAvg7: "07:28:34",
     efficiency: 86.7,
     efficiencyAvg7: 97.8,
     quality: "05:53:08",
@@ -3846,7 +3846,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.6,
     sleepBPMAvg: 62.3,
     wakingBPM: 61,
-    wakingBPMAvg7: 61.4
+    wakingBPMAvg7: 61.4,
   },
   {
     ISO: "2023-10-21T17:59:59-04:00",
@@ -3858,7 +3858,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:30:00",
-    asleepAvg7:"08:06:42",
+    asleepAvg7: "08:06:42",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "08:57:10",
@@ -3868,7 +3868,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.4,
     sleepBPMAvg: 62.9,
     wakingBPM: 60,
-    wakingBPMAvg7: 61.7
+    wakingBPMAvg7: 61.7,
   },
   {
     ISO: "2023-10-22T17:59:59-04:00",
@@ -3880,7 +3880,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:29:00",
-    asleepAvg7:"07:44:42",
+    asleepAvg7: "07:44:42",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "07:06:43",
@@ -3890,7 +3890,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.1,
     sleepBPMAvg: 63,
     wakingBPM: 59,
-    wakingBPMAvg7: 61.9
+    wakingBPMAvg7: 61.9,
   },
   {
     ISO: "2023-10-23T17:59:59-04:00",
@@ -3902,7 +3902,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "06:45:00",
-    asleepAvg7:"07:28:42",
+    asleepAvg7: "07:28:42",
     efficiency: 100,
     efficiencyAvg7: 98.1,
     quality: "05:38:52",
@@ -3912,7 +3912,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.6,
     sleepBPMAvg: 62.9,
     wakingBPM: 56,
-    wakingBPMAvg7: 59.4
+    wakingBPMAvg7: 59.4,
   },
   {
     ISO: "2023-10-24T17:59:59-04:00",
@@ -3924,7 +3924,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:15:00",
-    asleepAvg7:"07:26:34",
+    asleepAvg7: "07:26:34",
     efficiency: 100,
     efficiencyAvg7: 98.1,
     quality: "05:33:44",
@@ -3934,7 +3934,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 62.5,
     wakingBPM: 57,
-    wakingBPMAvg7: 58.9
+    wakingBPMAvg7: 58.9,
   },
   {
     ISO: "2023-10-25T17:59:59-04:00",
@@ -3946,7 +3946,7 @@ wakingBPMAvg7: number
     awake: "00:14:00",
     sessions: 2,
     asleep: "07:54:00",
-    asleepAvg7:"07:37:34",
+    asleepAvg7: "07:37:34",
     efficiency: 96.9,
     efficiencyAvg7: 97.7,
     quality: "06:29:51",
@@ -3956,7 +3956,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.4,
     sleepBPMAvg: 62.6,
     wakingBPM: 60,
-    wakingBPMAvg7: 59.3
+    wakingBPMAvg7: 59.3,
   },
   {
     ISO: "2023-10-26T17:59:59-04:00",
@@ -3968,7 +3968,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:29:00",
-    asleepAvg7:"07:41:42",
+    asleepAvg7: "07:41:42",
     efficiency: 100,
     efficiencyAvg7: 97.7,
     quality: "06:16:16",
@@ -3978,7 +3978,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.6,
     sleepBPMAvg: 62.9,
     wakingBPM: 58,
-    wakingBPMAvg7: 58.7
+    wakingBPMAvg7: 58.7,
   },
   {
     ISO: "2023-10-27T17:59:59-04:00",
@@ -3990,7 +3990,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:02:00",
-    asleepAvg7:"07:46:17",
+    asleepAvg7: "07:46:17",
     efficiency: 100,
     efficiencyAvg7: 99.6,
     quality: "06:26:55",
@@ -4000,7 +4000,7 @@ wakingBPMAvg7: number
     sleepBPM: 62,
     sleepBPMAvg: 62.5,
     wakingBPM: 57,
-    wakingBPMAvg7: 58.1
+    wakingBPMAvg7: 58.1,
   },
   {
     ISO: "2023-10-28T17:59:59-04:00",
@@ -4012,7 +4012,7 @@ wakingBPMAvg7: number
     awake: "00:24:00",
     sessions: 1,
     asleep: "11:02:00",
-    asleepAvg7:"07:50:51",
+    asleepAvg7: "07:50:51",
     efficiency: 96.5,
     efficiencyAvg7: 99.1,
     quality: "09:06:43",
@@ -4022,7 +4022,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.5,
     sleepBPMAvg: 61.9,
     wakingBPM: 65,
-    wakingBPMAvg7: 58.9
+    wakingBPMAvg7: 58.9,
   },
   {
     ISO: "2023-10-29T17:59:59-04:00",
@@ -4034,7 +4034,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:13:00",
-    asleepAvg7:"07:57:08",
+    asleepAvg7: "07:57:08",
     efficiency: 100,
     efficiencyAvg7: 99.1,
     quality: "07:56:47",
@@ -4044,7 +4044,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.1,
     sleepBPMAvg: 62.1,
     wakingBPM: 63,
-    wakingBPMAvg7: 59.4
+    wakingBPMAvg7: 59.4,
   },
   {
     ISO: "2023-10-30T17:59:59-04:00",
@@ -4056,7 +4056,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:15:00",
-    asleepAvg7:"07:52:51",
+    asleepAvg7: "07:52:51",
     efficiency: 100,
     efficiencyAvg7: 99.1,
     quality: "05:32:49",
@@ -4066,7 +4066,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.6,
     sleepBPMAvg: 61.9,
     wakingBPM: 66,
-    wakingBPMAvg7: 60.9
+    wakingBPMAvg7: 60.9,
   },
   {
     ISO: "2023-11-01T17:59:59-04:00",
@@ -4078,7 +4078,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:28:00",
-    asleepAvg7:"07:54:42",
+    asleepAvg7: "07:54:42",
     efficiency: 100,
     efficiencyAvg7: 99.1,
     quality: "05:27:04",
@@ -4088,7 +4088,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.4,
     sleepBPMAvg: 62.2,
     wakingBPM: 57,
-    wakingBPMAvg7: 60.9
+    wakingBPMAvg7: 60.9,
   },
   {
     ISO: "2023-11-02T17:59:59-04:00",
@@ -4100,7 +4100,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:30:00",
-    asleepAvg7:"07:42:42",
+    asleepAvg7: "07:42:42",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "05:43:26",
@@ -4110,7 +4110,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.9,
     sleepBPMAvg: 61.7,
     wakingBPM: 66,
-    wakingBPMAvg7: 61.7
+    wakingBPMAvg7: 61.7,
   },
   {
     ISO: "2023-11-03T17:59:59-04:00",
@@ -4122,7 +4122,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:51:00",
-    asleepAvg7:"07:45:51",
+    asleepAvg7: "07:45:51",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "07:09:01",
@@ -4132,7 +4132,7 @@ wakingBPMAvg7: number
     sleepBPM: 56.9,
     sleepBPMAvg: 60.8,
     wakingBPM: 68,
-    wakingBPMAvg7: 63.1
+    wakingBPMAvg7: 63.1,
   },
   {
     ISO: "2023-11-04T17:59:59-04:00",
@@ -4144,7 +4144,7 @@ wakingBPMAvg7: number
     awake: "03:15:00",
     sessions: 1,
     asleep: "06:53:00",
-    asleepAvg7:"07:44:34",
+    asleepAvg7: "07:44:34",
     efficiency: 67.9,
     efficiencyAvg7: 94.9,
     quality: "05:44:21",
@@ -4154,7 +4154,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.8,
     sleepBPMAvg: 60.6,
     wakingBPM: 63,
-    wakingBPMAvg7: 64
+    wakingBPMAvg7: 64,
   },
   {
     ISO: "2023-11-05T16:59:59-05:00",
@@ -4166,7 +4166,7 @@ wakingBPMAvg7: number
     awake: "00:13:00",
     sessions: 1,
     asleep: "08:08:00",
-    asleepAvg7:"07:19:42",
+    asleepAvg7: "07:19:42",
     efficiency: 97.4,
     efficiencyAvg7: 95,
     quality: "06:35:13",
@@ -4176,7 +4176,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 61,
     wakingBPM: 71,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2023-11-06T17:59:59-05:00",
@@ -4188,7 +4188,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:50:00",
-    asleepAvg7:"07:25:00",
+    asleepAvg7: "07:25:00",
     efficiency: 100,
     efficiencyAvg7: 95,
     quality: "08:18:11",
@@ -4198,7 +4198,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.4,
     sleepBPMAvg: 61.5,
     wakingBPM: 65,
-    wakingBPMAvg7: 65.1
+    wakingBPMAvg7: 65.1,
   },
   {
     ISO: "2023-11-07T17:59:59-05:00",
@@ -4210,7 +4210,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:19:00",
-    asleepAvg7:"07:34:08",
+    asleepAvg7: "07:34:08",
     efficiency: 100,
     efficiencyAvg7: 95,
     quality: "06:36:14",
@@ -4220,7 +4220,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.1,
     sleepBPMAvg: 61.9,
     wakingBPM: 64,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2023-11-08T17:59:59-05:00",
@@ -4232,7 +4232,7 @@ wakingBPMAvg7: number
     awake: "02:54:00",
     sessions: 1,
     asleep: "06:50:00",
-    asleepAvg7:"07:37:17",
+    asleepAvg7: "07:37:17",
     efficiency: 70.2,
     efficiencyAvg7: 90.8,
     quality: "05:55:14",
@@ -4242,7 +4242,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.1,
     sleepBPMAvg: 62.2,
     wakingBPM: 76,
-    wakingBPMAvg7: 67.6
+    wakingBPMAvg7: 67.6,
   },
   {
     ISO: "2023-11-09T17:59:59-05:00",
@@ -4254,7 +4254,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:40:00",
-    asleepAvg7:"07:30:08",
+    asleepAvg7: "07:30:08",
     efficiency: 100,
     efficiencyAvg7: 90.8,
     quality: "05:03:53",
@@ -4264,7 +4264,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.8,
     sleepBPMAvg: 62.5,
     wakingBPM: 63,
-    wakingBPMAvg7: 67.1
+    wakingBPMAvg7: 67.1,
   },
   {
     ISO: "2023-11-10T17:59:59-05:00",
@@ -4276,7 +4276,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "04:58:00",
-    asleepAvg7:"07:05:25",
+    asleepAvg7: "07:05:25",
     efficiency: 100,
     efficiencyAvg7: 90.8,
     quality: "04:19:58",
@@ -4286,7 +4286,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.2,
     sleepBPMAvg: 63.6,
     wakingBPM: 74,
-    wakingBPMAvg7: 68
+    wakingBPMAvg7: 68,
   },
   {
     ISO: "2023-11-11T17:59:59-05:00",
@@ -4298,7 +4298,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:19:00",
-    asleepAvg7:"07:34:51",
+    asleepAvg7: "07:34:51",
     efficiency: 100,
     efficiencyAvg7: 95.4,
     quality: "09:25:17",
@@ -4308,7 +4308,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.9,
     sleepBPMAvg: 63.7,
     wakingBPM: 69,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2023-11-12T17:59:59-05:00",
@@ -4320,7 +4320,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:43:00",
-    asleepAvg7:"07:31:17",
+    asleepAvg7: "07:31:17",
     efficiency: 100,
     efficiencyAvg7: 95.7,
     quality: "06:09:33",
@@ -4330,7 +4330,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.2,
     sleepBPMAvg: 63,
     wakingBPM: 62,
-    wakingBPMAvg7: 67.6
+    wakingBPMAvg7: 67.6,
   },
   {
     ISO: "2023-11-13T17:59:59-05:00",
@@ -4342,7 +4342,7 @@ wakingBPMAvg7: number
     awake: "00:59:00",
     sessions: 1,
     asleep: "05:58:00",
-    asleepAvg7:"06:58:08",
+    asleepAvg7: "06:58:08",
     efficiency: 85.9,
     efficiencyAvg7: 93.7,
     quality: "05:00:23",
@@ -4352,7 +4352,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.9,
     sleepBPMAvg: 61.9,
     wakingBPM: 81,
-    wakingBPMAvg7: 69.9
+    wakingBPMAvg7: 69.9,
   },
   {
     ISO: "2023-11-14T17:59:59-05:00",
@@ -4364,7 +4364,7 @@ wakingBPMAvg7: number
     awake: "00:25:00",
     sessions: 1,
     asleep: "12:54:00",
-    asleepAvg7:"07:46:00",
+    asleepAvg7: "07:46:00",
     efficiency: 96.9,
     efficiencyAvg7: 93.3,
     quality: "10:20:26",
@@ -4374,7 +4374,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.7,
     sleepBPMAvg: 62,
     wakingBPM: 65,
-    wakingBPMAvg7: 70
+    wakingBPMAvg7: 70,
   },
   {
     ISO: "2023-11-15T17:59:59-05:00",
@@ -4386,7 +4386,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:17:00",
-    asleepAvg7:"07:49:51",
+    asleepAvg7: "07:49:51",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "06:15:24",
@@ -4396,7 +4396,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.9,
     sleepBPMAvg: 61.7,
     wakingBPM: 73,
-    wakingBPMAvg7: 69.6
+    wakingBPMAvg7: 69.6,
   },
   {
     ISO: "2023-11-16T17:59:59-05:00",
@@ -4408,7 +4408,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:41:00",
-    asleepAvg7:"07:58:34",
+    asleepAvg7: "07:58:34",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "05:39:53",
@@ -4418,7 +4418,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.5,
     sleepBPMAvg: 60.9,
     wakingBPM: 61,
-    wakingBPMAvg7: 69.3
+    wakingBPMAvg7: 69.3,
   },
   {
     ISO: "2023-11-17T17:59:59-05:00",
@@ -4430,7 +4430,7 @@ wakingBPMAvg7: number
     awake: "00:15:00",
     sessions: 1,
     asleep: "06:22:00",
-    asleepAvg7:"08:10:34",
+    asleepAvg7: "08:10:34",
     efficiency: 96.2,
     efficiencyAvg7: 97,
     quality: "05:26:58",
@@ -4440,7 +4440,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.4,
     sleepBPMAvg: 59.9,
     wakingBPM: 61,
-    wakingBPMAvg7: 67.4
+    wakingBPMAvg7: 67.4,
   },
   {
     ISO: "2023-11-18T17:59:59-05:00",
@@ -4452,7 +4452,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "11:04:00",
-    asleepAvg7:"08:17:00",
+    asleepAvg7: "08:17:00",
     efficiency: 100,
     efficiencyAvg7: 97,
     quality: "09:43:20",
@@ -4462,7 +4462,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.1,
     sleepBPMAvg: 59.8,
     wakingBPM: 60,
-    wakingBPMAvg7: 66.1
+    wakingBPMAvg7: 66.1,
   },
   {
     ISO: "2023-11-19T17:59:59-05:00",
@@ -4474,7 +4474,7 @@ wakingBPMAvg7: number
     awake: "00:12:00",
     sessions: 1,
     asleep: "07:53:00",
-    asleepAvg7:"08:18:25",
+    asleepAvg7: "08:18:25",
     efficiency: 97.5,
     efficiencyAvg7: 96.6,
     quality: "06:29:08",
@@ -4484,7 +4484,7 @@ wakingBPMAvg7: number
     sleepBPM: 61,
     sleepBPMAvg: 60.2,
     wakingBPM: 66,
-    wakingBPMAvg7: 66.7
+    wakingBPMAvg7: 66.7,
   },
   {
     ISO: "2023-11-20T17:59:59-05:00",
@@ -4496,7 +4496,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:01:00",
-    asleepAvg7:"08:18:51",
+    asleepAvg7: "08:18:51",
     efficiency: 100,
     efficiencyAvg7: 98.7,
     quality: "05:29:57",
@@ -4506,7 +4506,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.9,
     sleepBPMAvg: 60.2,
     wakingBPM: 62,
-    wakingBPMAvg7: 64
+    wakingBPMAvg7: 64,
   },
   {
     ISO: "2023-11-21T17:59:59-05:00",
@@ -4518,7 +4518,7 @@ wakingBPMAvg7: number
     awake: "00:16:00",
     sessions: 1,
     asleep: "06:49:00",
-    asleepAvg7:"07:26:42",
+    asleepAvg7: "07:26:42",
     efficiency: 96.2,
     efficiencyAvg7: 98.6,
     quality: "06:07:52",
@@ -4528,7 +4528,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.9,
     sleepBPMAvg: 59.5,
     wakingBPM: 85,
-    wakingBPMAvg7: 66.9
+    wakingBPMAvg7: 66.9,
   },
   {
     ISO: "2023-11-22T17:59:59-05:00",
@@ -4540,7 +4540,7 @@ wakingBPMAvg7: number
     awake: "00:14:00",
     sessions: 1,
     asleep: "07:27:00",
-    asleepAvg7:"07:28:08",
+    asleepAvg7: "07:28:08",
     efficiency: 97,
     efficiencyAvg7: 98.1,
     quality: "06:19:40",
@@ -4550,7 +4550,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.8,
     sleepBPMAvg: 59.5,
     wakingBPM: 79,
-    wakingBPMAvg7: 67.7
+    wakingBPMAvg7: 67.7,
   },
   {
     ISO: "2023-11-23T17:59:59-05:00",
@@ -4562,7 +4562,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:49:00",
-    asleepAvg7:"07:29:17",
+    asleepAvg7: "07:29:17",
     efficiency: 100,
     efficiencyAvg7: 98.1,
     quality: "06:10:22",
@@ -4572,7 +4572,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.1,
     sleepBPMAvg: 60,
     wakingBPM: 70,
-    wakingBPMAvg7: 69
+    wakingBPMAvg7: 69,
   },
   {
     ISO: "2023-11-24T17:59:59-05:00",
@@ -4584,7 +4584,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "04:54:00",
-    asleepAvg7:"07:16:42",
+    asleepAvg7: "07:16:42",
     efficiency: 100,
     efficiencyAvg7: 98.7,
     quality: "04:17:05",
@@ -4594,7 +4594,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.6,
     sleepBPMAvg: 60.2,
     wakingBPM: 77,
-    wakingBPMAvg7: 71.3
+    wakingBPMAvg7: 71.3,
   },
   {
     ISO: "2023-11-25T17:59:59-05:00",
@@ -4606,7 +4606,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:41:00",
-    asleepAvg7:"07:13:25",
+    asleepAvg7: "07:13:25",
     efficiency: 100,
     efficiencyAvg7: 98.7,
     quality: "09:00:28",
@@ -4616,7 +4616,7 @@ wakingBPMAvg7: number
     sleepBPM: 61,
     sleepBPMAvg: 60.2,
     wakingBPM: 70,
-    wakingBPMAvg7: 72.7
+    wakingBPMAvg7: 72.7,
   },
   {
     ISO: "2023-11-26T17:59:59-05:00",
@@ -4628,7 +4628,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "10:08:00",
-    asleepAvg7:"07:32:42",
+    asleepAvg7: "07:32:42",
     efficiency: 100,
     efficiencyAvg7: 99,
     quality: "08:42:31",
@@ -4638,7 +4638,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.2,
     sleepBPMAvg: 60.4,
     wakingBPM: 73,
-    wakingBPMAvg7: 73.7
+    wakingBPMAvg7: 73.7,
   },
   {
     ISO: "2023-11-27T17:59:59-05:00",
@@ -4650,7 +4650,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:09:00",
-    asleepAvg7:"07:33:51",
+    asleepAvg7: "07:33:51",
     efficiency: 100,
     efficiencyAvg7: 99,
     quality: "05:28:45",
@@ -4660,7 +4660,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.3,
     sleepBPMAvg: 60.8,
     wakingBPM: 55,
-    wakingBPMAvg7: 72.7
+    wakingBPMAvg7: 72.7,
   },
   {
     ISO: "2023-11-28T17:59:59-05:00",
@@ -4672,7 +4672,7 @@ wakingBPMAvg7: number
     awake: "03:16:00",
     sessions: 1,
     asleep: "06:32:00",
-    asleepAvg7:"07:31:25",
+    asleepAvg7: "07:31:25",
     efficiency: 66.7,
     efficiencyAvg7: 94.8,
     quality: "05:27:59",
@@ -4682,7 +4682,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.5,
     sleepBPMAvg: 61.1,
     wakingBPM: 70,
-    wakingBPMAvg7: 70.6
+    wakingBPMAvg7: 70.6,
   },
   {
     ISO: "2023-11-29T17:59:59-05:00",
@@ -4694,7 +4694,7 @@ wakingBPMAvg7: number
     awake: "02:32:00",
     sessions: 1,
     asleep: "08:42:00",
-    asleepAvg7:"07:42:08",
+    asleepAvg7: "07:42:08",
     efficiency: 77.4,
     efficiencyAvg7: 92,
     quality: "07:34:59",
@@ -4704,7 +4704,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.6,
     sleepBPMAvg: 60.6,
     wakingBPM: 75,
-    wakingBPMAvg7: 70
+    wakingBPMAvg7: 70,
   },
   {
     ISO: "2023-11-30T17:59:59-05:00",
@@ -4716,7 +4716,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:54:00",
-    asleepAvg7:"07:42:51",
+    asleepAvg7: "07:42:51",
     efficiency: 100,
     efficiencyAvg7: 92,
     quality: "06:11:28",
@@ -4726,7 +4726,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.5,
     sleepBPMAvg: 60.1,
     wakingBPM: 62,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2023-12-01T17:59:59-05:00",
@@ -4738,7 +4738,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:32:00",
-    asleepAvg7:"07:48:17",
+    asleepAvg7: "07:48:17",
     efficiency: 100,
     efficiencyAvg7: 92,
     quality: "05:07:23",
@@ -4748,7 +4748,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.5,
     sleepBPMAvg: 60.2,
     wakingBPM: 58,
-    wakingBPMAvg7: 66.1
+    wakingBPMAvg7: 66.1,
   },
   {
     ISO: "2023-12-02T17:59:59-05:00",
@@ -4760,7 +4760,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:00:00",
-    asleepAvg7:"07:33:51",
+    asleepAvg7: "07:33:51",
     efficiency: 100,
     efficiencyAvg7: 92,
     quality: "08:00:40",
@@ -4770,7 +4770,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.1,
     sleepBPMAvg: 60.1,
     wakingBPM: 57,
-    wakingBPMAvg7: 64.3
+    wakingBPMAvg7: 64.3,
   },
   {
     ISO: "2023-12-03T17:59:59-05:00",
@@ -4782,7 +4782,7 @@ wakingBPMAvg7: number
     awake: "00:22:00",
     sessions: 1,
     asleep: "10:05:00",
-    asleepAvg7:"07:33:25",
+    asleepAvg7: "07:33:25",
     efficiency: 96.5,
     efficiencyAvg7: 91.5,
     quality: "08:11:54",
@@ -4792,7 +4792,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.3,
     sleepBPMAvg: 59.8,
     wakingBPM: 73,
-    wakingBPMAvg7: 64.3
+    wakingBPMAvg7: 64.3,
   },
   {
     ISO: "2023-12-04T17:59:59-05:00",
@@ -4804,7 +4804,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:15:00",
-    asleepAvg7:"07:34:17",
+    asleepAvg7: "07:34:17",
     efficiency: 100,
     efficiencyAvg7: 91.5,
     quality: "05:21:04",
@@ -4814,7 +4814,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.7,
     sleepBPMAvg: 59.5,
     wakingBPM: 65,
-    wakingBPMAvg7: 65.7
+    wakingBPMAvg7: 65.7,
   },
   {
     ISO: "2023-12-05T17:59:59-05:00",
@@ -4826,7 +4826,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "08:01:00",
-    asleepAvg7:"07:47:00",
+    asleepAvg7: "07:47:00",
     efficiency: 100,
     efficiencyAvg7: 96.3,
     quality: "06:23:08",
@@ -4836,7 +4836,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.6,
     sleepBPMAvg: 58.9,
     wakingBPM: 59,
-    wakingBPMAvg7: 64.1
+    wakingBPMAvg7: 64.1,
   },
   {
     ISO: "2023-12-06T17:59:59-05:00",
@@ -4848,7 +4848,7 @@ wakingBPMAvg7: number
     awake: "00:21:00",
     sessions: 1,
     asleep: "07:12:00",
-    asleepAvg7:"07:34:08",
+    asleepAvg7: "07:34:08",
     efficiency: 95.4,
     efficiencyAvg7: 98.8,
     quality: "06:25:12",
@@ -4858,7 +4858,7 @@ wakingBPMAvg7: number
     sleepBPM: 61,
     sleepBPMAvg: 59.3,
     wakingBPM: 56,
-    wakingBPMAvg7: 61.4
+    wakingBPMAvg7: 61.4,
   },
   {
     ISO: "2023-12-07T17:59:59-05:00",
@@ -4870,7 +4870,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:29:00",
-    asleepAvg7:"07:39:08",
+    asleepAvg7: "07:39:08",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "06:30:17",
@@ -4880,7 +4880,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.4,
     sleepBPMAvg: 59.5,
     wakingBPM: 51,
-    wakingBPMAvg7: 59.9
+    wakingBPMAvg7: 59.9,
   },
   {
     ISO: "2023-12-08T17:59:59-05:00",
@@ -4892,7 +4892,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:07:00",
-    asleepAvg7:"07:44:08",
+    asleepAvg7: "07:44:08",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "05:19:20",
@@ -4902,7 +4902,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.3,
     sleepBPMAvg: 59.2,
     wakingBPM: 54,
-    wakingBPMAvg7: 59.3
+    wakingBPMAvg7: 59.3,
   },
   {
     ISO: "2023-12-09T17:59:59-05:00",
@@ -4914,7 +4914,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "11:28:00",
-    asleepAvg7:"08:05:17",
+    asleepAvg7: "08:05:17",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "09:32:58",
@@ -4924,7 +4924,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.1,
     sleepBPMAvg: 59.1,
     wakingBPM: 58.8,
-    wakingBPMAvg7: 59.5
+    wakingBPMAvg7: 59.5,
   },
   {
     ISO: "2023-12-10T17:59:59-05:00",
@@ -4936,7 +4936,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:01:00",
-    asleepAvg7:"08:04:42",
+    asleepAvg7: "08:04:42",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "08:32:24",
@@ -4946,7 +4946,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.5,
     sleepBPMAvg: 58.8,
     wakingBPM: 65,
-    wakingBPMAvg7: 58.4
+    wakingBPMAvg7: 58.4,
   },
   {
     ISO: "2023-12-11T17:59:59-05:00",
@@ -4958,7 +4958,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:48:00",
-    asleepAvg7:"08:09:25",
+    asleepAvg7: "08:09:25",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "06:14:00",
@@ -4968,7 +4968,7 @@ wakingBPMAvg7: number
     sleepBPM: 56.8,
     sleepBPMAvg: 58.5,
     wakingBPM: 49,
-    wakingBPMAvg7: 56.1
+    wakingBPMAvg7: 56.1,
   },
   {
     ISO: "2023-12-12T17:59:59-05:00",
@@ -4980,7 +4980,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "08:35:00",
-    asleepAvg7:"08:14:17",
+    asleepAvg7: "08:14:17",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "07:54:48",
@@ -4990,7 +4990,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.6,
     sleepBPMAvg: 58.7,
     wakingBPM: 59,
-    wakingBPMAvg7: 56.1
+    wakingBPMAvg7: 56.1,
   },
   {
     ISO: "2023-12-13T17:59:59-05:00",
@@ -5002,7 +5002,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:12:00",
-    asleepAvg7:"08:05:42",
+    asleepAvg7: "08:05:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:18:37",
@@ -5012,7 +5012,7 @@ wakingBPMAvg7: number
     sleepBPM: 55.2,
     sleepBPMAvg: 57.8,
     wakingBPM: 57,
-    wakingBPMAvg7: 56.3
+    wakingBPMAvg7: 56.3,
   },
   {
     ISO: "2023-12-14T17:59:59-05:00",
@@ -5024,7 +5024,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:25:00",
-    asleepAvg7:"07:56:34",
+    asleepAvg7: "07:56:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:42:17",
@@ -5034,7 +5034,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.4,
     sleepBPMAvg: 57.5,
     wakingBPM: 56,
-    wakingBPMAvg7: 57
+    wakingBPMAvg7: 57,
   },
   {
     ISO: "2023-12-15T17:59:59-05:00",
@@ -5046,7 +5046,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "06:31:00",
-    asleepAvg7:"08:00:00",
+    asleepAvg7: "08:00:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:47:54",
@@ -5056,7 +5056,7 @@ wakingBPMAvg7: number
     sleepBPM: 55.6,
     sleepBPMAvg: 57.3,
     wakingBPM: 54,
-    wakingBPMAvg7: 57
+    wakingBPMAvg7: 57,
   },
   {
     ISO: "2023-12-16T17:59:59-05:00",
@@ -5068,7 +5068,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:57:00",
-    asleepAvg7:"07:55:34",
+    asleepAvg7: "07:55:34",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "09:19:46",
@@ -5078,7 +5078,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.3,
     sleepBPMAvg: 57.5,
     wakingBPM: 59,
-    wakingBPMAvg7: 57
+    wakingBPMAvg7: 57,
   },
   {
     ISO: "2023-12-17T17:59:59-05:00",
@@ -5090,7 +5090,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:49:00",
-    asleepAvg7:"07:45:17",
+    asleepAvg7: "07:45:17",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:42:25",
@@ -5100,7 +5100,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.4,
     sleepBPMAvg: 57.3,
     wakingBPM: 56,
-    wakingBPMAvg7: 55.7
+    wakingBPMAvg7: 55.7,
   },
   {
     ISO: "2023-12-18T17:59:59-05:00",
@@ -5112,7 +5112,7 @@ wakingBPMAvg7: number
     awake: "00:11:00",
     sessions: 1,
     asleep: "06:45:00",
-    asleepAvg7:"07:44:51",
+    asleepAvg7: "07:44:51",
     efficiency: 97.4,
     efficiencyAvg7: 99.6,
     quality: "05:41:36",
@@ -5122,7 +5122,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.6,
     sleepBPMAvg: 57.6,
     wakingBPM: 53,
-    wakingBPMAvg7: 56.3
+    wakingBPMAvg7: 56.3,
   },
   {
     ISO: "2023-12-19T17:59:59-05:00",
@@ -5134,7 +5134,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:34:00",
-    asleepAvg7:"07:19:00",
+    asleepAvg7: "07:19:00",
     efficiency: 100,
     efficiencyAvg7: 99.6,
     quality: "05:14:29",
@@ -5144,7 +5144,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.7,
     sleepBPMAvg: 57.9,
     wakingBPM: 56,
-    wakingBPMAvg7: 55.9
+    wakingBPMAvg7: 55.9,
   },
   {
     ISO: "2023-12-20T17:59:59-05:00",
@@ -5156,7 +5156,7 @@ wakingBPMAvg7: number
     awake: "00:19:00",
     sessions: 1,
     asleep: "04:36:00",
-    asleepAvg7:"07:05:17",
+    asleepAvg7: "07:05:17",
     efficiency: 93.6,
     efficiencyAvg7: 98.7,
     quality: "04:05:05",
@@ -5166,7 +5166,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.3,
     sleepBPMAvg: 58.6,
     wakingBPM: 62,
-    wakingBPMAvg7: 56.6
+    wakingBPMAvg7: 56.6,
   },
   {
     ISO: "2023-12-21T17:59:59-05:00",
@@ -5178,7 +5178,7 @@ wakingBPMAvg7: number
     awake: "00:21:00",
     sessions: 2,
     asleep: "06:13:00",
-    asleepAvg7:"07:03:34",
+    asleepAvg7: "07:03:34",
     efficiency: 94,
     efficiencyAvg7: 97.8,
     quality: "05:03:12",
@@ -5188,7 +5188,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.2,
     sleepBPMAvg: 58.7,
     wakingBPM: 58,
-    wakingBPMAvg7: 56.9
+    wakingBPMAvg7: 56.9,
   },
   {
     ISO: "2023-12-22T17:59:59-05:00",
@@ -5200,7 +5200,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:24:00",
-    asleepAvg7:"07:11:08",
+    asleepAvg7: "07:11:08",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "06:15:07",
@@ -5210,7 +5210,7 @@ wakingBPMAvg7: number
     sleepBPM: 70.8,
     sleepBPMAvg: 60.9,
     wakingBPM: 56,
-    wakingBPMAvg7: 57.1
+    wakingBPMAvg7: 57.1,
   },
   {
     ISO: "2023-12-23T17:59:59-05:00",
@@ -5222,7 +5222,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:52:00",
-    asleepAvg7:"06:53:17",
+    asleepAvg7: "06:53:17",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "07:31:03",
@@ -5232,7 +5232,7 @@ wakingBPMAvg7: number
     sleepBPM: 55.8,
     sleepBPMAvg: 60.3,
     wakingBPM: 57,
-    wakingBPMAvg7: 56.9
+    wakingBPMAvg7: 56.9,
   },
   {
     ISO: "2023-12-24T17:59:59-05:00",
@@ -5244,7 +5244,7 @@ wakingBPMAvg7: number
     awake: "00:11:00",
     sessions: 1,
     asleep: "08:20:00",
-    asleepAvg7:"06:49:08",
+    asleepAvg7: "06:49:08",
     efficiency: 97.8,
     efficiencyAvg7: 97.5,
     quality: "06:40:22",
@@ -5254,7 +5254,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 60.5,
     wakingBPM: 62,
-    wakingBPMAvg7: 57.7
+    wakingBPMAvg7: 57.7,
   },
   {
     ISO: "2023-12-25T17:59:59-05:00",
@@ -5266,7 +5266,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "11:10:00",
-    asleepAvg7:"07:27:00",
+    asleepAvg7: "07:27:00",
     efficiency: 100,
     efficiencyAvg7: 97.9,
     quality: "09:43:32",
@@ -5276,7 +5276,7 @@ wakingBPMAvg7: number
     sleepBPM: 60,
     sleepBPMAvg: 60.7,
     wakingBPM: 62,
-    wakingBPMAvg7: 59
+    wakingBPMAvg7: 59,
   },
   {
     ISO: "2023-12-26T17:59:59-05:00",
@@ -5288,7 +5288,7 @@ wakingBPMAvg7: number
     awake: "00:27:00",
     sessions: 1,
     asleep: "07:11:00",
-    asleepAvg7:"07:40:51",
+    asleepAvg7: "07:40:51",
     efficiency: 94.1,
     efficiencyAvg7: 97.1,
     quality: "05:49:14",
@@ -5298,7 +5298,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.5,
     sleepBPMAvg: 60.4,
     wakingBPM: 61,
-    wakingBPMAvg7: 59.7
+    wakingBPMAvg7: 59.7,
   },
   {
     ISO: "2023-12-27T17:59:59-05:00",
@@ -5310,7 +5310,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:58:00",
-    asleepAvg7:"08:01:08",
+    asleepAvg7: "08:01:08",
     efficiency: 100,
     efficiencyAvg7: 98,
     quality: "05:39:04",
@@ -5320,7 +5320,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.6,
     sleepBPMAvg: 60.6,
     wakingBPM: 62,
-    wakingBPMAvg7: 59.7
+    wakingBPMAvg7: 59.7,
   },
   {
     ISO: "2023-12-28T17:59:59-05:00",
@@ -5332,7 +5332,7 @@ wakingBPMAvg7: number
     awake: "00:11:00",
     sessions: 1,
     asleep: "08:09:00",
-    asleepAvg7:"08:17:42",
+    asleepAvg7: "08:17:42",
     efficiency: 97.8,
     efficiencyAvg7: 98.5,
     quality: "06:34:10",
@@ -5342,7 +5342,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.1,
     sleepBPMAvg: 61.6,
     wakingBPM: 65,
-    wakingBPMAvg7: 60.7
+    wakingBPMAvg7: 60.7,
   },
   {
     ISO: "2023-12-29T17:59:59-05:00",
@@ -5354,7 +5354,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "04:37:00",
-    asleepAvg7:"07:53:51",
+    asleepAvg7: "07:53:51",
     efficiency: 100,
     efficiencyAvg7: 98.5,
     quality: "03:58:59",
@@ -5364,7 +5364,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.2,
     sleepBPMAvg: 60.5,
     wakingBPM: 61,
-    wakingBPMAvg7: 61.4
+    wakingBPMAvg7: 61.4,
   },
   {
     ISO: "2023-12-30T17:59:59-05:00",
@@ -5376,7 +5376,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:30:00",
-    asleepAvg7:"07:50:42",
+    asleepAvg7: "07:50:42",
     efficiency: 100,
     efficiencyAvg7: 98.5,
     quality: "07:20:12",
@@ -5386,7 +5386,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.3,
     sleepBPMAvg: 61.7,
     wakingBPM: 61,
-    wakingBPMAvg7: 62
+    wakingBPMAvg7: 62,
   },
   {
     ISO: "2023-12-31T17:59:59-05:00",
@@ -5398,7 +5398,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:08:00",
-    asleepAvg7:"07:57:34",
+    asleepAvg7: "07:57:34",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "08:09:21",
@@ -5408,7 +5408,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.6,
     sleepBPMAvg: 62.6,
     wakingBPM: 72,
-    wakingBPMAvg7: 63.4
+    wakingBPMAvg7: 63.4,
   },
   {
     ISO: "2024-01-01T17:59:59-05:00",
@@ -5420,7 +5420,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:09:00",
-    asleepAvg7:"07:40:17",
+    asleepAvg7: "07:40:17",
     efficiency: 100,
     efficiencyAvg7: 98.8,
     quality: "07:13:49",
@@ -5430,7 +5430,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.2,
     sleepBPMAvg: 63.6,
     wakingBPM: 79,
-    wakingBPMAvg7: 65.9
+    wakingBPMAvg7: 65.9,
   },
   {
     ISO: "2024-01-02T17:59:59-05:00",
@@ -5442,7 +5442,7 @@ wakingBPMAvg7: number
     awake: "03:34:00",
     sessions: 2,
     asleep: "09:48:00",
-    asleepAvg7:"08:02:42",
+    asleepAvg7: "08:02:42",
     efficiency: 32.5,
     efficiencyAvg7: 90,
     quality: "06:53:48",
@@ -5452,7 +5452,7 @@ wakingBPMAvg7: number
     sleepBPM: 83.8,
     sleepBPMAvg: 67.2,
     wakingBPM: 75,
-    wakingBPMAvg7: 67.9
+    wakingBPMAvg7: 67.9,
   },
   {
     ISO: "2024-01-03T17:59:59-05:00",
@@ -5464,7 +5464,7 @@ wakingBPMAvg7: number
     awake: "03:45:00",
     sessions: 1,
     asleep: "00:59:00",
-    asleepAvg7:"07:11:25",
+    asleepAvg7: "07:11:25",
     efficiency: 20.8,
     efficiencyAvg7: 78.7,
     quality: "00:32:41",
@@ -5474,7 +5474,7 @@ wakingBPMAvg7: number
     sleepBPM: 75.6,
     sleepBPMAvg: 69.2,
     wakingBPM: 67,
-    wakingBPMAvg7: 68.6
+    wakingBPMAvg7: 68.6,
   },
   {
     ISO: "2024-01-04T17:59:59-05:00",
@@ -5486,7 +5486,7 @@ wakingBPMAvg7: number
     awake: "04:34:00",
     sessions: 1,
     asleep: "09:38:00",
-    asleepAvg7:"07:24:08",
+    asleepAvg7: "07:24:08",
     efficiency: 67.8,
     efficiencyAvg7: 74.4,
     quality: "07:07:32",
@@ -5496,7 +5496,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.4,
     sleepBPMAvg: 69.6,
     wakingBPM: 75,
-    wakingBPMAvg7: 70
+    wakingBPMAvg7: 70,
   },
   {
     ISO: "2024-01-05T17:59:59-05:00",
@@ -5508,7 +5508,7 @@ wakingBPMAvg7: number
     awake: "00:37:00",
     sessions: 1,
     asleep: "07:53:00",
-    asleepAvg7:"07:52:08",
+    asleepAvg7: "07:52:08",
     efficiency: 92.7,
     efficiencyAvg7: 73.4,
     quality: "06:01:17",
@@ -5518,7 +5518,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.9,
     sleepBPMAvg: 70.3,
     wakingBPM: 61,
-    wakingBPMAvg7: 70
+    wakingBPMAvg7: 70,
   },
   {
     ISO: "2024-01-06T17:59:59-05:00",
@@ -5530,7 +5530,7 @@ wakingBPMAvg7: number
     awake: "02:48:00",
     sessions: 1,
     asleep: "01:16:00",
-    asleepAvg7:"06:50:08",
+    asleepAvg7: "06:50:08",
     efficiency: 31.1,
     efficiencyAvg7: 63.6,
     quality: "00:24:17",
@@ -5540,7 +5540,7 @@ wakingBPMAvg7: number
     sleepBPM: 85,
     sleepBPMAvg: 73.2,
     wakingBPM: 63,
-    wakingBPMAvg7: 70.3
+    wakingBPMAvg7: 70.3,
   },
   {
     ISO: "2024-01-07T17:59:59-05:00",
@@ -5552,7 +5552,7 @@ wakingBPMAvg7: number
     awake: "00:11:00",
     sessions: 1,
     asleep: "07:12:00",
-    asleepAvg7:"06:33:34",
+    asleepAvg7: "06:33:34",
     efficiency: 97.5,
     efficiencyAvg7: 63.2,
     quality: "05:48:40",
@@ -5562,7 +5562,7 @@ wakingBPMAvg7: number
     sleepBPM: 73.9,
     sleepBPMAvg: 74.4,
     wakingBPM: 73,
-    wakingBPMAvg7: 70.4
+    wakingBPMAvg7: 70.4,
   },
   {
     ISO: "2024-01-08T17:59:59-05:00",
@@ -5574,7 +5574,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:02:00",
-    asleepAvg7:"06:15:25",
+    asleepAvg7: "06:15:25",
     efficiency: 100,
     efficiencyAvg7: 63.2,
     quality: "05:19:29",
@@ -5584,7 +5584,7 @@ wakingBPMAvg7: number
     sleepBPM: 70.7,
     sleepBPMAvg: 74.9,
     wakingBPM: 73,
-    wakingBPMAvg7: 69.6
+    wakingBPMAvg7: 69.6,
   },
   {
     ISO: "2024-01-09T17:59:59-05:00",
@@ -5596,7 +5596,7 @@ wakingBPMAvg7: number
     awake: "00:36:00",
     sessions: 2,
     asleep: "09:09:00",
-    asleepAvg7:"06:09:51",
+    asleepAvg7: "06:09:51",
     efficiency: 93.6,
     efficiencyAvg7: 72,
     quality: "07:26:26",
@@ -5606,7 +5606,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.7,
     sleepBPMAvg: 72.5,
     wakingBPM: 79,
-    wakingBPMAvg7: 70.1
+    wakingBPMAvg7: 70.1,
   },
   {
     ISO: "2024-01-10T17:59:59-05:00",
@@ -5618,7 +5618,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:46:00",
-    asleepAvg7:"07:33:42",
+    asleepAvg7: "07:33:42",
     efficiency: 100,
     efficiencyAvg7: 83.3,
     quality: "08:53:59",
@@ -5628,7 +5628,7 @@ wakingBPMAvg7: number
     sleepBPM: 69.9,
     sleepBPMAvg: 71.7,
     wakingBPM: 68,
-    wakingBPMAvg7: 70.3
+    wakingBPMAvg7: 70.3,
   },
   {
     ISO: "2024-01-11T17:59:59-05:00",
@@ -5640,7 +5640,7 @@ wakingBPMAvg7: number
     awake: "00:48:00",
     sessions: 1,
     asleep: "08:42:00",
-    asleepAvg7:"07:25:42",
+    asleepAvg7: "07:25:42",
     efficiency: 91.6,
     efficiencyAvg7: 86.7,
     quality: "06:49:29",
@@ -5650,7 +5650,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.2,
     sleepBPMAvg: 70.9,
     wakingBPM: 65,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2024-01-12T17:59:59-05:00",
@@ -5662,7 +5662,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:00:00",
-    asleepAvg7:"07:43:51",
+    asleepAvg7: "07:43:51",
     efficiency: 100,
     efficiencyAvg7: 87.7,
     quality: "08:02:35",
@@ -5672,7 +5672,7 @@ wakingBPMAvg7: number
     sleepBPM: 65,
     sleepBPMAvg: 70.5,
     wakingBPM: 66,
-    wakingBPMAvg7: 69.6
+    wakingBPMAvg7: 69.6,
   },
   {
     ISO: "2024-01-13T17:59:59-05:00",
@@ -5684,7 +5684,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:02:00",
-    asleepAvg7:"08:50:25",
+    asleepAvg7: "08:50:25",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "07:50:09",
@@ -5694,7 +5694,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.4,
     sleepBPMAvg: 67.3,
     wakingBPM: 64,
-    wakingBPMAvg7: 69.7
+    wakingBPMAvg7: 69.7,
   },
   {
     ISO: "2024-01-14T17:59:59-05:00",
@@ -5706,7 +5706,7 @@ wakingBPMAvg7: number
     awake: "00:22:00",
     sessions: 2,
     asleep: "10:04:00",
-    asleepAvg7:"09:15:00",
+    asleepAvg7: "09:15:00",
     efficiency: 96.4,
     efficiencyAvg7: 97.4,
     quality: "07:55:12",
@@ -5716,7 +5716,7 @@ wakingBPMAvg7: number
     sleepBPM: 63,
     sleepBPMAvg: 65.7,
     wakingBPM: 74,
-    wakingBPMAvg7: 69.9
+    wakingBPMAvg7: 69.9,
   },
   {
     ISO: "2024-01-15T17:59:59-05:00",
@@ -5728,7 +5728,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:11:00",
-    asleepAvg7:"09:42:00",
+    asleepAvg7: "09:42:00",
     efficiency: 100,
     efficiencyAvg7: 97.4,
     quality: "07:57:59",
@@ -5738,7 +5738,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.8,
     sleepBPMAvg: 64.1,
     wakingBPM: 69,
-    wakingBPMAvg7: 69.3
+    wakingBPMAvg7: 69.3,
   },
   {
     ISO: "2024-01-16T17:59:59-05:00",
@@ -5750,7 +5750,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:02:00",
-    asleepAvg7:"09:32:25",
+    asleepAvg7: "09:32:25",
     efficiency: 100,
     efficiencyAvg7: 98.3,
     quality: "06:53:36",
@@ -5760,7 +5760,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 63.7,
     wakingBPM: 74,
-    wakingBPMAvg7: 68.6
+    wakingBPMAvg7: 68.6,
   },
   {
     ISO: "2024-01-17T17:59:59-05:00",
@@ -5772,7 +5772,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:39:00",
-    asleepAvg7:"09:14:17",
+    asleepAvg7: "09:14:17",
     efficiency: 100,
     efficiencyAvg7: 98.3,
     quality: "07:43:37",
@@ -5782,7 +5782,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.3,
     sleepBPMAvg: 62.5,
     wakingBPM: 58,
-    wakingBPMAvg7: 67.1
+    wakingBPMAvg7: 67.1,
   },
   {
     ISO: "2024-01-18T17:59:59-05:00",
@@ -5794,7 +5794,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:11:00",
-    asleepAvg7:"09:09:51",
+    asleepAvg7: "09:09:51",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "06:37:03",
@@ -5804,7 +5804,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 62,
     wakingBPM: 54,
-    wakingBPMAvg7: 65.6
+    wakingBPMAvg7: 65.6,
   },
   {
     ISO: "2024-01-19T17:59:59-05:00",
@@ -5816,7 +5816,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:51:00",
-    asleepAvg7:"08:51:25",
+    asleepAvg7: "08:51:25",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "06:46:01",
@@ -5826,7 +5826,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.8,
     sleepBPMAvg: 61,
     wakingBPM: 54,
-    wakingBPMAvg7: 63.9
+    wakingBPMAvg7: 63.9,
   },
   {
     ISO: "2024-01-20T17:59:59-05:00",
@@ -5838,7 +5838,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:16:00",
-    asleepAvg7:"08:53:25",
+    asleepAvg7: "08:53:25",
     efficiency: 100,
     efficiencyAvg7: 99.5,
     quality: "08:07:20",
@@ -5848,7 +5848,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.5,
     sleepBPMAvg: 60.6,
     wakingBPM: 65,
-    wakingBPMAvg7: 64
+    wakingBPMAvg7: 64,
   },
   {
     ISO: "2024-01-21T17:59:59-05:00",
@@ -5860,7 +5860,7 @@ wakingBPMAvg7: number
     awake: "00:25:00",
     sessions: 1,
     asleep: "11:00:00",
-    asleepAvg7:"09:01:25",
+    asleepAvg7: "09:01:25",
     efficiency: 96.4,
     efficiencyAvg7: 99.5,
     quality: "09:13:49",
@@ -5870,7 +5870,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.7,
     sleepBPMAvg: 60,
     wakingBPM: 72,
-    wakingBPMAvg7: 63.7
+    wakingBPMAvg7: 63.7,
   },
   {
     ISO: "2024-01-22T17:59:59-05:00",
@@ -5882,7 +5882,7 @@ wakingBPMAvg7: number
     awake: "00:04:00",
     sessions: 1,
     asleep: "08:49:00",
-    asleepAvg7:"08:49:42",
+    asleepAvg7: "08:49:42",
     efficiency: 99.2,
     efficiencyAvg7: 99.4,
     quality: "07:26:03",
@@ -5892,7 +5892,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.6,
     sleepBPMAvg: 60.1,
     wakingBPM: 60,
-    wakingBPMAvg7: 62.4
+    wakingBPMAvg7: 62.4,
   },
   {
     ISO: "2024-01-23T17:59:59-05:00",
@@ -5904,7 +5904,7 @@ wakingBPMAvg7: number
     awake: "00:15:00",
     sessions: 2,
     asleep: "07:50:00",
-    asleepAvg7:"08:48:00",
+    asleepAvg7: "08:48:00",
     efficiency: 96.7,
     efficiencyAvg7: 98.9,
     quality: "06:25:26",
@@ -5914,7 +5914,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.1,
     sleepBPMAvg: 60,
     wakingBPM: 57,
-    wakingBPMAvg7: 60
+    wakingBPMAvg7: 60,
   },
   {
     ISO: "2024-01-24T17:59:59-05:00",
@@ -5926,7 +5926,7 @@ wakingBPMAvg7: number
     awake: "03:47:00",
     sessions: 1,
     asleep: "09:05:00",
-    asleepAvg7:"08:51:42",
+    asleepAvg7: "08:51:42",
     efficiency: 70.6,
     efficiencyAvg7: 94.7,
     quality: "07:50:21",
@@ -5936,7 +5936,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.8,
     sleepBPMAvg: 60.1,
     wakingBPM: 66,
-    wakingBPMAvg7: 61.1
+    wakingBPMAvg7: 61.1,
   },
   {
     ISO: "2024-01-25T17:59:59-05:00",
@@ -5948,7 +5948,7 @@ wakingBPMAvg7: number
     awake: "00:58:00",
     sessions: 2,
     asleep: "07:49:00",
-    asleepAvg7:"08:48:34",
+    asleepAvg7: "08:48:34",
     efficiency: 88.7,
     efficiencyAvg7: 93.1,
     quality: "05:51:47",
@@ -5958,7 +5958,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 60.7,
     wakingBPM: 62,
-    wakingBPMAvg7: 62.3
+    wakingBPMAvg7: 62.3,
   },
   {
     ISO: "2024-01-26T17:59:59-05:00",
@@ -5970,7 +5970,7 @@ wakingBPMAvg7: number
     awake: "04:03:00",
     sessions: 1,
     asleep: "12:26:00",
-    asleepAvg7:"09:27:51",
+    asleepAvg7: "09:27:51",
     efficiency: 75.4,
     efficiencyAvg7: 89.6,
     quality: "09:26:09",
@@ -5980,7 +5980,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.8,
     sleepBPMAvg: 61.6,
     wakingBPM: 75,
-    wakingBPMAvg7: 65.3
+    wakingBPMAvg7: 65.3,
   },
   {
     ISO: "2024-01-27T17:59:59-05:00",
@@ -5992,7 +5992,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:43:00",
-    asleepAvg7:"09:23:08",
+    asleepAvg7: "09:23:08",
     efficiency: 100,
     efficiencyAvg7: 89.6,
     quality: "06:52:19",
@@ -6002,7 +6002,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.5,
     sleepBPMAvg: 61.8,
     wakingBPM: 64,
-    wakingBPMAvg7: 65.1
+    wakingBPMAvg7: 65.1,
   },
   {
     ISO: "2024-01-28T17:59:59-05:00",
@@ -6014,7 +6014,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:55:00",
-    asleepAvg7:"09:13:51",
+    asleepAvg7: "09:13:51",
     efficiency: 100,
     efficiencyAvg7: 90.1,
     quality: "08:20:49",
@@ -6024,7 +6024,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.9,
     sleepBPMAvg: 62,
     wakingBPM: 72,
-    wakingBPMAvg7: 65.1
+    wakingBPMAvg7: 65.1,
   },
   {
     ISO: "2024-01-29T17:59:59-05:00",
@@ -6036,7 +6036,7 @@ wakingBPMAvg7: number
     awake: "00:11:00",
     sessions: 1,
     asleep: "06:58:00",
-    asleepAvg7:"08:58:00",
+    asleepAvg7: "08:58:00",
     efficiency: 97.4,
     efficiencyAvg7: 89.8,
     quality: "06:00:34",
@@ -6046,7 +6046,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.4,
     sleepBPMAvg: 62,
     wakingBPM: 56,
-    wakingBPMAvg7: 64.6
+    wakingBPMAvg7: 64.6,
   },
   {
     ISO: "2024-01-31T17:59:59-05:00",
@@ -6058,7 +6058,7 @@ wakingBPMAvg7: number
     awake: "00:51:00",
     sessions: 1,
     asleep: "09:24:00",
-    asleepAvg7:"09:11:25",
+    asleepAvg7: "09:11:25",
     efficiency: 91.7,
     efficiencyAvg7: 89.1,
     quality: "07:00:14",
@@ -6068,7 +6068,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.9,
     sleepBPMAvg: 61.8,
     wakingBPM: 56,
-    wakingBPMAvg7: 64.4
+    wakingBPMAvg7: 64.4,
   },
   {
     ISO: "2024-02-01T17:59:59-05:00",
@@ -6080,7 +6080,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:47:00",
-    asleepAvg7:"08:51:42",
+    asleepAvg7: "08:51:42",
     efficiency: 100,
     efficiencyAvg7: 93.3,
     quality: "05:57:33",
@@ -6090,7 +6090,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.6,
     sleepBPMAvg: 61.4,
     wakingBPM: 68,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2024-02-02T17:59:59-05:00",
@@ -6102,7 +6102,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:41:00",
-    asleepAvg7:"08:50:34",
+    asleepAvg7: "08:50:34",
     efficiency: 100,
     efficiencyAvg7: 94.9,
     quality: "06:45:56",
@@ -6112,7 +6112,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.7,
     sleepBPMAvg: 60.8,
     wakingBPM: 58,
-    wakingBPMAvg7: 64.1
+    wakingBPMAvg7: 64.1,
   },
   {
     ISO: "2024-02-03T17:59:59-05:00",
@@ -6124,7 +6124,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "08:30:59",
-    asleepAvg7:"08:16:59",
+    asleepAvg7: "08:16:59",
     efficiency: 100,
     efficiencyAvg7: 98.4,
     quality: "07:05:11",
@@ -6134,7 +6134,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.9,
     sleepBPMAvg: 60.7,
     wakingBPM: 58,
-    wakingBPMAvg7: 61.7
+    wakingBPMAvg7: 61.7,
   },
   {
     ISO: "2024-02-04T17:59:59-05:00",
@@ -6146,7 +6146,7 @@ wakingBPMAvg7: number
     awake: "00:12:00",
     sessions: 1,
     asleep: "09:55:00",
-    asleepAvg7:"08:27:17",
+    asleepAvg7: "08:27:17",
     efficiency: 98,
     efficiencyAvg7: 98.2,
     quality: "08:11:19",
@@ -6156,7 +6156,7 @@ wakingBPMAvg7: number
     sleepBPM: 61,
     sleepBPMAvg: 60.6,
     wakingBPM: 66,
-    wakingBPMAvg7: 62
+    wakingBPMAvg7: 62,
   },
   {
     ISO: "2024-02-05T17:59:59-05:00",
@@ -6168,7 +6168,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:01:00",
-    asleepAvg7:"08:02:25",
+    asleepAvg7: "08:02:25",
     efficiency: 100,
     efficiencyAvg7: 98.2,
     quality: "06:13:09",
@@ -6178,7 +6178,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.5,
     sleepBPMAvg: 60.7,
     wakingBPM: 54,
-    wakingBPMAvg7: 59.4
+    wakingBPMAvg7: 59.4,
   },
   {
     ISO: "2024-02-06T17:59:59-05:00",
@@ -6190,7 +6190,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "06:47:00",
-    asleepAvg7:"08:00:51",
+    asleepAvg7: "08:00:51",
     efficiency: 100,
     efficiencyAvg7: 98.5,
     quality: "05:48:48",
@@ -6200,7 +6200,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.7,
     sleepBPMAvg: 61,
     wakingBPM: 61,
-    wakingBPMAvg7: 60.1
+    wakingBPMAvg7: 60.1,
   },
   {
     ISO: "2024-02-07T17:59:59-05:00",
@@ -6212,7 +6212,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:37:00",
-    asleepAvg7:"07:45:34",
+    asleepAvg7: "07:45:34",
     efficiency: 100,
     efficiencyAvg7: 99.7,
     quality: "06:38:03",
@@ -6222,7 +6222,7 @@ wakingBPMAvg7: number
     sleepBPM: 62,
     sleepBPMAvg: 61,
     wakingBPM: 57,
-    wakingBPMAvg7: 60.3
+    wakingBPMAvg7: 60.3,
   },
   {
     ISO: "2024-02-08T17:59:59-05:00",
@@ -6234,7 +6234,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "09:10:00",
-    asleepAvg7:"08:05:59",
+    asleepAvg7: "08:05:59",
     efficiency: 100,
     efficiencyAvg7: 99.7,
     quality: "08:15:01",
@@ -6244,7 +6244,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.6,
     sleepBPMAvg: 61.3,
     wakingBPM: 55,
-    wakingBPMAvg7: 58.4
+    wakingBPMAvg7: 58.4,
   },
   {
     ISO: "2024-02-09T17:59:59-05:00",
@@ -6256,7 +6256,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:21:00",
-    asleepAvg7:"07:54:34",
+    asleepAvg7: "07:54:34",
     efficiency: 100,
     efficiencyAvg7: 99.7,
     quality: "05:31:46",
@@ -6266,7 +6266,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.3,
     sleepBPMAvg: 61.4,
     wakingBPM: 55,
-    wakingBPMAvg7: 58
+    wakingBPMAvg7: 58,
   },
   {
     ISO: "2024-02-10T17:59:59-05:00",
@@ -6278,7 +6278,7 @@ wakingBPMAvg7: number
     awake: "00:30:00",
     sessions: 1,
     asleep: "06:48:00",
-    asleepAvg7:"07:39:51",
+    asleepAvg7: "07:39:51",
     efficiency: 93.2,
     efficiencyAvg7: 98.7,
     quality: "05:43:37",
@@ -6288,7 +6288,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.8,
     sleepBPMAvg: 61.1,
     wakingBPM: 71,
-    wakingBPMAvg7: 59.9
+    wakingBPMAvg7: 59.9,
   },
   {
     ISO: "2024-02-11T17:59:59-05:00",
@@ -6300,7 +6300,7 @@ wakingBPMAvg7: number
     awake: "00:22:00",
     sessions: 1,
     asleep: "10:46:00",
-    asleepAvg7:"07:47:08",
+    asleepAvg7: "07:47:08",
     efficiency: 96.7,
     efficiencyAvg7: 98.6,
     quality: "08:44:32",
@@ -6310,7 +6310,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.3,
     sleepBPMAvg: 61.3,
     wakingBPM: 70,
-    wakingBPMAvg7: 60.4
+    wakingBPMAvg7: 60.4,
   },
   {
     ISO: "2024-02-12T17:59:59-05:00",
@@ -6322,7 +6322,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:47:00",
-    asleepAvg7:"07:45:08",
+    asleepAvg7: "07:45:08",
     efficiency: 100,
     efficiencyAvg7: 98.6,
     quality: "05:21:33",
@@ -6332,7 +6332,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.9,
     sleepBPMAvg: 61.2,
     wakingBPM: 62,
-    wakingBPMAvg7: 61.6
+    wakingBPMAvg7: 61.6,
   },
   {
     ISO: "2024-02-13T17:59:59-05:00",
@@ -6344,7 +6344,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:08:00",
-    asleepAvg7:"07:56:42",
+    asleepAvg7: "07:56:42",
     efficiency: 100,
     efficiencyAvg7: 98.6,
     quality: "06:54:48",
@@ -6354,7 +6354,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.6,
     sleepBPMAvg: 61.1,
     wakingBPM: 61,
-    wakingBPMAvg7: 61.6
+    wakingBPMAvg7: 61.6,
   },
   {
     ISO: "2024-02-14T17:59:59-05:00",
@@ -6366,7 +6366,7 @@ wakingBPMAvg7: number
     awake: "01:11:00",
     sessions: 1,
     asleep: "06:30:00",
-    asleepAvg7:"07:47:08",
+    asleepAvg7: "07:47:08",
     efficiency: 84.6,
     efficiencyAvg7: 96.4,
     quality: "05:53:02",
@@ -6376,7 +6376,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.6,
     sleepBPMAvg: 60.7,
     wakingBPM: 60,
-    wakingBPMAvg7: 62
+    wakingBPMAvg7: 62,
   },
   {
     ISO: "2024-02-15T17:59:59-05:00",
@@ -6388,7 +6388,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "08:44:00",
-    asleepAvg7:"07:43:25",
+    asleepAvg7: "07:43:25",
     efficiency: 100,
     efficiencyAvg7: 96.4,
     quality: "07:42:34",
@@ -6398,7 +6398,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.2,
     sleepBPMAvg: 60.5,
     wakingBPM: 60,
-    wakingBPMAvg7: 62.7
+    wakingBPMAvg7: 62.7,
   },
   {
     ISO: "2024-02-16T17:59:59-05:00",
@@ -6410,7 +6410,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "09:51:00",
-    asleepAvg7:"08:13:25",
+    asleepAvg7: "08:13:25",
     efficiency: 100,
     efficiencyAvg7: 96.4,
     quality: "08:41:48",
@@ -6420,7 +6420,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 60.4,
     wakingBPM: 64,
-    wakingBPMAvg7: 64
+    wakingBPMAvg7: 64,
   },
   {
     ISO: "2024-02-17T17:59:59-05:00",
@@ -6432,7 +6432,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:38:00",
-    asleepAvg7:"08:46:17",
+    asleepAvg7: "08:46:17",
     efficiency: 100,
     efficiencyAvg7: 97.3,
     quality: "08:10:07",
@@ -6442,7 +6442,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.1,
     sleepBPMAvg: 60.4,
     wakingBPM: 64,
-    wakingBPMAvg7: 63
+    wakingBPMAvg7: 63,
   },
   {
     ISO: "2024-02-18T17:59:59-05:00",
@@ -6454,7 +6454,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:25:00",
-    asleepAvg7:"08:43:17",
+    asleepAvg7: "08:43:17",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "09:06:46",
@@ -6464,7 +6464,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.1,
     sleepBPMAvg: 60.4,
     wakingBPM: 58,
-    wakingBPMAvg7: 61.3
+    wakingBPMAvg7: 61.3,
   },
   {
     ISO: "2024-02-19T17:59:59-05:00",
@@ -6476,7 +6476,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:25:00",
-    asleepAvg7:"09:05:51",
+    asleepAvg7: "09:05:51",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "07:59:16",
@@ -6486,7 +6486,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.6,
     sleepBPMAvg: 60.5,
     wakingBPM: 67,
-    wakingBPMAvg7: 62
+    wakingBPMAvg7: 62,
   },
   {
     ISO: "2024-02-20T17:59:59-05:00",
@@ -6498,7 +6498,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:44:00",
-    asleepAvg7:"09:11:00",
+    asleepAvg7: "09:11:00",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "06:48:37",
@@ -6508,7 +6508,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.3,
     sleepBPMAvg: 60.6,
     wakingBPM: 63,
-    wakingBPMAvg7: 62.3
+    wakingBPMAvg7: 62.3,
   },
   {
     ISO: "2024-02-21T17:59:59-05:00",
@@ -6520,7 +6520,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:18:00",
-    asleepAvg7:"09:17:51",
+    asleepAvg7: "09:17:51",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "06:06:00",
@@ -6530,7 +6530,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.6,
     sleepBPMAvg: 60.9,
     wakingBPM: 64,
-    wakingBPMAvg7: 62.9
+    wakingBPMAvg7: 62.9,
   },
   {
     ISO: "2024-02-22T17:59:59-05:00",
@@ -6542,7 +6542,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:00:00",
-    asleepAvg7:"09:03:00",
+    asleepAvg7: "09:03:00",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:39:47",
@@ -6552,7 +6552,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.8,
     sleepBPMAvg: 60.8,
     wakingBPM: 52,
-    wakingBPMAvg7: 61.7
+    wakingBPMAvg7: 61.7,
   },
   {
     ISO: "2024-02-23T17:59:59-05:00",
@@ -6564,7 +6564,7 @@ wakingBPMAvg7: number
     awake: "01:28:00",
     sessions: 1,
     asleep: "05:47:00",
-    asleepAvg7:"08:28:08",
+    asleepAvg7: "08:28:08",
     efficiency: 79.8,
     efficiencyAvg7: 97.1,
     quality: "04:52:07",
@@ -6574,7 +6574,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.4,
     sleepBPMAvg: 61,
     wakingBPM: 73.8,
-    wakingBPMAvg7: 63.1
+    wakingBPMAvg7: 63.1,
   },
   {
     ISO: "2024-02-24T17:59:59-05:00",
@@ -6586,7 +6586,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:52:00",
-    asleepAvg7:"08:13:00",
+    asleepAvg7: "08:13:00",
     efficiency: 100,
     efficiencyAvg7: 97.1,
     quality: "07:30:48",
@@ -6596,7 +6596,7 @@ wakingBPMAvg7: number
     sleepBPM: 60,
     sleepBPMAvg: 60.8,
     wakingBPM: 59,
-    wakingBPMAvg7: 62.4
+    wakingBPMAvg7: 62.4,
   },
   {
     ISO: "2024-02-25T17:59:59-05:00",
@@ -6608,7 +6608,7 @@ wakingBPMAvg7: number
     awake: "00:16:00",
     sessions: 1,
     asleep: "03:32:00",
-    asleepAvg7:"07:14:00",
+    asleepAvg7: "07:14:00",
     efficiency: 93,
     efficiencyAvg7: 96.1,
     quality: "02:51:01",
@@ -6618,7 +6618,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.6,
     sleepBPMAvg: 60.5,
     wakingBPM: 75,
-    wakingBPMAvg7: 64.8
+    wakingBPMAvg7: 64.8,
   },
   {
     ISO: "2024-02-26T17:59:59-05:00",
@@ -6630,7 +6630,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "11:49:00",
-    asleepAvg7:"07:34:34",
+    asleepAvg7: "07:34:34",
     efficiency: 100,
     efficiencyAvg7: 96.1,
     quality: "10:15:12",
@@ -6640,7 +6640,7 @@ wakingBPMAvg7: number
     sleepBPM: 61,
     sleepBPMAvg: 60.5,
     wakingBPM: 54,
-    wakingBPMAvg7: 63
+    wakingBPMAvg7: 63,
   },
   {
     ISO: "2024-02-27T17:59:59-05:00",
@@ -6652,7 +6652,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:41:00",
-    asleepAvg7:"07:25:34",
+    asleepAvg7: "07:25:34",
     efficiency: 100,
     efficiencyAvg7: 96.1,
     quality: "06:32:55",
@@ -6662,7 +6662,7 @@ wakingBPMAvg7: number
     sleepBPM: 60,
     sleepBPMAvg: 60.2,
     wakingBPM: 86,
-    wakingBPMAvg7: 66.3
+    wakingBPMAvg7: 66.3,
   },
   {
     ISO: "2024-02-28T17:59:59-05:00",
@@ -6674,7 +6674,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:52:00",
-    asleepAvg7:"07:13:17",
+    asleepAvg7: "07:13:17",
     efficiency: 100,
     efficiencyAvg7: 96.1,
     quality: "05:02:21",
@@ -6684,7 +6684,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.8,
     sleepBPMAvg: 59.8,
     wakingBPM: 57,
-    wakingBPMAvg7: 65.3
+    wakingBPMAvg7: 65.3,
   },
   {
     ISO: "2024-02-29T17:59:59-05:00",
@@ -6696,7 +6696,7 @@ wakingBPMAvg7: number
     awake: "02:14:00",
     sessions: 1,
     asleep: "10:29:00",
-    asleepAvg7:"07:43:08",
+    asleepAvg7: "07:43:08",
     efficiency: 82.4,
     efficiencyAvg7: 93.6,
     quality: "08:56:55",
@@ -6706,7 +6706,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.3,
     sleepBPMAvg: 59.7,
     wakingBPM: 56,
-    wakingBPMAvg7: 65.8
+    wakingBPMAvg7: 65.8,
   },
   {
     ISO: "2024-03-01T17:59:59-05:00",
@@ -6718,7 +6718,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:01:00",
-    asleepAvg7:"07:45:08",
+    asleepAvg7: "07:45:08",
     efficiency: 100,
     efficiencyAvg7: 96.5,
     quality: "05:13:46",
@@ -6728,7 +6728,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.7,
     sleepBPMAvg: 59.5,
     wakingBPM: 57,
-    wakingBPMAvg7: 63.4
+    wakingBPMAvg7: 63.4,
   },
   {
     ISO: "2024-03-02T17:59:59-05:00",
@@ -6740,7 +6740,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:36:00",
-    asleepAvg7:"07:42:51",
+    asleepAvg7: "07:42:51",
     efficiency: 100,
     efficiencyAvg7: 96.5,
     quality: "07:22:45",
@@ -6750,7 +6750,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.2,
     sleepBPMAvg: 59.7,
     wakingBPM: 68,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2024-03-03T17:59:59-05:00",
@@ -6762,7 +6762,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:57:00",
-    asleepAvg7:"08:20:42",
+    asleepAvg7: "08:20:42",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "07:00:17",
@@ -6772,7 +6772,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.3,
     sleepBPMAvg: 59.8,
     wakingBPM: 58,
-    wakingBPMAvg7: 62.3
+    wakingBPMAvg7: 62.3,
   },
   {
     ISO: "2024-03-04T17:59:59-05:00",
@@ -6784,7 +6784,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:37:00",
-    asleepAvg7:"07:36:08",
+    asleepAvg7: "07:36:08",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "05:40:56",
@@ -6794,7 +6794,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.2,
     sleepBPMAvg: 59.5,
     wakingBPM: 59,
-    wakingBPMAvg7: 63
+    wakingBPMAvg7: 63,
   },
   {
     ISO: "2024-03-05T17:59:59-05:00",
@@ -6806,7 +6806,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:18:00",
-    asleepAvg7:"07:15:42",
+    asleepAvg7: "07:15:42",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "04:43:23",
@@ -6816,7 +6816,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.4,
     sleepBPMAvg: 59.4,
     wakingBPM: 57,
-    wakingBPMAvg7: 58.9
+    wakingBPMAvg7: 58.9,
   },
   {
     ISO: "2024-03-06T17:59:59-05:00",
@@ -6828,7 +6828,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:16:00",
-    asleepAvg7:"07:27:42",
+    asleepAvg7: "07:27:42",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "06:41:31",
@@ -6838,7 +6838,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.9,
     sleepBPMAvg: 59.4,
     wakingBPM: 57,
-    wakingBPMAvg7: 58.9
+    wakingBPMAvg7: 58.9,
   },
   {
     ISO: "2024-03-07T17:59:59-05:00",
@@ -6850,7 +6850,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:45:00",
-    asleepAvg7:"06:55:42",
+    asleepAvg7: "06:55:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:53:39",
@@ -6860,7 +6860,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.2,
     sleepBPMAvg: 59.8,
     wakingBPM: 59,
-    wakingBPMAvg7: 59.3
+    wakingBPMAvg7: 59.3,
   },
   {
     ISO: "2024-03-08T17:59:59-05:00",
@@ -6872,7 +6872,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "06:22:00",
-    asleepAvg7:"06:58:42",
+    asleepAvg7: "06:58:42",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "05:19:46",
@@ -6882,7 +6882,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.2,
     sleepBPMAvg: 59.9,
     wakingBPM: 66,
-    wakingBPMAvg7: 60.6
+    wakingBPMAvg7: 60.6,
   },
   {
     ISO: "2024-03-09T17:59:59-05:00",
@@ -6894,7 +6894,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:12:00",
-    asleepAvg7:"06:55:17",
+    asleepAvg7: "06:55:17",
     efficiency: 100,
     efficiencyAvg7: 100,
     quality: "07:10:59",
@@ -6904,7 +6904,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.4,
     sleepBPMAvg: 59.9,
     wakingBPM: 55,
-    wakingBPMAvg7: 58.7
+    wakingBPMAvg7: 58.7,
   },
   {
     ISO: "2024-03-10T18:59:59-04:00",
@@ -6916,7 +6916,7 @@ wakingBPMAvg7: number
     awake: "00:13:00",
     sessions: 1,
     asleep: "07:56:00",
-    asleepAvg7:"06:55:08",
+    asleepAvg7: "06:55:08",
     efficiency: 97.3,
     efficiencyAvg7: 99.6,
     quality: "06:28:24",
@@ -6926,7 +6926,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.8,
     sleepBPMAvg: 60.6,
     wakingBPM: 57,
-    wakingBPMAvg7: 58.6
+    wakingBPMAvg7: 58.6,
   },
   {
     ISO: "2024-03-11T17:59:59-04:00",
@@ -6938,7 +6938,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "10:29:00",
-    asleepAvg7:"07:28:17",
+    asleepAvg7: "07:28:17",
     efficiency: 100,
     efficiencyAvg7: 99.6,
     quality: "08:38:44",
@@ -6948,7 +6948,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.7,
     sleepBPMAvg: 61.5,
     wakingBPM: 71,
-    wakingBPMAvg7: 60.3
+    wakingBPMAvg7: 60.3,
   },
   {
     ISO: "2024-03-12T17:59:59-04:00",
@@ -6960,7 +6960,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:06:00",
-    asleepAvg7:"07:35:08",
+    asleepAvg7: "07:35:08",
     efficiency: 100,
     efficiencyAvg7: 99.6,
     quality: "05:14:47",
@@ -6970,7 +6970,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.7,
     sleepBPMAvg: 61.7,
     wakingBPM: 60,
-    wakingBPMAvg7: 60.7
+    wakingBPMAvg7: 60.7,
   },
   {
     ISO: "2024-03-13T17:59:59-04:00",
@@ -6982,7 +6982,7 @@ wakingBPMAvg7: number
     awake: "02:50:00",
     sessions: 1,
     asleep: "07:40:00",
-    asleepAvg7:"07:38:34",
+    asleepAvg7: "07:38:34",
     efficiency: 73,
     efficiencyAvg7: 95.8,
     quality: "06:16:56",
@@ -6992,7 +6992,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.3,
     sleepBPMAvg: 62.2,
     wakingBPM: 61,
-    wakingBPMAvg7: 61.3
+    wakingBPMAvg7: 61.3,
   },
   {
     ISO: "2024-03-14T17:59:59-04:00",
@@ -7004,7 +7004,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "11:09:00",
-    asleepAvg7:"08:16:17",
+    asleepAvg7: "08:16:17",
     efficiency: 100,
     efficiencyAvg7: 95.8,
     quality: "08:31:03",
@@ -7014,7 +7014,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.1,
     sleepBPMAvg: 62.5,
     wakingBPM: 71,
-    wakingBPMAvg7: 63
+    wakingBPMAvg7: 63,
   },
   {
     ISO: "2024-03-15T17:59:59-04:00",
@@ -7026,7 +7026,7 @@ wakingBPMAvg7: number
     awake: "02:39:00",
     sessions: 1,
     asleep: "15:27:00",
-    asleepAvg7:"09:34:08",
+    asleepAvg7: "09:34:08",
     efficiency: 85.4,
     efficiencyAvg7: 93.7,
     quality: "11:18:23",
@@ -7036,7 +7036,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.8,
     sleepBPMAvg: 63,
     wakingBPM: 69,
-    wakingBPMAvg7: 63.4
+    wakingBPMAvg7: 63.4,
   },
   {
     ISO: "2024-03-16T17:59:59-04:00",
@@ -7048,7 +7048,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:28:00",
-    asleepAvg7:"09:36:25",
+    asleepAvg7: "09:36:25",
     efficiency: 100,
     efficiencyAvg7: 93.7,
     quality: "07:01:55",
@@ -7058,7 +7058,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.8,
     sleepBPMAvg: 62.7,
     wakingBPM: 64,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2024-03-17T17:59:59-04:00",
@@ -7070,7 +7070,7 @@ wakingBPMAvg7: number
     awake: "02:39:00",
     sessions: 1,
     asleep: "10:36:00",
-    asleepAvg7:"09:59:17",
+    asleepAvg7: "09:59:17",
     efficiency: 80,
     efficiencyAvg7: 91.2,
     quality: "07:40:24",
@@ -7080,7 +7080,7 @@ wakingBPMAvg7: number
     sleepBPM: 68.2,
     sleepBPMAvg: 63.2,
     wakingBPM: 57,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2024-03-18T17:59:59-04:00",
@@ -7092,7 +7092,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:33:00",
-    asleepAvg7:"09:34:08",
+    asleepAvg7: "09:34:08",
     efficiency: 100,
     efficiencyAvg7: 91.2,
     quality: "06:22:50",
@@ -7102,7 +7102,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.7,
     sleepBPMAvg: 62.4,
     wakingBPM: 54,
-    wakingBPMAvg7: 62.3
+    wakingBPMAvg7: 62.3,
   },
   {
     ISO: "2024-03-19T17:59:59-04:00",
@@ -7114,7 +7114,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:04:00",
-    asleepAvg7:"09:33:51",
+    asleepAvg7: "09:33:51",
     efficiency: 100,
     efficiencyAvg7: 91.2,
     quality: "04:48:40",
@@ -7124,7 +7124,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 62.2,
     wakingBPM: 74,
-    wakingBPMAvg7: 64.3
+    wakingBPMAvg7: 64.3,
   },
   {
     ISO: "2024-03-20T17:59:59-04:00",
@@ -7136,7 +7136,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:21:00",
-    asleepAvg7:"09:22:34",
+    asleepAvg7: "09:22:34",
     efficiency: 100,
     efficiencyAvg7: 95.1,
     quality: "05:18:48",
@@ -7146,7 +7146,7 @@ wakingBPMAvg7: number
     sleepBPM: 63,
     sleepBPMAvg: 62.3,
     wakingBPM: 65,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2024-03-21T17:59:59-04:00",
@@ -7158,7 +7158,7 @@ wakingBPMAvg7: number
     awake: "00:22:00",
     sessions: 1,
     asleep: "06:53:00",
-    asleepAvg7:"08:46:00",
+    asleepAvg7: "08:46:00",
     efficiency: 94.9,
     efficiencyAvg7: 94.3,
     quality: "05:37:46",
@@ -7168,7 +7168,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.4,
     sleepBPMAvg: 62.3,
     wakingBPM: 63,
-    wakingBPMAvg7: 63.7
+    wakingBPMAvg7: 63.7,
   },
   {
     ISO: "2024-03-22T17:59:59-04:00",
@@ -7180,7 +7180,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:43:00",
-    asleepAvg7:"07:31:08",
+    asleepAvg7: "07:31:08",
     efficiency: 100,
     efficiencyAvg7: 96.4,
     quality: "06:02:09",
@@ -7190,7 +7190,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.6,
     sleepBPMAvg: 62,
     wakingBPM: 63,
-    wakingBPMAvg7: 62.9
+    wakingBPMAvg7: 62.9,
   },
   {
     ISO: "2024-03-23T17:59:59-04:00",
@@ -7202,7 +7202,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:34:00",
-    asleepAvg7:"07:23:25",
+    asleepAvg7: "07:23:25",
     efficiency: 100,
     efficiencyAvg7: 96.4,
     quality: "06:50:21",
@@ -7212,7 +7212,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.2,
     sleepBPMAvg: 62.6,
     wakingBPM: 74,
-    wakingBPMAvg7: 64.3
+    wakingBPMAvg7: 64.3,
   },
   {
     ISO: "2024-03-24T17:59:59-04:00",
@@ -7224,7 +7224,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:57:00",
-    asleepAvg7:"07:00:42",
+    asleepAvg7: "07:00:42",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "07:11:54",
@@ -7234,7 +7234,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.7,
     sleepBPMAvg: 62,
     wakingBPM: 66,
-    wakingBPMAvg7: 65.6
+    wakingBPMAvg7: 65.6,
   },
   {
     ISO: "2024-03-25T17:59:59-04:00",
@@ -7246,7 +7246,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:51:00",
-    asleepAvg7:"07:11:51",
+    asleepAvg7: "07:11:51",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "07:09:50",
@@ -7256,7 +7256,7 @@ wakingBPMAvg7: number
     sleepBPM: 75,
     sleepBPMAvg: 64.2,
     wakingBPM: 71,
-    wakingBPMAvg7: 68
+    wakingBPMAvg7: 68,
   },
   {
     ISO: "2024-03-26T17:59:59-04:00",
@@ -7268,7 +7268,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "08:03:00",
-    asleepAvg7:"07:28:51",
+    asleepAvg7: "07:28:51",
     efficiency: 100,
     efficiencyAvg7: 99.3,
     quality: "06:53:39",
@@ -7278,7 +7278,7 @@ wakingBPMAvg7: number
     sleepBPM: 71.9,
     sleepBPMAvg: 66,
     wakingBPM: 63,
-    wakingBPMAvg7: 66.4
+    wakingBPMAvg7: 66.4,
   },
   {
     ISO: "2024-03-27T17:59:59-04:00",
@@ -7290,7 +7290,7 @@ wakingBPMAvg7: number
     awake: "01:10:00",
     sessions: 2,
     asleep: "08:34:00",
-    asleepAvg7:"07:47:51",
+    asleepAvg7: "07:47:51",
     efficiency: 87.5,
     efficiencyAvg7: 97.5,
     quality: "07:00:51",
@@ -7300,7 +7300,7 @@ wakingBPMAvg7: number
     sleepBPM: 76,
     sleepBPMAvg: 67.8,
     wakingBPM: 76,
-    wakingBPMAvg7: 68
+    wakingBPMAvg7: 68,
   },
   {
     ISO: "2024-03-28T17:59:59-04:00",
@@ -7312,7 +7312,7 @@ wakingBPMAvg7: number
     awake: "00:20:00",
     sessions: 1,
     asleep: "10:26:00",
-    asleepAvg7:"08:18:17",
+    asleepAvg7: "08:18:17",
     efficiency: 96.9,
     efficiencyAvg7: 97.8,
     quality: "08:15:01",
@@ -7322,7 +7322,7 @@ wakingBPMAvg7: number
     sleepBPM: 76.8,
     sleepBPMAvg: 69.8,
     wakingBPM: 77,
-    wakingBPMAvg7: 70
+    wakingBPMAvg7: 70,
   },
   {
     ISO: "2024-03-29T17:59:59-04:00",
@@ -7334,7 +7334,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "11:09:00",
-    asleepAvg7:"08:56:17",
+    asleepAvg7: "08:56:17",
     efficiency: 100,
     efficiencyAvg7: 97.8,
     quality: "09:08:12",
@@ -7344,7 +7344,7 @@ wakingBPMAvg7: number
     sleepBPM: 72.2,
     sleepBPMAvg: 71.4,
     wakingBPM: 79,
-    wakingBPMAvg7: 72.3
+    wakingBPMAvg7: 72.3,
   },
   {
     ISO: "2024-03-30T17:59:59-04:00",
@@ -7356,7 +7356,7 @@ wakingBPMAvg7: number
     awake: "00:11:00",
     sessions: 1,
     asleep: "08:51:00",
-    asleepAvg7:"09:07:17",
+    asleepAvg7: "09:07:17",
     efficiency: 98,
     efficiencyAvg7: 97.5,
     quality: "07:14:15",
@@ -7366,7 +7366,7 @@ wakingBPMAvg7: number
     sleepBPM: 67.5,
     sleepBPMAvg: 71.9,
     wakingBPM: 74,
-    wakingBPMAvg7: 72.3
+    wakingBPMAvg7: 72.3,
   },
   {
     ISO: "2024-03-31T17:59:59-04:00",
@@ -7378,7 +7378,7 @@ wakingBPMAvg7: number
     awake: "04:27:00",
     sessions: 1,
     asleep: "15:42:00",
-    asleepAvg7:"10:13:42",
+    asleepAvg7: "10:13:42",
     efficiency: 77.9,
     efficiencyAvg7: 94.3,
     quality: "11:23:39",
@@ -7388,7 +7388,7 @@ wakingBPMAvg7: number
     sleepBPM: 68.4,
     sleepBPMAvg: 72.5,
     wakingBPM: 66,
-    wakingBPMAvg7: 72.3
+    wakingBPMAvg7: 72.3,
   },
   {
     ISO: "2024-04-01T17:59:59-04:00",
@@ -7400,7 +7400,7 @@ wakingBPMAvg7: number
     awake: "00:01:00",
     sessions: 1,
     asleep: "08:17:00",
-    asleepAvg7:"10:08:51",
+    asleepAvg7: "10:08:51",
     efficiency: 99.8,
     efficiencyAvg7: 94.3,
     quality: "06:59:28",
@@ -7410,7 +7410,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.8,
     sleepBPMAvg: 70.7,
     wakingBPM: 66,
-    wakingBPMAvg7: 71.6
+    wakingBPMAvg7: 71.6,
   },
   {
     ISO: "2024-04-02T17:59:59-04:00",
@@ -7422,7 +7422,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:34:00",
-    asleepAvg7:"10:04:42",
+    asleepAvg7: "10:04:42",
     efficiency: 100,
     efficiencyAvg7: 94.3,
     quality: "06:20:47",
@@ -7432,7 +7432,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.4,
     sleepBPMAvg: 69.6,
     wakingBPM: 64,
-    wakingBPMAvg7: 71.7
+    wakingBPMAvg7: 71.7,
   },
   {
     ISO: "2024-04-03T17:59:59-04:00",
@@ -7444,7 +7444,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:21:00",
-    asleepAvg7:"10:02:51",
+    asleepAvg7: "10:02:51",
     efficiency: 100,
     efficiencyAvg7: 96.1,
     quality: "07:16:10",
@@ -7454,7 +7454,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.5,
     sleepBPMAvg: 67.8,
     wakingBPM: 56,
-    wakingBPMAvg7: 68.9
+    wakingBPMAvg7: 68.9,
   },
   {
     ISO: "2024-04-04T17:59:59-04:00",
@@ -7466,7 +7466,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:15:00",
-    asleepAvg7:"09:27:00",
+    asleepAvg7: "09:27:00",
     efficiency: 100,
     efficiencyAvg7: 96.5,
     quality: "05:23:48",
@@ -7476,7 +7476,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.9,
     sleepBPMAvg: 66,
     wakingBPM: 56,
-    wakingBPMAvg7: 65.9
+    wakingBPMAvg7: 65.9,
   },
   {
     ISO: "2024-04-05T17:59:59-04:00",
@@ -7488,7 +7488,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:00:00",
-    asleepAvg7:"09:00:00",
+    asleepAvg7: "09:00:00",
     efficiency: 100,
     efficiencyAvg7: 96.5,
     quality: "07:04:10",
@@ -7498,7 +7498,7 @@ wakingBPMAvg7: number
     sleepBPM: 64.3,
     sleepBPMAvg: 64.8,
     wakingBPM: 71,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2024-04-06T17:59:59-04:00",
@@ -7510,7 +7510,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:03:00",
-    asleepAvg7:"08:53:08",
+    asleepAvg7: "08:53:08",
     efficiency: 100,
     efficiencyAvg7: 96.8,
     quality: "07:15:56",
@@ -7520,7 +7520,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.7,
     sleepBPMAvg: 64.3,
     wakingBPM: 64,
-    wakingBPMAvg7: 63.3
+    wakingBPMAvg7: 63.3,
   },
   {
     ISO: "2024-04-07T17:59:59-04:00",
@@ -7532,7 +7532,7 @@ wakingBPMAvg7: number
     awake: "01:00:00",
     sessions: 1,
     asleep: "04:45:00",
-    asleepAvg7:"07:19:17",
+    asleepAvg7: "07:19:17",
     efficiency: 82.6,
     efficiencyAvg7: 97.5,
     quality: "03:49:09",
@@ -7542,7 +7542,7 @@ wakingBPMAvg7: number
     sleepBPM: 65.8,
     sleepBPMAvg: 63.9,
     wakingBPM: 63,
-    wakingBPMAvg7: 62.9
+    wakingBPMAvg7: 62.9,
   },
   {
     ISO: "2024-04-08T17:59:59-04:00",
@@ -7554,7 +7554,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:23:00",
-    asleepAvg7:"07:03:00",
+    asleepAvg7: "07:03:00",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "05:27:10",
@@ -7564,7 +7564,7 @@ wakingBPMAvg7: number
     sleepBPM: 70.5,
     sleepBPMAvg: 65.2,
     wakingBPM: 63,
-    wakingBPMAvg7: 62.4
+    wakingBPMAvg7: 62.4,
   },
   {
     ISO: "2024-04-09T17:59:59-04:00",
@@ -7576,7 +7576,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:46:00",
-    asleepAvg7:"06:56:08",
+    asleepAvg7: "06:56:08",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "05:20:09",
@@ -7586,7 +7586,7 @@ wakingBPMAvg7: number
     sleepBPM: 66.3,
     sleepBPMAvg: 65.4,
     wakingBPM: 65,
-    wakingBPMAvg7: 62.6
+    wakingBPMAvg7: 62.6,
   },
   {
     ISO: "2024-04-10T17:59:59-04:00",
@@ -7598,7 +7598,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:19:00",
-    asleepAvg7:"06:47:17",
+    asleepAvg7: "06:47:17",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "05:55:35",
@@ -7608,7 +7608,7 @@ wakingBPMAvg7: number
     sleepBPM: 62.9,
     sleepBPMAvg: 65.4,
     wakingBPM: 60,
-    wakingBPMAvg7: 63.1
+    wakingBPMAvg7: 63.1,
   },
   {
     ISO: "2024-04-11T17:59:59-04:00",
@@ -7620,7 +7620,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:04:00",
-    asleepAvg7:"06:54:17",
+    asleepAvg7: "06:54:17",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "06:20:06",
@@ -7630,7 +7630,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.4,
     sleepBPMAvg: 65.3,
     wakingBPM: 67,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2024-04-12T17:59:59-04:00",
@@ -7642,7 +7642,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "05:52:00",
-    asleepAvg7:"06:36:00",
+    asleepAvg7: "06:36:00",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "05:15:30",
@@ -7652,7 +7652,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.5,
     sleepBPMAvg: 64.9,
     wakingBPM: 71,
-    wakingBPMAvg7: 64.7
+    wakingBPMAvg7: 64.7,
   },
   {
     ISO: "2024-04-13T17:59:59-04:00",
@@ -7664,7 +7664,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "09:00:00",
-    asleepAvg7:"06:44:08",
+    asleepAvg7: "06:44:08",
     efficiency: 100,
     efficiencyAvg7: 97.5,
     quality: "07:42:43",
@@ -7674,7 +7674,7 @@ wakingBPMAvg7: number
     sleepBPM: 60,
     sleepBPMAvg: 64.3,
     wakingBPM: 58,
-    wakingBPMAvg7: 63.9
+    wakingBPMAvg7: 63.9,
   },
   {
     ISO: "2024-04-14T17:59:59-04:00",
@@ -7686,7 +7686,7 @@ wakingBPMAvg7: number
     awake: "03:01:00",
     sessions: 1,
     asleep: "08:24:00",
-    asleepAvg7:"07:15:25",
+    asleepAvg7: "07:15:25",
     efficiency: 73.6,
     efficiencyAvg7: 96.2,
     quality: "06:27:33",
@@ -7696,7 +7696,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.8,
     sleepBPMAvg: 63.6,
     wakingBPM: 72,
-    wakingBPMAvg7: 65.1
+    wakingBPMAvg7: 65.1,
   },
   {
     ISO: "2024-04-15T17:59:59-04:00",
@@ -7708,7 +7708,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:50:00",
-    asleepAvg7:"07:27:51",
+    asleepAvg7: "07:27:51",
     efficiency: 100,
     efficiencyAvg7: 96.2,
     quality: "06:25:09",
@@ -7718,7 +7718,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.7,
     sleepBPMAvg: 62.4,
     wakingBPM: 61,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2024-04-16T17:59:59-04:00",
@@ -7730,7 +7730,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:30:00",
-    asleepAvg7:"07:34:08",
+    asleepAvg7: "07:34:08",
     efficiency: 100,
     efficiencyAvg7: 96.2,
     quality: "06:31:52",
@@ -7740,7 +7740,7 @@ wakingBPMAvg7: number
     sleepBPM: 60.1,
     sleepBPMAvg: 61.5,
     wakingBPM: 57,
-    wakingBPMAvg7: 63.7
+    wakingBPMAvg7: 63.7,
   },
   {
     ISO: "2024-04-17T17:59:59-04:00",
@@ -7752,7 +7752,7 @@ wakingBPMAvg7: number
     awake: "01:59:00",
     sessions: 1,
     asleep: "05:18:00",
-    asleepAvg7:"07:16:51",
+    asleepAvg7: "07:16:51",
     efficiency: 72.8,
     efficiencyAvg7: 92.3,
     quality: "04:24:37",
@@ -7762,7 +7762,7 @@ wakingBPMAvg7: number
     sleepBPM: 63.2,
     sleepBPMAvg: 61.5,
     wakingBPM: 64,
-    wakingBPMAvg7: 64.3
+    wakingBPMAvg7: 64.3,
   },
   {
     ISO: "2024-04-18T17:59:59-04:00",
@@ -7774,7 +7774,7 @@ wakingBPMAvg7: number
     awake: "01:52:00",
     sessions: 1,
     asleep: "07:26:00",
-    asleepAvg7:"07:20:00",
+    asleepAvg7: "07:20:00",
     efficiency: 79.9,
     efficiencyAvg7: 89.5,
     quality: "06:38:03",
@@ -7784,7 +7784,7 @@ wakingBPMAvg7: number
     sleepBPM: 62,
     sleepBPMAvg: 61.3,
     wakingBPM: 71,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2024-04-19T17:59:59-04:00",
@@ -7796,7 +7796,7 @@ wakingBPMAvg7: number
     awake: "00:46:00",
     sessions: 1,
     asleep: "07:23:00",
-    asleepAvg7:"07:33:00",
+    asleepAvg7: "07:33:00",
     efficiency: 90.6,
     efficiencyAvg7: 88.1,
     quality: "06:18:51",
@@ -7806,7 +7806,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.4,
     sleepBPMAvg: 61.3,
     wakingBPM: 61,
-    wakingBPMAvg7: 63.4
+    wakingBPMAvg7: 63.4,
   },
   {
     ISO: "2024-04-21T17:59:59-04:00",
@@ -7818,7 +7818,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "08:53:00",
-    asleepAvg7:"07:32:00",
+    asleepAvg7: "07:32:00",
     efficiency: 100,
     efficiencyAvg7: 88.1,
     quality: "07:12:14",
@@ -7828,7 +7828,7 @@ wakingBPMAvg7: number
     sleepBPM: 59.3,
     sleepBPMAvg: 61.2,
     wakingBPM: 63,
-    wakingBPMAvg7: 64.1
+    wakingBPMAvg7: 64.1,
   },
   {
     ISO: "2024-04-22T17:59:59-04:00",
@@ -7840,7 +7840,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:30:00",
-    asleepAvg7:"07:24:17",
+    asleepAvg7: "07:24:17",
     efficiency: 100,
     efficiencyAvg7: 91.9,
     quality: "06:23:02",
@@ -7850,7 +7850,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.9,
     sleepBPMAvg: 60.9,
     wakingBPM: 68,
-    wakingBPMAvg7: 63.6
+    wakingBPMAvg7: 63.6,
   },
   {
     ISO: "2024-04-23T17:59:59-04:00",
@@ -7862,7 +7862,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "06:55:00",
-    asleepAvg7:"07:16:25",
+    asleepAvg7: "07:16:25",
     efficiency: 100,
     efficiencyAvg7: 91.9,
     quality: "05:51:01",
@@ -7872,7 +7872,7 @@ wakingBPMAvg7: number
     sleepBPM: 57.5,
     sleepBPMAvg: 60.4,
     wakingBPM: 60,
-    wakingBPMAvg7: 63.4
+    wakingBPMAvg7: 63.4,
   },
   {
     ISO: "2024-04-24T17:59:59-04:00",
@@ -7884,7 +7884,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 2,
     asleep: "07:57:00",
-    asleepAvg7:"07:20:17",
+    asleepAvg7: "07:20:17",
     efficiency: 100,
     efficiencyAvg7: 91.9,
     quality: "06:23:39",
@@ -7894,7 +7894,7 @@ wakingBPMAvg7: number
     sleepBPM: 61.6,
     sleepBPMAvg: 60.6,
     wakingBPM: 67,
-    wakingBPMAvg7: 64.9
+    wakingBPMAvg7: 64.9,
   },
   {
     ISO: "2024-04-25T17:59:59-04:00",
@@ -7906,7 +7906,7 @@ wakingBPMAvg7: number
     awake: "00:00:00",
     sessions: 1,
     asleep: "07:02:00",
-    asleepAvg7:"07:35:08",
+    asleepAvg7: "07:35:08",
     efficiency: 100,
     efficiencyAvg7: 95.8,
     quality: "06:08:32",
@@ -7916,7 +7916,7 @@ wakingBPMAvg7: number
     sleepBPM: 58.8,
     sleepBPMAvg: 59.9,
     wakingBPM: 59,
-    wakingBPMAvg7: 64.1
+    wakingBPMAvg7: 64.1,
   },
   {
     ISO: "2024-04-26T17:59:59-04:00",
@@ -7928,7 +7928,7 @@ wakingBPMAvg7: number
     awake: "03:58:00",
     sessions: 1,
     asleep: "08:18:00",
-    asleepAvg7:"07:42:34",
+    asleepAvg7: "07:42:34",
     efficiency: 67.7,
     efficiencyAvg7: 94,
     quality: "06:48:08",
@@ -7938,6 +7938,6 @@ wakingBPMAvg7: number
     sleepBPM: 60.9,
     sleepBPMAvg: 59.8,
     wakingBPM: 62,
-    wakingBPMAvg7: 62.9
-  }
-]
+    wakingBPMAvg7: 62.9,
+  },
+];

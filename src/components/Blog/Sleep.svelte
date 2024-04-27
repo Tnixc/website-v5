@@ -32,7 +32,8 @@
   This is data from <code>{sleepData.length}</code> nights of sleep, tracked
   with my
   <a href="https://support.apple.com/en-us/111853">Apple watch SE 2</a>
-  using <a href="https://autosleepapp.tantsissa.com/home"> Autosleep </a>.
+  using <a href="https://autosleepapp.tantsissa.com/home"> Autosleep </a> from
+  <strong>April 20th, 2023 to April 26th, 2024</strong>.
 </p>
 <h1 class="text-3xl">
   On average, I slept for <code>{Math.round((average * 100) / 60) / 100}</code>
@@ -75,7 +76,7 @@
 </p>
 <div class="flex rounded-sm border border-black/10 p-1">
   {#each z as sleep}
-    <div class="flex w-full flex-col bg-stone-100 pt-10">
+    <div class="flex w-full flex-col bg-stone-100 pt-10 hover:brightness-75">
       <div
         style={`height: ${sleep.offsetToBed / 10}px`}
         class="w-full bg-stone-100"

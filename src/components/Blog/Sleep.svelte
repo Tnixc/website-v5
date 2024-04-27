@@ -1,31 +1,29 @@
 <script lang="ts">
-  import { sleepData } from "../../data/blog-data/sleep";
-  let average =
-    sleepData.reduce((acc, sleep) => acc + sleep.asleep, 0) / sleepData.length;
-  let arrAsleep = sleepData.map((sleep) => sleep.asleep).sort((a, b) => a - b);
-  let p = arrAsleep[Math.floor(arrAsleep.length * 0.93)];
-  let arrBedtime = [];
-  let z = sleepData.map((sleep) => {
-    let offsetToBed =
-      new Date(sleep.bedtime).getUTCHours() * 60 +
-      new Date(sleep.bedtime).getUTCMinutes();
-    arrBedtime.push(offsetToBed);
-    return { offsetToBed: offsetToBed, asleep: sleep.asleep };
-  });
-  let ArrWeekend = sleepData.filter((sleep) => {
-    let date = new Date(sleep.toDate);
-    return date.getDay() === 0 || date.getDay() === 6;
-  });
-  let ArrWeekday = sleepData.filter((sleep) => {
-    let date = new Date(sleep.toDate);
-    return date.getDay() !== 0 && date.getDay() !== 6;
-  });
-  let avgWeek =
-    ArrWeekday.reduce((acc, sleep) => acc + sleep.asleep, 0) /
-    ArrWeekday.length;
-  let avgWeekend =
-    ArrWeekend.reduce((acc, sleep) => acc + sleep.asleep, 0) /
-    ArrWeekend.length;
+import { sleepData } from "../../data/blog-data/sleep";
+let average =
+	sleepData.reduce((acc, sleep) => acc + sleep.asleep, 0) / sleepData.length;
+let arrAsleep = sleepData.map((sleep) => sleep.asleep).sort((a, b) => a - b);
+let p = arrAsleep[Math.floor(arrAsleep.length * 0.93)];
+let arrBedtime = [];
+let z = sleepData.map((sleep) => {
+	let offsetToBed =
+		new Date(sleep.bedtime).getUTCHours() * 60 +
+		new Date(sleep.bedtime).getUTCMinutes();
+	arrBedtime.push(offsetToBed);
+	return { offsetToBed: offsetToBed, asleep: sleep.asleep };
+});
+let ArrWeekend = sleepData.filter((sleep) => {
+	let date = new Date(sleep.toDate);
+	return date.getDay() === 0 || date.getDay() === 6;
+});
+let ArrWeekday = sleepData.filter((sleep) => {
+	let date = new Date(sleep.toDate);
+	return date.getDay() !== 0 && date.getDay() !== 6;
+});
+let avgWeek =
+	ArrWeekday.reduce((acc, sleep) => acc + sleep.asleep, 0) / ArrWeekday.length;
+let avgWeekend =
+	ArrWeekend.reduce((acc, sleep) => acc + sleep.asleep, 0) / ArrWeekend.length;
 </script>
 
 <p class="text-lg">

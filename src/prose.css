@@ -105,24 +105,41 @@ article {
 :where(h1, h2, h3, h4, h5, h6) {
   .icon-link {
     position: relative;
-
     &::before {
-      content: "§";
-      @apply font-zed;
+      @apply font-mono;
+      font-style: normal;
       position: absolute;
-      left: -1.2ch;
-      font-size: 0.8em;
+      font-size: 1em;
       top: 50%;
+      opacity: 0.3;
       transform: translateY(-50%);
-      opacity: 0;
-      text-decoration: none;
-      transition: opacity 0.3s;
     }
   }
+}
+:where(h1) .icon-link::before {
+  content: "#";
+  left: -1.2ch;
 
-  &:hover .icon-link::before {
-    opacity: 0.4;
-  }
+}
+:where(h2) .icon-link::before {
+  content: "##";
+  left: -2.2ch;
+}
+:where(h3) .icon-link::before {
+  content: "###";
+  left: -3.2ch;
+}
+:where(h4) .icon-link::before {
+  content: "####";
+  left: -4.2ch;
+}
+:where(h5) .icon-link::before {
+  content: "#####";
+  left: -5.2ch;
+}
+:where(h6) .icon-link::before {
+  content: "######";
+  left: -6.2ch;
 }
 
 code[class*="language-"],
@@ -135,6 +152,7 @@ pre[class*="language-"] {
   color: #90a4ae;
   background: #fafafa;
   line-height: 1.5em;
+  @apply font-mono;
 
   -moz-tab-size: 4;
   -o-tab-size: 4;

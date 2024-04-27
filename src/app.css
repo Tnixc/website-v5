@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 ::selection {
-  @apply text-white bg-blue-700;
+  @apply bg-blue-700 text-white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   @apply font-zed text-black transition-all duration-300;
 }

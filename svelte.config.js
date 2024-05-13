@@ -20,12 +20,7 @@ const config = {
         blog: "src/routes/blog/post.svelte",
       },
       remarkPlugins: [remarkHint],
-      rehypePlugins: [
-        rehypeKatexSvelte,
-        remarkMath,
-        rehypeSlug,
-        rehypeAutolinkHeadings,
-      ],
+      rehypePlugins: [rehypeKatexSvelte, remarkMath, rehypeSlug, rehypeAutolinkHeadings],
     }),
   ],
 

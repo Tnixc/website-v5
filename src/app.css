@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@theme {
+  --font-family-zed: "zed-sans-regular", "ui-sans-serif", "system-ui";
+  --font-family-zed-bold: "zed-sans-bold", "ui-sans-serif", "system-ui";
+  --font-family-display: "Zodiak-LightItalic", "ui-serif", "Georgia";
+  --font-family-sans: "IBMPlexSans-Regular", "ui-sans-serif", "system-ui";
+  --font-family-sans-bold: "IBMPlexSans-Semibold", "ui-sans-serif", "system-ui";
+  --font-family-sans-italic: "IBMPlexSans-Italic", "ui-sans-serif", "system-ui";
+  --font-family-sans-bolditalic: "IBMPlexSans-SemiboldItalic", "ui-sans-serif", "system-ui";
+  --font-family-mono: "IBMPlexMono-Regular", "ui-monospace", "monospace";
+  --font-family-mono-italic: "IBMPlexMono-Italic", "ui-monospace", "monospace";
+}
 
 ::selection {
   @apply bg-blue-700 text-white;

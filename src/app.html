@@ -1,88 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    %sveltekit.head%
+    <style>
+      @font-face {
+        font-family: "Zodiak-LightItalic";
+        src: url("../fonts/Zodiak-LightItalic.woff2") format("woff2");
+        font-weight: 300;
+        font-display: swap;
+        font-style: italic;
+      }
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-  <meta name="viewport" content="width=device-width" />
-  %sveltekit.head%
-  <style>
-    @font-face {
-      font-family: 'Zodiak-LightItalic';
-      src: url('../fonts/Zodiak-LightItalic.woff2') format('woff2');
-      font-weight: 300;
-      font-display: swap;
-      font-style: italic;
-    }
+      @font-face {
+        font-family: "zed-sans-regular";
+        src: url("../fonts/Zed-sans-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: 'zed-sans-regular';
-      src: url('../fonts/Zed-sans-Regular.woff2') format('woff2');
-      font-weight: 400;
-      font-display: swap;
-      font-style: normal;
-    }
+      @font-face {
+        font-family: "zed-sans-bold";
+        src: url("../fonts/Zed-sans-Bold.woff2") format("woff2");
+        font-weight: 700;
+        font-display: swap;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: 'zed-sans-bold';
-      src: url('../fonts/Zed-sans-Bold.woff2') format('woff2');
-      font-weight: 700;
-      font-display: swap;
-      font-style: normal;
-    }
+      @font-face {
+        font-family: "IBMPlexSans-Regular";
+        src: url("../fonts/IBMPlexSans-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: 'IBMPlexSans-Regular';
-      src: url('../fonts/IBMPlexSans-Regular.woff2') format('woff2');
-      font-weight: 400;
-      font-display: swap;
-      font-style: normal;
-    }
+      @font-face {
+        font-family: "IBMPlexSans-SemiBold";
+        src: url("../fonts/IBMPlexSans-SemiBold.woff2") format("woff2");
+        font-weight: 600;
+        font-display: swap;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: 'IBMPlexSans-SemiBold';
-      src: url('../fonts/IBMPlexSans-SemiBold.woff2') format('woff2');
-      font-weight: 600;
-      font-display: swap;
-      font-style: normal;
-    }
+      @font-face {
+        font-family: "IBMPlexSans-Italic";
+        src: url("../fonts/IBMPlexSans-Italic.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: italic;
+      }
 
-    @font-face {
-      font-family: 'IBMPlexSans-Italic';
-      src: url('../fonts/IBMPlexSans-Italic.woff2') format('woff2');
-      font-weight: 400;
-      font-display: swap;
-      font-style: italic;
-    }
+      @font-face {
+        font-family: "IBMPlexSans-SemiBoldItalic";
+        src: url("../fonts/IBMPlexSans-SemiBold-Italic.woff2") format("woff2");
+        font-weight: 600;
+        font-display: swap;
+        font-style: italic;
+      }
 
-    @font-face {
-      font-family: 'IBMPlexSans-SemiBoldItalic';
-      src: url('../fonts/IBMPlexSans-SemiBold-Italic.woff2') format('woff2');
-      font-weight: 600;
-      font-display: swap;
-      font-style: italic;
-    }
+      @font-face {
+        font-family: "IBMPlexMono-Regular";
+        src: url("../fonts/IBMPlexMono-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+      }
 
-    @font-face {
-      font-family: 'IBMPlexMono-Regular';
-      src: url('../fonts/IBMPlexMono-Regular.woff2') format('woff2');
-      font-weight: 400;
-      font-display: swap;
-      font-style: normal;
-    }
+      @font-face {
+        font-family: "IBMPlexMono-Italic";
+        src: url("../fonts/IBMPlexMono-Italic.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: italic;
+      }
+    </style>
+  </head>
 
-    @font-face {
-      font-family: 'IBMPlexMono-Italic';
-      src: url('../fonts/IBMPlexMono-Italic.woff2') format('woff2');
-      font-weight: 400;
-      font-display: swap;
-      font-style: italic;
-    }
-  </style>
-</head>
-
-<body data-sveltekit-preload-data="hover">
-  <div style="display: contents">%sveltekit.body%</div>
-</body>
-
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
 </html>

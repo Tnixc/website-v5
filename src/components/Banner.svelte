@@ -10,14 +10,12 @@
       class="scale-125 translate-x-10"
       viewBox="0 0 165 55"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path
         d="M0 27.5822L165 27.5821M137.164 0.417969C137.164 0.417969 136.664 8.24634 146.25 17.8322C155.836 27.418 164 27.418 164 27.418C164 27.418 156.336 27.0822 146.75 36.668C137.164 46.2538 137.164 54.5822 137.164 54.5822"
         stroke="black"
         style="stroke:black;stroke-opacity:1;"
-        stroke-width="4"
-      />
+        stroke-width="4" />
     </svg>
   </div>
 </div>
